@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVI_MAP_CREDIT_CARDS</ACTIVITY>
+     <DOCU_ID>SIMGCVI_MAP_CREDIT_CARDS</DOCU_ID>
+     <ATTRIBUTES>CVI_MAP_CREDIT_CARDS</ATTRIBUTES>
+     <C_ACTIVITY>CVI_MAP_CREDIT_CARDS</C_ACTIVITY>
+     <TCODE>S_PCO_36000106</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVI_MAP_CREDIT_CARDS</ACTIVITY>
+      <TEXT>BAdI: Datenzuordnung der Zahlungskarten GP&lt;-&gt;Debitor</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVI_MAP_CREDIT_CARDS</ACTIVITY>
+      <TEXT>BAdI: Data Assignment of Payment Cards BP &lt;-&gt; Customer</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVI_MAP_CREDIT_CARDS</ACTIVITY>
+      <TEXT>BAdI : affectation données cartes de paiement partenaire&lt;-&gt;client</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CVI_SAME_NUMBER</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>BOOLE</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Nummerngleichheit bei GP-Anlage aus Debitor/Kreditor</DDTEXT>
+    <REPTEXT>Nummerngleichheit</REPTEXT>
+    <SCRTEXT_S>NrnGleich</SCRTEXT_S>
+    <SCRTEXT_M>Nummerngleichheit</SCRTEXT_M>
+    <SCRTEXT_L>Nummerngleichheit</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Use Same Number from Customer/Vendor When Creating BP</DDTEXT>
+     <REPTEXT>Same Numbers</REPTEXT>
+     <SCRTEXT_S>Same No</SCRTEXT_S>
+     <SCRTEXT_M>Same Numbers</SCRTEXT_M>
+     <SCRTEXT_L>Same Numbers</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nº identques pour créatn part. à prtr de client/fournisseur</DDTEXT>
+     <REPTEXT>Nº identiques</REPTEXT>
+     <SCRTEXT_S>N° ident.</SCRTEXT_S>
+     <SCRTEXT_M>Nº identiques</SCRTEXT_M>
+     <SCRTEXT_L>Nº identiques</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_SAME_NUMBER</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SAME_NUMBER</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bewirkt im Rahmen der Customer-Vender-Integration, dass bei Anlage des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners dieselbe Nummer wie die in Bearbeitung befindliche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren-/Kreditorennummer verwendet wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dabei wird vorausgesetzt, dass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>die Nummernkreise des Geschäftspartners und Debitors/Kreditors den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gleichen Bereich haben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>im Finanzwesen (FI) externe Nummernvergabe eingestellt ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_SAME_NUMBER</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SAME_NUMBER</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Determines that when you create a business partner as part of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration you use the same number as the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor number that is currently being processed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Prerequisites:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Number ranges for the business partner and the customer/vendor have the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>same area</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>External number assignment is set in Financial Accounting (FI)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_SAME_NUMBER</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SAME_NUMBER</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le cadre de l&apos;intégration client/fournisseur, entraîne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;utilisation d&apos;un numéro identique au numéro client/fournisseur en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cours de traitement lors de la création du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Les conditions requises sont les suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>les tranches de numéros du partenaire et du client/fournisseur doivent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>avoir le même domaine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>l&apos;attribution externe de numéros est définie dans la comptabilité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>financière (FI)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

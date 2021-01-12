@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGFSBP_DEFAULT_VALUES</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGFSBP_DEFAULT_VALUES</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In (BAdI) wird in der Komponente Stammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation (AP-MD-BF-SYN) verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem BAdI können Sie synchronisationsrelevante Felder der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren-/Kreditorenintegration wie z.B. die Allgemeinen Daten des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitors und buchungskreisabhängige Daten des Debitors bei Datenanlagen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in der Richtung Geschäftspartner nach Debitor/Kreditor vorbelegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Das BAdI wird z.B. bei Neuanlage eines Geschäftspartners,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Buchungskreises , Vertriebsbereichs oder der Einkaufsorganisation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgerufen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard ist die BAdI-Implementierung CVI_DEFAULT_VALUES_CLASSIC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aktiviert. Das Default-Coding wird automatisch ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das BAdI ist mehrfach nutzbar. Alle aktivierten Implementierungen werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgerufen und ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;SEE_ALSO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses BAdI verwendet das Interface IF_CVI_DEFAULT_VALUES. Um weitere</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Informationen zu erhalten, zeigen Sie das Interface im Class Builder an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGFSBP_DEFAULT_VALUES</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00015</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGFSBP_DEFAULT_VALUES</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN)&lt;/&gt; component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>With this BAdI you can set default fields for Customer/Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration that are relevant for synchronization, such as general data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and company code data for the customer, when creating data in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direction business partner to customer/vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI is called when you create a business partner, company code,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sales area, or purchasing organization, for example.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The BAdI implementation CVI_DEFAULT_VALUES_CLASSIC is activated in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>standard system. The default coding is carried out automatically.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The BAdI can be used several times. All active implementations are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>called and executed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;SEE_ALSO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI uses the interface IF_CVI_DEFAULT_VALUES. For more</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information, display the interface in the Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGFSBP_DEFAULT_VALUES</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00017</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGFSBP_DEFAULT_VALUES</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce Business Add-In (BAdI) est utilisé dans la composante Synchronisation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données de base (AP-MD-BF-SYN).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Il vous permet de prédéfinir les zones de l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur concernées par la synchronisation lors de la création</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données dans le sens partenaire vers client/fournisseur. Il peut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>s&apos;agir, par exemple, des données générales du client et des données du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client dépendantes de la société.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Vous pouvez appeler ce BAdI lors de la création d&apos;un partenaire, d&apos;une</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>société, d&apos;un domaine commercial ou d&apos;une organisation d&apos;achats.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le système standard, l&apos;implémentation du BAdI</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_DEFAULT_VALUES_CLASSIC est activée. Le codage par défaut est exécuté</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatiquement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce BAdI est utilisable à plusieurs reprises. Toutes les implémentations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activées sont appelées et exécutées.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;SEE_ALSO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce BAdI utilise l&apos;interface IF_CVI_DEFAULT_VALUES. Pour obtenir de plus</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>amples informations, affichez l&apos;interface dans le Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

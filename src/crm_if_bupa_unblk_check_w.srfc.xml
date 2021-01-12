@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRFC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRFC>
+    <HEADER>
+     <ID>CRM_IF_BUPA_UNBLK_CHECK_W</ID>
+     <VERSION>A</VERSION>
+     <FUNCNAME>CRM_IF_BUPA_UNBLK_CHECK_W</FUNCNAME>
+    </HEADER>
+    <TEXT>
+     <ID>CRM_IF_BUPA_UNBLK_CHECK_W</ID>
+     <VERSION>A</VERSION>
+     <LANG>D</LANG>
+     <SHORTTEXT>Standard-RFC-Service für Funktionsbaustein: CRM_IF_BUPA_UNBLK_CHECK_W</SHORTTEXT>
+    </TEXT>
+   </SRFC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

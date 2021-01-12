@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>CVIS_REQ_ASSIGNMENT</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Überblick über notwendige Zuordnungen</DDTEXT>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>CVIS_REQ_ASSIGNMENT</TABNAME>
+     <FIELDNAME>PARTNER</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>CVI_REQ_STATUS</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_REQ_ASSIGNMENT</TABNAME>
+     <FIELDNAME>CUSTOMER</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <ROLLNAME>CVI_REQ_STATUS</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_REQ_ASSIGNMENT</TABNAME>
+     <FIELDNAME>VENDOR</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <ROLLNAME>CVI_REQ_STATUS</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_REQ_ASSIGNMENT</TABNAME>
+     <FIELDNAME>CONTACT_PERSON</FIELDNAME>
+     <POSITION>0004</POSITION>
+     <ROLLNAME>CVI_REQ_STATUS</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Overview of Required Assignments</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Synthèse des affectations nécessaires</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

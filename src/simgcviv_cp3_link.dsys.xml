@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CP3_LINK</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CP3_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität ordnen Sie den &lt;DS:DE.PARVO&gt;Vollmachten&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartners im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;Debitorenstammsatz&lt;/&gt; die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.BU_PAAUTH&gt;Vollmachten&lt;/&gt; des Geschäftspartners zu. Diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnung ist für die Synchronisation des Ansprechpartners in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration relevant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Vollmachten des Debitorenstammsatzes in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Vollmachten definieren&lt;/&gt; eingestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Vollmachten des Geschäftspartners in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Vollmachten definieren&lt;/&gt;&lt;LS&gt; &lt;/&gt;eingestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Die Zuordnung der Vollmachten ist in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVI_MAP_CONTACT&gt;Ansprechpartnerzuordnungen aktivieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingeschaltet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CP3_LINK</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CP3_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you assign the &lt;DS:DE.BU_PAAUTH&gt; partner&apos;s</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>authority&lt;/&gt; for the business partner to the &lt;DS:DE.PARVO&gt; partner&apos;s</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>authority&lt;/&gt; for the contact person in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt; customer master record&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>This assignment is relevant for the synchronization of the contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>person in Customer/Vendor Integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined the authority for the customer master records in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG activity &lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Define Authority&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined the authority for the business partner in the IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity &lt;DS:SIMG._CABP_GPB_TB914&gt; Define Authority&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have activated the assignment of authorities in the IMG activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVI_MAP_CONTACT&gt;Activate Assignment of Contact Persons&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CP3_LINK</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CP3_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;affecter les &lt;DS:DE.BU_PAAUTH&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>procurations&lt;/&gt; du partenaire aux &lt;DS:DE.PARVO&gt;procurations&lt;/&gt; du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact dans la fiche client. Cette affectation est pertinente pour la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation du contact dans l&apos;intégration client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez paramétré la procuration de la fiche client dans l&apos;activité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG &lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Définir les procurations&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez paramétré la procuration du partenaire dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Définir les procurations&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>L&apos;affectation des procurations s&apos;effectue dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVI_MAP_CONTACT&gt;Activer affectations des contacts&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Constants and Data type for CVI Precheck</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GC_DEBITOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of number range object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GC_KREDEBITOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of number range object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GC_MESSAGE_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Class for storing precheck related messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GC_OBJTYPE_CUST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object type - Customer or Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GC_OBJTYPE_VEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object type - Customer or Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GENERAL_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>LOG_GEN_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scenarios for Migration Precheck Run</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>MAX_RECORD_PROCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Zeilenindex interner Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>PACKAGE_SIZE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Zeilenindex interner Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>RECORD_PER_RUN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Zeilenindex interner Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>SCENARIO_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scenarios for Migration Precheck Run</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TT_ALV_LOG_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Log Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TT_CVI_PRECHK_CVNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer/Vendor Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TT_PRECHK_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Precheck to identify errors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TY_ALV_LOG_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Log Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TY_ALV_RESULT_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Result Tab with Logged Entries</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TY_GENERAL_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TY_PRECHK_MASTER_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fields for Pre-checking Master Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_PRECHK</CLSNAME>
+     <CMPNAME>TY_SCENARIO_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scenarios for Migration Precheck Run</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

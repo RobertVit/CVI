@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CUST_TO_BP1</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00034</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CUST_TO_BP1</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität ordnen Sie den &lt;DS:DE.KTOKD&gt;Kontengruppen&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;Debitorenstammsatzes&lt;/&gt; die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.BU_GROUP&gt;Gruppierungen&lt;/&gt; des Geschäftspartners zu, um bei der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenbearbeitung die gleichzeitige Fortschreibung des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners im Rahmen der Debitorenintegration zu ermöglichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE> Mit dieser Zuordnung wählen Sie aus, ob der Debitorenstammsatz mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>einer Kontengruppe mit interner oder externer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B526AFAB52B9E10000009B38F974&gt;Nummernvergabe&lt;/&gt; oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Nummerngleichheit angelegt wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben Nummernkreise und Gruppierungen für Geschäftspartner definiert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und zugeordnet. Diese Einstellungen nehmen Sie in den folgenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG-Aktivitäten vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_BUCF&gt;Nummernkreise definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB001&gt;Gruppierungen definieren und Nummernkreisen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben im Customizing des Finanzwesens die Kontengruppen und die den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kontengruppen zugeordneten Nummernkreise für das Anlegen von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenkonten festgelegt. Diese Einstellungen nehmen Sie in den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>folgenden IMG-Aktivitäten vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD2&gt;Kontengruppen mit Bildaufbau definieren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Debitoren)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXDN1&gt;Nummernkreise für Debitorenkonten anlegen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAR&gt;Nummernkreise den Kontengruppen für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Beachten Sie, dass Kontengruppen, die auch für Konsumenten oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Handelsbetriebe verwendet werden, nicht synchronisiert werden können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wählen Sie die Kontengruppen Ihrer Debitorenstammsätze aus und ordnen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie die entsprechenden Grupperierungen des Geschäftspartners zu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CUST_TO_BP1</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <TXTLINES>00028</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CUST_TO_BP1</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you assign the &lt;DS:DE.BU_GROUP&gt; groupings&lt;/&gt; for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the business partner to the &lt;DS:DE.KTOKD&gt; account groups&lt;/&gt; for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt; customer master records&lt;/&gt; to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ensure that when you process customers as part of customer integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the system also updates the business partner at the same time.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>With this assignment you choose whether the customer master record is to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be created with an account group with internal or external</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B526AFAB52B9E10000009B38F974&gt;number assignment&lt;/&gt; or with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>identical numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined and assigned number ranges and groupings for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner. You make these settings in the following IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_BUCF&gt;Define Number Ranges&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB001&gt;Define Groupings and Assign Number Ranges&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have determined the account groups and the number ranges assigned to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the account groups for creating customer accounts in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Financial Accounting&lt;/&gt;. You make these settings in the following</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD2&gt; Define Account Groups with Screen Layout</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Customers)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXDN1&gt;Create Number Ranges for Customer Accounts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAR&gt;Assign Number Ranges to Customer Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Groups&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Note that account groups that are also used for consumers or retail</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sites cannot be synchronized.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Choose the account groups for your customer master records and assign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the corresponding groupings for the business partner to them.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_CUST_TO_BP1</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <TXTLINES>00029</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_CUST_TO_BP1</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;affecter aux &lt;DS:DE.KTOKD&gt;groupes de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comptes&lt;/&gt; de la &lt;LS&gt;fiche client&lt;/&gt; les &lt;DS:DE.BU_GROUP&gt;regroupements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; du partenaire afin de permettre la mise à jour simultanée du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire lors du traitement du client, dans le cadre de l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette affectation vous permet de sélectionner si la fiche client sera</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>créée avec un groupe de comptes comportant une &lt;LS&gt;attribution de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros&lt;/&gt; interne ou externe ou des numéros identiques.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous devez définir et affecter des tranches de numéros et des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>regroupements pour un partenaire. Sélectionnez ces options dans les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activités IMG suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_BUCF&gt;Définir tranches de numéros&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB001&gt;Définir regroupements et affecter tranches de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Dans le Customizing de la comptabilité financière, vous devez définir</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les groupes de comptes et les tranches de numéros qui leurs sont</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectées pour créer des comptes clients. Sélectionnez ces options dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les activités IMG suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD2&gt;Définir groupes de comptes avec mise en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>écran (clients)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXDN1&gt;Créer tranches de numéros pour les comptes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clients&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAR&gt;Affecter des tranches de numéros aux</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>groupes de comptes pour les clients&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Notez que les groupes de comptes qui sont également utilisés pour les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consommateurs ou les sites de distribution ne peuvent pas être</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisés.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sélectionnez les groupes de comptes de vos fiches clients et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectez-leur les regroupements du partenaire correspondants.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

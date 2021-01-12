@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Disjunktions-Id CVI_CUSTOM_MAPPER</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kontaktperson des Debitors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_MAP_BUSINESS_ADDRESS</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

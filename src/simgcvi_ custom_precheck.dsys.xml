@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_ CUSTOM_PRECHECK</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00029</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_ CUSTOM_PRECHECK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN) &lt;/&gt;component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You use this BAdI to add additional checks in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:RE.CVI_MIGRATION_PRECHK&gt;Prevalidation: Master Data Consistency</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Check&lt;/&gt; (CVI_MIGRATION_PRECHK) report using custom logic.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI uses the interface &lt;ZH&gt;IF_CVI_CUSTOM_PRECHK&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can implement the &lt;ZH&gt;EXECUTE_CUSTOM_CHECK&lt;/&gt; method from the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>interface in which you can include all the relevant checks that the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system should perform for customer or vendor, as per requirement. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>method has the following parameters:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Importing Parameters:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;IT_CUSTOMER &lt;/&gt;- Contains the customer number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;IT_VENDOR &lt;/&gt;- Contains the vendor number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Note that only one of the parameters will have a value during execution,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>based on customer specifications.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Exporting Parameters&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;CT_ERROR &lt;/&gt;- Error messages after the checks are performed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For more information about the standard settings (filters, single or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>multiple uses), see the Enhancement Spot Element Definitions tab in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BAdI Builder (transaction SE18).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:RE.CVI_MIGRATION_PRECHK&gt;Prevalidation: Master Data Consistency</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Check&lt;/&gt; (CVI_MIGRATION_PRECHK) report calls this BAdI after performing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the standard checks.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

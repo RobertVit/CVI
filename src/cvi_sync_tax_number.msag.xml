@@ -1,0 +1,2208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Fehler aus der Synchronisation von Steuernummern</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Es existiert ein Konflikt zwischen Geschäftspartner &amp;1 und Debitor &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Die Steuernummern wurden von Geschäftspartner &amp;1 in Debitor &amp;2 überführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Die Steuernummern wurden von Debitor &amp;1 in Geschäftspartner &amp;2 überführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Bei Geschäftspartner &amp;1 und Debitor &amp;2 sind Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Paket &amp;1 enthält Fehler; Starten Sie den Paketlauf erneut</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Paket &amp;1 wurde erfolgreich analysiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine relevanten Daten gefunden; Die Datenumsetzung ist nicht notwendig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Wählen Sie eine Richtung aus</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Paket &amp;1 wurde erfolgreich abgearbeitet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Initiale Steuernummernsynchronisation wurde mit Lauf-ID &amp;1 gestartet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Richtung für Steuernummernsynchronisation wurde festgelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Richtung der Steuernummernsynchronisation: Geschäftspartner nach Debitor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Richtung der Steuernummernsynchronisation: Debitor nach Geschäftspartner</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Automatischer Richtungswechsel bei initialen Daten erlaubt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Automatischer Richtungswechsel bei initialen Daten nicht erlaubt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Geschäftspartner &amp;1 hat keine Steuernummern</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Debitor &amp;1 hat keine Steuernummern</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Es existiert ein Konflikt zwischen Geschäftspartner &amp;1 und Kreditor &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Geschäftspartner &amp;1 hat keine Steuernummern</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Kreditor &amp;1 hat keine Steuernummern</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Bei Geschäftspartner &amp;1 und Kreditor &amp;2 sind Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Die Steuernummern wurden von Geschäftspartner &amp;1 in Kreditor &amp;2 überführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Die Steuernummern wurden von Kreditor &amp;1 in Geschäftspartner &amp;2 überführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Richtung der Steuernummernsynchronisation: Geschäftspartner nach Kreditor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Richtung der Steuernummernsynchronisation: Kreditor nach Geschäftspartner</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER000</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER000</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es existiert ein Datenkonflikt zwischen dem Geschäftspartner und dem ihm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugeordneten Debitor. Die Steuernnummern der beiden Objekte sind</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unterschiedlich.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der Bearbeitung eines der Objekte mit eingeschalteter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Stammdatensynchronisation werden die Daten des anderen verbundenen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objekts überschrieben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zur Veranschaulichung dient das folgende Beispiel:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Geschäftspartner 4711 ist mit Debitor 0815 verbunden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>der Geschäftspartner ist ohne Steuernummern im System hinterlegt,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allerdings ist bei den Steuernummern das Kennzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.BU_NATURAL_PERSON&gt;Natürliche Person&lt;/&gt; gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>der Debitor ist mit Steuernummern im System hinterlegt , allerdings ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>das Kennzeichen &lt;LS&gt;Natürliche Person&lt;/&gt; nicht gesetzt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wenn z.B. der Geschäftspartner bearbeitet und gespeichert würde, dann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>würden die Steuernummern des Debitors gelöscht und das Kennzeichen für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die natürliche Person würde gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Prüfen Sie, welches der beiden Objekte führend ist und von welchem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objekt die Steuerdaten übernommen werden sollen. Führen Sie zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>initialen Synchronisation beider Objekte den Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_CUST_TAX_NUMBERS (Initiale Synchronisation der Steuernummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des GPs und des Debitors) aus. Ausführliche Informationen finden Sie in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der entsprechenden Reportdokumentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER000</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <TXTLINES>00019</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER000</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>There is a data conflict between the business partner and the customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to it. The tax numbers are different for both objects.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If Master Data Synchronization is active and you process one of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objects, the system overwrites the data for the other object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This is illustrated in the following example:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Business partner 4711 is linked to customer 0815.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The business partner is stored in the system without any tax numbers and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the &lt;DS:DE.BU_NATURAL_PERSON&gt;Natural Person&lt;/&gt; indicator is set for tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The customer is stored in the system with tax numbers but the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Natural Person&lt;/&gt; indicator is not set.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you process and save the business partner, for example, then the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system deletes the tax data for the customer and sets the &lt;LS&gt;Natural</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Person&lt;/&gt; indicator.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Check which object is the leading object and from which object the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data is to be transferred. To initially synchronize both objects,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>execute the report CVI_SYNC_CUST_TAX_NUMBERS (initial synchronization of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tax numbers for BP and customer). For more detailed information, see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding report documentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER000</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <TXTLINES>00022</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER000</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Un conflit de données existe entre le partenaire et le client qui lui</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>est affecté. Les numéros d&apos;identification fiscale des deux objets sont</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>différents.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Les données des autres objets associés sont supprimées lors du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traitement d&apos;un des objets pour lequel la synchronisation des données de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>base est activée.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Exemple :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le partenaire 4711 est lié au client 0815.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le partenaire est défini sans numéro d&apos;identification fiscale dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>système mais le code &lt;DS:DE.BU_NATURAL_PERSON&gt;Personne physique&lt;/&gt; est</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activé pour les numéros d&apos;identification fiscale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le client a un numéro d&apos;identification fiscale mais le code &lt;LS&gt;Personne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>physique&lt;/&gt; n&apos;est pas activé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Lorsque le partenaire est traité et sauvegardé par exemple, les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du client sont supprimés et le code pour la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>personne physique est activé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vérifiez quel est l&apos;objet principal et à partir de quel objet les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données fiscales doivent être reprises. Exécutez le programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_CUST_TAX_NUMBERS (Synchronisation initiale des numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du partenaire et du client) pour la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation initiale des deux objets. Pour plus d&apos;informations,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consultez la documentation du programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER006</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER006</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report konnte keine Unterschiede bei den Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und des Debitors feststellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es sind keine weiteren Aktionen notwendig. Der Folgereport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> CVI_SYNC_CUST_TAX_NUMBERS &lt;LS&gt;Initiale Synchronisation der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des GPs und des Debitors&lt;/&gt; muss nicht gestartet werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER006</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER006</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report did not determine any differences between the tax numbers for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the business partner and those for the customer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No further action is necessary. You do not need to start the subsequent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report CVI_SYNC_CUST_TAX_NUMBERS &lt;LS&gt;Initial Synchronization of Tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Numbers for BP and Customer&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER006</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER006</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le programme n&apos;a déterminé aucune différence entre les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aucune action supplémentaire n&apos;est requise. Vous n&apos;avez pas besoin de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lancer le programme suivant CVI_SYNC_CUST_TAX_NUMBERS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Synchronisation initiale des numéros d&apos;identification fiscale du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire et du client&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER010</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben den Report für die initiale Steuernummernsynchronisation des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und des Debitors zum ersten Mal gestartet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Richtung der Steuernummernsynchronisation wird beim ersten Lauf für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>alle folgenden Läufe festgelegt. Dies ist wichtig, da beim</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Wiederaufsetzen eines Laufes die Richtung der Synchonisation nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>geändert werden darf.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Richtung der Synchronisation wurde in die Tabelle BPCONSTANTS mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dem Wert CONSTANT = &apos;CVISCT&apos; geschrieben.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER010</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have started the report to initially synchronize the tax numbers for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the busines partner and the customer for the first time.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you run the report for the first time, you determine the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronization direction for tax numbers for all following runs. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is important because when you restart a run you are not permitted to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>change the synchronization direction.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The synchronization direction is written to table BPCONSTANTS with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>value CONSTANT = &apos;CVISCT&apos;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER010</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00009</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous lancez pour la première fois le programme de synchronisation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>initiale des numéros d&apos;identification fiscale du partenaire et du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le sens de la synchronisation des numéros d&apos;identification fiscale est</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>déterminé lors de la première exécution pour toutes les exécutions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>suivantes. Ce sens est important : il ne peut être modifié lors de la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>réinitialisation d&apos;une exécution.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez trouver le sens de synchronisation dans la table BPCONSTANTS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>avec la valeur CONSTANT = &apos;CVISCT&apos;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER015</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER015</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Geschäftspartner hat  keine Steuernummern, der zugeordnete Debitor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hingegen schon.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Debitor in Richtung Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann brauchen Sie keine weiteren Schritte vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Geschäftspartner in Richtung Debitor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann gibt es einen Konflikt. Die Synchronisation wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Steuernummern des Debitors löschen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER015</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER015</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The business partner does not have any tax numbers, however, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned customer does have tax numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the customer to the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner, no further action is necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the business partner to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer, there is a conflict. The synchronization will delete the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers for the customer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER015</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER015</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le partenaire n&apos;a aucun numéro d&apos;identification fiscale contrairement au</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client qui lui est affecté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aucune étape supplémentaire n&apos;est requise si vous synchronisez les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du client en direction du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La synchronisation des numéros d&apos;identification fiscale du partenaire en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direction du client crée un conflit. La synchronisation supprime les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER016</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER016</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Debitor hat  keine Steuernummern, der zugeordnete Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hingegen schon.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Geschäftspartner in Richtung Debitor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann brauchen Sie keine weiteren Schritte vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Debitor in Richtung Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann gibt es einen Konflikt. Die Synchronisation wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Steuernummern des Geschäftspartners löschen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER016</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER016</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The customer does not have any tax numbers, however, the assigned</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner does have tax numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the business partner to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer, no further action is necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the customer to the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner, there is a conflict. The synchronization will delete the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers for the business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER016</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER016</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le client n&apos;a aucun numéro d&apos;identification fiscale contrairement au</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire qui lui est affecté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aucune étape supplémentaire n&apos;est requise si vous synchronisez les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du partenaire en direction du client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La synchronisation des numéros d&apos;identification fiscale du client en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direction du partenaire crée un conflit. La synchronisation supprime les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER030</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es existiert ein Datenkonflikt zwischen dem Geschäftspartner und dem ihm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugeordneten Kreditor. Die Steuernnummern der beiden Objekte sind</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unterschiedlich.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Bei der Bearbeitung eines der Objekte mit eingeschalteter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Stammdatensynchronisation werden die Daten des anderen verbundenen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objektes überschrieben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Zur Veranschaulichung dient das folgende Beispiel:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Geschäftspartner 4711 ist mit Kreditor 0815 verbunden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Geschäftspartner ist ohne Steuernummern im System hinterlegt ,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allerdings ist bei den Steuernummern das Kennzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.BU_NATURAL_PERSON&gt;Natürliche Person&lt;/&gt; gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Kreditor ist mit Steuernummern im System hinterlegt, allerdings ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>das Kennzeichen &lt;LS&gt;Natürliche Person&lt;/&gt; nicht gesetzt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wenn z.B. der Geschäftspartner bearbeitet und gespeichert würde, dann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>würden die Steuernummern des Kreditors gelöscht und das Kennzeichen für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die &lt;LS&gt;Natürliche Person&lt;/&gt; würde gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Prüfen Sie, welches der beiden Objekte führend ist und von welchem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objekt die Steuernummern übernommen werden sollen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Führen Sie zur initialen Synchronisation beider Objekte den Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_VEDN_TAX_NUMBERS (Initiale Synchronisation der Steuernummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des GPs und des Kreditors) aus. Ausführliche Informationen finden Sie in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der entsprechenden Reportdokumentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER030</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00019</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>There is a data conflict between the business partner and the vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to it. The tax numbers are different for both objects.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If Master Data Synchronization is active and you process one of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objects, the system overwrites the data for the other object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This is illustrated in the following example:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Business partner 4711 is linked to vendor 0815.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The business partner is stored in the system without any tax numbers and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the &lt;DS:DE.BU_NATURAL_PERSON&gt;Natural Person&lt;/&gt; indicator is set for tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The vendor is stored in the system with tax numbers but the &lt;LS&gt;Natural</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Person&lt;/&gt; indicator is not set.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you process and save the business partner, for example, then the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system deletes the tax numbers for the vendor and sets the &lt;LS&gt;Natural</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Person&lt;/&gt; indicator.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Check which object is the leading object and from which object the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers are to be transferred. To initially synchronize both objects,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>execute the report CVI_SYNC_VEDN_TAX_NUMBERS (initial synchronization of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tax numbers for BP and vendor). For more detailed information, see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding report documentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER030</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00023</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Un conflit de données existe entre le partenaire et le fournisseur qui</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lui est affecté. Les numéros d&apos;identification fiscale des deux objets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sont différents.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Les données des autres objets associés sont supprimées lors du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traitement d&apos;un des objets pour lequel la synchronisation des données de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>base est activée.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Exemple :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le partenaire 4711 est lié au fournisseur 0815.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le partenaire est défini sans numéro d&apos;identification fiscale dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>système mais le code &lt;DS&gt;Personne physique&lt;/&gt; est activé pour les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Le fournisseur a un numéro d&apos;identification fiscale mais le code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Personne physique&lt;/&gt; n&apos;est pas activé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Lorsque le partenaire est traité et sauvegardé par exemple, les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du fournisseur sont supprimés et le code pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>la personne physique est activé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Procédure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vérifiez quel est l&apos;objet principal et à partir de quel objet les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données fiscales doivent être reprises. Exécutez le programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_CUST_TAX_NUMBERS (Synchronisation initiale des numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du partenaire et du fournisseur) pour la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation initiale des deux objets. Pour plus d&apos;informations,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consultez la documentation du programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER031</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER031</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Geschäftspartner hat  keine Steuernumemrn, der zugeordnete Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hingegen schon.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Kreditor in Richtung Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann brauchen Sie keine weiteren Schritte vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Geschäftspartner in Richtung Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann gibt es einen Konflikt. Die Synchronisation wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Steuernummern des Kreditors löschen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER031</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER031</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The business partner does not have any tax numbers, however, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned vendor does have tax numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the vendor to the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner, no further action is necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the business partner to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vendor, there is a conflict. The synchronization will delete the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers for the vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER031</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER031</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le partenaire n&apos;a aucun numéro d&apos;identification fiscale contrairement au</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fournisseur qui lui est affecté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aucune étape supplémentaire n&apos;est requise si vous synchronisez les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du fournisseur en direction du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La synchronisation des numéros d&apos;identification fiscale du partenaire en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direction du fournisseur crée un conflit. La synchronisation supprime</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les numéros d&apos;identification fiscale du fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER032</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Kreditor hat  keine Steuernummern, der zugeordnete Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hingegen schon.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Geschäftspartner in Richtung Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann brauchen Sie keine weiteren Schritte vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wenn Sie die Steuernummern vom Kreditor in Richtung Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisieren, dann gibt es einen Konflikt. Die Synchronisation wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Steuernummern des Geschäftspartners löschen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER032</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The vendor does not have any tax numbers, however, the assigned business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner does have tax numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you are synchronizing tax numbers from the business partner to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vendor, no further action is necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you are synchonizing tax numbers from the vendor to the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner, there is a conflict. The synchronization will delete the tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers for the business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_SYNC_TAX_NUMBER032</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_TAX_NUMBER032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le fournisseur n&apos;a aucun numéro d&apos;identification fiscale contrairement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>au partenaire qui lui est affecté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aucune étape supplémentaire n&apos;est requise si vous synchronisez les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du partenaire en direction du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La synchronisation des numéros d&apos;identification fiscale du fournisseur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>en direction du partenaire crée un conflit. La synchronisation supprime</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les numéros d&apos;identification fiscale du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>CVI_SYNC_TAX_NUMBER</ARBGB>
+     <STEXT>Error from synchronization of tax numbers</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>There is a conflict between business partner &amp;1 and customer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tax numbers have been transferred from business partner &amp;1 to customer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Tax numbers have been transferred from customer &amp;1 to business partner &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Errors have occurred for business partner &amp;1 and customer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Package &amp;1 contains errors; start the package run again</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Package &amp;1 has been analyzed successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No relevant data found; data conversion is not necessary</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Choose a direction</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Package &amp;1 has been processed successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Initial tax number synchronization has been started with run ID &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Direction for tax number synchronization has been determined</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Direction for tax number synchronization: Business partner to customer</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Direction for tax number synchronization: Customer to business partner</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Automatic switch of direction for initial data is permitted</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Automatic switch of direction is not permitted for initial data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Business partner &amp;1 does not have any tax numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Customer &amp;1 does not have any tax numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>There is a conflict between business partner &amp;1 and vendor &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Business partner &amp;1 does not have any tax numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Vendor &amp;1 does not have any tax numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Errors have occurred for business partner &amp;1 and vendor &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Tax numbers have been transferred from business partner &amp;1 to vendor &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Tax numbers have been transferred from vendor &amp;1 to business partner &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Direction for tax number synchronization: Business partner to vendor</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Direction for tax number synchronization: Vendor to business partner</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

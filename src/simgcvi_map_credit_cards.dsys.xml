@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CREDIT_CARDS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0010</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00023</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CREDIT_CARDS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00010</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In (BAdI) wird in der Komponente &lt;LS&gt;Stammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation (AP-MD-BF-SYN)&lt;/&gt; verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem BAdI können Sie die Feldzuordnungen der Debitorenintegration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ändern und erweitern. Insbesondere können Sie die Zuordnungen zwischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den Zahlungskarten des Geschäftspartners und den Zahlungskarten des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes anpassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard ist die Default-Implementierung &lt;LS&gt;CVI_MAP_CREDIT_CARDS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Standarddatenzuordnung von Kreditkarten in der CVI&lt;/&gt; aktiviert. Das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Default-Coding wird automatisch ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Siehe auch:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses BAdI verwendet das Interface IF_EX_CVI_MAP_CREDIT_CARDS. Um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>weitere Informationen zu erhalten, zeigen Sie das Interface im Class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Methoden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_BP_CREDIT_CARDS&gt;Zahlungskarten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des Geschäftspartners Kunden zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_CUSTOMER_CREDIT_CARDS&gt;Zahlungsk</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>arten des Kunden Geschäftspartner zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CREDIT_CARDS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0010</VERSION>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CREDIT_CARDS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00010</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN)&lt;/&gt; component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can use this BAdI to change and extend field assignments for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer integration. You can adjust the assignments between payment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cards for the business partner and payment cards for the customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>record.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The default implementation &lt;LS&gt;CVI_MAP_CREDIT_CARDS Standard Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assignment of Credit Cards in CVI&lt;/&gt; is activated in the standard</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system. The default coding is carried out automatically.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>See also:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI uses the interface IF_EX_CVI_MAP_CREDIT_CARDS. For more</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information, display the interface in the Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_BP_CREDIT_CARDS&gt; Assign Payment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Cards for Business Partner to Customer&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_CUSTOMER_CREDIT_CARDS&gt; Assign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Payment Cards for Customer to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CREDIT_CARDS</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0010</VERSION>
+      <TXTLINES>00019</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CREDIT_CARDS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00010</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce Business Add-In (BAdI) est utilisé dans la composante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Synchronisation de données de base (AP-MD-BF-SYN)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ce BAdI vous permet de modifier et d&apos;étendre les affectations des zones</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de l&apos;intégration client. Vous pouvez notamment ajuster les affectations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entre les cartes de paiement du partenaire et les cartes de paiement de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>la fiche client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le système standard, l&apos;implémentation par défaut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;CVI_MAP_CREDIT_CARDS Affectation de données standard de cartes de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>crédit dans la CVI&lt;/&gt; est activée.  Le codage par défaut est</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatiquement exécuté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Voir également :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce BAdI utilise l&apos;interface IF_EX_CVI_MAP_CREDIT_CARDS. Pour obtenir de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>plus amples informations, affichez l&apos;interface dans le Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Méthodes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_BP_CREDIT_CARDS&gt;Affecter cartes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de paiement du partenaire au client&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_CREDIT_CARDS    MAP_CUSTOMER_CREDIT_CARDS&gt; Affecter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cartes de paiement du client au partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

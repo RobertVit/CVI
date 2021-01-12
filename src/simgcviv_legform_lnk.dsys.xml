@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_LEGFORM_LNK</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_LEGFORM_LNK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität ordnen Sie den &lt;DS:DE.GFORM&gt;Geschäftsformen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des &lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;Debitoren&lt;/&gt;/-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.3526B832AFAB52B9E10000009B38F974&gt;Kreditorenstammsatzes&lt;/&gt; die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.BU_LEGENTY&gt;Rechtsformen&lt;/&gt; des Geschäftspartners zu. Diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnung nehmen Sie im Rahmen der Customer-Vendor-Integration vor, um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Synchronisation des Geschäftspartners mit dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren/-Kreditorenstammsatz  zu ermöglichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Geschäftsformen des Debitorenstammsatzes definiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Diese Einstellung nehmen Sie in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;Geschäftsformen definieren&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Rechtsformen des Geschäftspartners definiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Diese Einstellung nehmen Sie in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_TB019&gt;Rechtsformen pflegen&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_LEGFORM_LNK</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00013</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_LEGFORM_LNK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you assign the &lt;DS:DE.BU_LEGENTY&gt; legal forms&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the business partner to the &lt;DS:DE.GFORM&gt; legal statuses&lt;/&gt; for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt; customer&lt;/&gt;/</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B832AFAB52B9E10000009B38F974&gt; vendor master record&lt;/&gt;. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>make this assignment as part of Customer/Vendor Integration to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronize the business partner with the customer/vendor master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined the legal statuses for the customer master records. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>make this setting in the IMG activity &lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Define Legal Statuses&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined the legal forms for the business partner. You make this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>setting in the IMG activity &lt;DS:SIMG._CABP_TB019&gt;Maintain Legal Forms</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_LEGFORM_LNK</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_LEGFORM_LNK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;affecter les &lt;DS:DE.BU_LEGENTY&gt;statuts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>juridiques&lt;/&gt; du partenaire aux &lt;DS:DE.GFORM&gt;formes juridiques&lt;/&gt; du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact de la fiche client/fournisseur. Effectuez cette affectation dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le cadre de l&apos;intégration client/fournisseur, afin d&apos;activer la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation du partenaire avec la fiche client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini les formes juridiques de la fiche client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Effectuez ce paramétrage dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;Définir les formes juridiques d&apos;une société</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini les statuts juridiques du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Effectuez le paramétrage dans l&apos;activité IMG &lt;DS:SIMG._CABP_TB019&gt;Gérer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>statuts juridiques&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

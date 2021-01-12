@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>CVI_PACKET_SIZE</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000005</LENG>
+    <OUTPUTLEN>000006</OUTPUTLEN>
+    <DDTEXT>Paketgröße für Massendatenverarbeitung, 0 - unbegrenzt</DDTEXT>
+   </DD01V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Package Size for Mass Data Processing, 0 - Unlimited</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Taille paquet pour traitement en masse, 0 - illimité</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

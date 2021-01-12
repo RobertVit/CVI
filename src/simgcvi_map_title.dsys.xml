@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_TITLE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00026</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_TITLE</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In (BAdI) wird in der Komponente &lt;LS&gt;Stammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation (AP-MD-BF-SYN)&lt;/&gt; verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem BAdI können Sie die Feldzuordnungen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration ändern und erweitern. Insbesondere können</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie die Zuordnungen zwischen den Anreden des Geschäftspartners und den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anreden des Debitoren-/Kreditorenstammsatzes anpassen. Diese Erweiterung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ist nur für die Synchronisationsrichtung vom Debitor/Kreditor zum</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner hin möglich.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es werden zwei Implementierungen ausgeliefert. Im Standard ist die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Implementierung &lt;LS&gt;CVI_MAP_TITLE_DIRECT Zuordnung der Anrede ohne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>jegliche Veränderung&lt;/&gt; aktiviert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI-Implementierungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BP_CATEGORY Ermittlung des Geschäftspartnerstyps aufgrund der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anrede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Mit dieser inaktiven Implementierung können Sie aufgrund der Anrede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>festlegen, von welchem Typ der anzulegende Geschäftspartner ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_TITLE_DIRECT Zuordnung der Anrede ohne jegliche Veränderung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Siehe auch:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese BAdI-Definition verwendet das Interface IF_EX_CVI_MAP_TITLE. Um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>weitere Informationen zu erhalten, zeigen Sie das Interface im Class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder an.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_TITLE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <TXTLINES>00020</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_TITLE</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN)&lt;/&gt; component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can use this BAdI to change and extend field assignments for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration. You can adjust the assignments between the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>form of address for the business partner and the form of address for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor. This is possible only for the direction customer/vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>SAP supplies two implementations. The implementation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;CVI_MAP_TITLE_DIRECT Assign Form of Address Without Changes&lt;/&gt; is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activated in the the standard version.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Implementations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BP_CATEGORY Determine Business Partner Category Based on Form of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Address</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>With this inactive implementation you can use the form of address to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determine to which category the business partner to be created belongs.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_TITLE_DIRECT Assign Form of Address Without Changes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>See also:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI definition uses the interface IF_EX_CVI_MAP_TITLE. For more</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information, display the interface in the Class Builder.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_TITLE</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <TXTLINES>00022</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_TITLE</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce Business Add-In (BAdI) est utilisé dans la composante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Synchronisation de données de base (AP-MD-BF-SYN)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Il vous permet de modifier et d&apos;étendre les affectations des zones de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;intégration client/fournisseur. Vous pouvez notamment ajuster les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations entre les titres de civilité du partenaire et les titres de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>civilité de la fiche client/fournisseur. Cette extension est uniquement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>possible pour le sens de synchronisation client/fournisseur vers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Deux implémentations sont fournies. Dans le système standard,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;implémentation &lt;LS&gt;CVI_MAP_TITLE_DIRECT Affectation du titre de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>civilité sans modifications&lt;/&gt; est activée.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Implémentations du BAdI</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BP_CATEGORY Définition du type de partenaire sur la base du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>titre de civilité.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Cette implémentation inactive vous permet de déterminer, sur la base du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>titre de civilité, le type du partenaire à créer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_TITLE_DIRECT Affectation du titre de civilité sans modifications</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Voir également :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette définition de BAdI utilise l&apos;interface IF_EX_CVI_MAP_TITLE. Pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>obtenir de plus amples informations, affichez l&apos;interface dans le Class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

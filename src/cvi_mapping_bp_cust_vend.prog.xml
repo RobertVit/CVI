@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>CVI_MAPPING_BP_CUST_VEND</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>T</RSTAT>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>A01</KEY>
+     <ENTRY>Selektionskriterien</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A02</KEY>
+     <ENTRY>Diese Synchronisationsoption ist bei der Stammdatensynchronisation nicht verfügbar oder nicht möglich</ENTRY>
+     <LENGTH>108</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A03</KEY>
+     <ENTRY>Geschäftspartner</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A04</KEY>
+     <ENTRY>Der Geschäftspartner mit der Nummer</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A05</KEY>
+     <ENTRY>existiert nicht</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A06</KEY>
+     <ENTRY>hat Mapping auf Lieferanten</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A07</KEY>
+     <ENTRY>Es gibt kein Mapping des Lieferanten auf den GP</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A08</KEY>
+     <ENTRY>hat Mapping auf Kunde</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A09</KEY>
+     <ENTRY>Es ist kein Mapping des Kunden auf den GP vorhanden</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A10</KEY>
+     <ENTRY>Mapping des GP auf den Lieferanten vorhanden</ENTRY>
+     <LENGTH>45</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A11</KEY>
+     <ENTRY>Es gibt kein Mapping des GP auf den Lieferanten</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A12</KEY>
+     <ENTRY>Mapping des GP auf den Kunden vorhanden</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A13</KEY>
+     <ENTRY>Es ist kein Mapping des GP auf den Kunden vorhanden</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A14</KEY>
+     <ENTRY>Die Felder Suchen und Mapping auf sind identisch</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A15</KEY>
+     <ENTRY>Die Felder Suchen und Mapping auf müssen gefüllt sein</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A16</KEY>
+     <ENTRY>Mapping f Kunde u Lieferant wird nicht direkt ausgeführt, sondern über Kunde-&gt;GP-&gt;Lief</ENTRY>
+     <LENGTH>86</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A17</KEY>
+     <ENTRY>Geben Sie ein geeignetes Kriterium ein</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A18</KEY>
+     <ENTRY>hat Mapping auf Ansprechpartner</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A19</KEY>
+     <ENTRY>Mapping des GP auf den Ansprechpartner vorhanden</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A20</KEY>
+     <ENTRY>Es ist kein Mapping des Ansprechpartners auf den GP vorhanden</ENTRY>
+     <LENGTH>62</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A21</KEY>
+     <ENTRY>hat Mapping auf die folgenden Ansprechpartner</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A22</KEY>
+     <ENTRY>Ansprechpartner -</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A23</KEY>
+     <ENTRY>-&gt; Kunde</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>A24</KEY>
+     <ENTRY>Es ist kein Mapping des GP auf den Ansprechpartner vorhanden</ENTRY>
+     <LENGTH>62</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Program CVI_MAPPING_BP_CUST_VEND</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FINDOB</KEY>
+     <ENTRY>Suchen</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MAPDOB</KEY>
+     <ENTRY>Mapping auf</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NUMBER</KEY>
+     <ENTRY>Nummer</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>A01</KEY>
+       <ENTRY>Selection Criteria</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A02</KEY>
+       <ENTRY>Such a synchronization option is not available or possible via Master Data Synchronization</ENTRY>
+       <LENGTH>108</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A03</KEY>
+       <ENTRY>Business Partner</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A04</KEY>
+       <ENTRY>Business Partner with the number</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A05</KEY>
+       <ENTRY>does not exist.</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A06</KEY>
+       <ENTRY>is mapped to the Vendor</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A07</KEY>
+       <ENTRY>No Vendor is mapped to the Business Partner</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A08</KEY>
+       <ENTRY>is mapped to the Customer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A09</KEY>
+       <ENTRY>No Customer is mapped to the Business Partner</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A10</KEY>
+       <ENTRY>Business Partner mapped to the Vendor</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A11</KEY>
+       <ENTRY>No Business Partner is mapped to the Vendor</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A12</KEY>
+       <ENTRY>Business Partner mapped to the Customer</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A13</KEY>
+       <ENTRY>No Business Partner is mapped to the Customer</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A14</KEY>
+       <ENTRY>The Find and the Mapped To field are same</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A15</KEY>
+       <ENTRY>The Find and the Mapped To field must be filled</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A16</KEY>
+       <ENTRY>The Customer and Vendor are not mapped directly. Mapping is CUST -&gt; BP -&gt; VEND.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A17</KEY>
+       <ENTRY>Please enter a suitable criteria.</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A18</KEY>
+       <ENTRY>is mapped to the Contact person</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A19</KEY>
+       <ENTRY>Business Partner mapped to the Contact Person</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A20</KEY>
+       <ENTRY>No Contact person is mapped to the Business Partner</ENTRY>
+       <LENGTH>62</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A21</KEY>
+       <ENTRY>is mapped to the following Contact Persons</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A22</KEY>
+       <ENTRY>Contact Person -</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A23</KEY>
+       <ENTRY>-&gt; Customer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A24</KEY>
+       <ENTRY>No Business Partner is mapped to the Contact Person</ENTRY>
+       <LENGTH>62</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Program CVI_MAPPING_BP_CUST_VEND</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FINDOB</KEY>
+       <ENTRY>Find</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MAPDOB</KEY>
+       <ENTRY>Mapped to</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_NUMBER</KEY>
+       <ENTRY>Number</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>A01</KEY>
+       <ENTRY>Critères de sélection</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A02</KEY>
+       <ENTRY>Cette option de synchronisation est indisponible ou impossible lors de la synchronisat. des données de base</ENTRY>
+       <LENGTH>108</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A03</KEY>
+       <ENTRY>Partenaire</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A04</KEY>
+       <ENTRY>Le partenaire dont le numéro est</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A05</KEY>
+       <ENTRY>n&apos;existe pas</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A06</KEY>
+       <ENTRY>Est mappé sur fournisseur</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A07</KEY>
+       <ENTRY>Il n&apos;y a aucun mappage du fournisseur sur le parten.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A08</KEY>
+       <ENTRY>Est mappé sur le client</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A09</KEY>
+       <ENTRY>Aucun mappage client disponible sur le partenaire</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A10</KEY>
+       <ENTRY>Mappage client disponible sur le fournisseur</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A11</KEY>
+       <ENTRY>Aucun mappage partenaire sur le fournisseur</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A12</KEY>
+       <ENTRY>Mappage partenaire disponible sur le client</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A13</KEY>
+       <ENTRY>Aucun mappage partenaire disponible sur le client</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A14</KEY>
+       <ENTRY>Les zones Recherche et Mappage sont identiques</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A15</KEY>
+       <ENTRY>Zones Recherche et Mappage sur doivent être renseignées</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A16</KEY>
+       <ENTRY>Mappage pr client et fourn. n&apos;est pas exécuté direct., mais via client-&gt;part.-&gt;fourn.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A17</KEY>
+       <ENTRY>Entrez un critère approprié.</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A18</KEY>
+       <ENTRY>Est mappé sur le contact</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A19</KEY>
+       <ENTRY>Mappage du partenaire sur le contact existe</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A20</KEY>
+       <ENTRY>Il n&apos;existe pas de mappage du contact sur le partenaire.</ENTRY>
+       <LENGTH>62</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A21</KEY>
+       <ENTRY>Est mappé sur les contacts suivants</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A22</KEY>
+       <ENTRY>Contact -</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A23</KEY>
+       <ENTRY>-&gt; client</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>A24</KEY>
+       <ENTRY>Aucun partenaire n&apos;est mappé sur le contact.</ENTRY>
+       <LENGTH>62</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Programme CVI_MAPPING_BP_CUST_VEND</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FINDOB</KEY>
+       <ENTRY>Rechercher</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MAPDOB</KEY>
+       <ENTRY>Mappage sur</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_NUMBER</KEY>
+       <ENTRY>Numéro</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

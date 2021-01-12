@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>CVI_PRECHK</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>CVI_PRECHK</ARBGB>
+     <STEXT>For Storing Messages Related to Prechecks for BP S4 Move</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Input Incomplete for Tax Jurisdiction determination</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tax Number Check failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Choose atleast one scenario</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Cannot process; exceeds the maximum records (&amp;1) for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Invalid Server Group</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No server resources available for parallel processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Unexpected exception occurred in parallel processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unexpected exception occurred</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>EU Tax Number &amp;1 for Country &amp;2 is incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Tax Type &amp;1 is not allowed for country &amp;2; check table TFKTAXNUMTYPE</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Bank Number &amp;1 or Account Number &amp;2 is incorrect for country &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Bank number &amp;1 must have length &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Bank Account Number is missing for country &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>&amp;1 is not valid for country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp;1 is missing for country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Bank &amp;1 &amp;2 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>&amp;1 is incorrect.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Length of &amp;1 must not exceed 35 characters.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Form title &amp;1 not allowed for organizations; See SAP Note 1767277.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Server Group is mandatory.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Description is mandatory.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Creation period is mandatory.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Customer number &amp;1 not in range &amp;2 and &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Vendor number &amp;1 not in range &amp;2 and &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Tax Jurisdiction Code &amp;1 is incorrect for country &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Cannot check Tax Jurisdiction Code &amp;1 ; RFC_DEST not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Transport Zone is mandatory.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Transport Zone &amp;1 is not defined for country &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Email Address &amp;1 is incorrect.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Industry mapping for &amp;1 is missing in customizing (Table TP038M2).</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Tax Code &amp;1 &amp;2 is incorrect for country &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The selection parameters resulted in 0 records to be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Background processing started.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Run is in progress.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Cannot delete; Select at least one row.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Cannot delete the run(s) that is still in progress.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>ALV error</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>No record found</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Cannot process; maintain interval &amp;1 for number range &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Error while generating Run ID</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

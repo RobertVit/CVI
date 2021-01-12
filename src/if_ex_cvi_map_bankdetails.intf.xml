@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface IF_EX_CVI_MAP_BANKDETAILS</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS_TO_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktiv: Bankverbindungen des GP Kunden zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS_TO_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Active: Assign Bank Details for Business Partner to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS_TO_VENDOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktiv: Bankverbindungen des GP Lieferanten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS_TO_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Active: Assign Bank Details for Business Partner to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANK_DATA_TO_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beispiel: Bankverbindungen des GPs Kunden zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANK_DATA_TO_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sample: Assign Bank Details for Business Partner to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANK_DATA_TO_VENDOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beispiel: Bankverbindungen des GPs Lieferanten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_BP_BANK_DATA_TO_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sample: Assign Bank Details for Business Partner to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktiv: Bankverbindungen des Kunden Geschäftspartner zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Active: Assign Bank Details for Customer to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANK_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beispiel: Bankverbindungen des Kunden GP zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sample: Assign Bank Details for Customer to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktiv: Bankverbindungen des Lieferanten GP zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Active: Assign Bank Details for Vendor to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANK_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beispiel: Bankverbindungen des Lieferanten GP zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_BANKDETAILS</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sample: Assign Bank Details for Vendor to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

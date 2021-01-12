@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CVI_REQ_STATUS</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Status notwendiger Zuordnungen</DDTEXT>
+    <REPTEXT>Status der Zuordnung</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Status der Zuordnung</SCRTEXT_M>
+    <SCRTEXT_L>Status der Zuordnung</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Status of Required Assignments</DDTEXT>
+     <REPTEXT>Status of Assignment</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status of Assignment</SCRTEXT_M>
+     <SCRTEXT_L>Status of Assignment</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut des affectations nécessaires</DDTEXT>
+     <REPTEXT>Statut de l&apos;affectation</REPTEXT>
+     <SCRTEXT_S>Statut</SCRTEXT_S>
+     <SCRTEXT_M>Statut affectation</SCRTEXT_M>
+     <SCRTEXT_L>Statut de l&apos;affectation</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

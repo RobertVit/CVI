@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Model class for Business Logic for CVI Precheck</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>DELETE_LOG_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete the log data from the DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_ADDRESS_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes all address checks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_BANK_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes the checks for Bank data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_EMAIL_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes checks for email address</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_INDUSTRY_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes check for Industry Sector</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_NUMBER_RANGE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes the number range check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_POSTCODE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes the postal code check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_TAX_JUR_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes the check for Tax Jurisdiction Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_TAX_TYPE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks all Tax type categories</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_TRANSZONE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes the check for transportation zone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GENERATE_RUNID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>To Generate the Run ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets the address from ADRC table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_BANK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets the BANK data for CUSTOMER/VENDOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_CURRENT_RUN_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the latest RUN status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_DATA_FOR_VALIDATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets all data required for executing the checks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_LOG_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fetch Log data based on User selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_RESULT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fetch Log data based on User selection for the Run-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GET_SCENARIOS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the scenario for the RunID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GT_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for ADRC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GT_NRIV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number Range Intervals</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GT_T005</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Countries</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GT_T077D</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer account groups</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GT_TZONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customers: Regional zones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GV_ISTYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Industry System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GV_RECORD_CNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>4 Byte Signed Integer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>GV_RUNID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Run ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>INSERT_ERROR_REC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert the error records into the log table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>PPF_AFTER_CALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save the error records into DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>PPF_BEFORE_CALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Split the data into multiple package</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>PPF_IN_CALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call the different check method to validate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>PROCESS_SELECTION_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process the data - as selected in selection screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>UPDATE_PRECHK_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Callback method from RFC to update the status of precheck</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>VALIDATE_ALL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>execute all checks which are selected on the BP UIs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK</CLSNAME>
+     <CMPNAME>VALIDATE_SELECTION_INPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate the input</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

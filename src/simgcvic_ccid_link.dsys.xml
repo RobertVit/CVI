@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIC_CCID_LINK</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00015</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIC_CCID_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität ordnen Sie den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CC_INSTITUTE&gt;Zahlungskartenarten&lt;/&gt; des Geschäftspartners die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CCINS&gt;Zahlungskartenarten&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;Debitorenstammsatzes&lt;/&gt; zu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Diese Zuordnung nehmen Sie im Rahmen der Customer-Vendor-Integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vor, um die Synchronisation des Geschäftspartners mit dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatz zu ermöglichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Zahlungskarten des Geschäftspartners definiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Diese Einstellung nehmen Sie in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB033_SEC&gt;Zahlungskartenart pflegen&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIC_CCID_LINK</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIC_CCID_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you assign the &lt;DS:DE.CCINS&gt;card types of payment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cards&lt;/&gt; for the &lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master records&lt;/&gt; to the &lt;DS:DE.CC_INSTITUTE&gt;payment card types&lt;/&gt; for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the business partner. You make this assignment as part of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration to synchronize the business partner with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer master data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined the payment cards for the business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You make settings in the IMG activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB033_SEC&gt;Maintain Payment Card Type&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIC_CCID_LINK</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIC_CCID_LINK</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;affecter aux &lt;DS:DE.CC_INSTITUTE&gt;types</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de carte de paiement&lt;/&gt; du partenaire les &lt;DS:DE.CCINS&gt;types de carte de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>paiement&lt;/&gt; de la fiche client. Vous pouvez effectuer cette affectation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dans le cadre de l&apos;intégration client/fournisseur, afin d&apos;activer la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation du partenaire avec la fiche client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini les cartes de paiement du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Effectuez ce paramétrage dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_V_TB033_SEC&gt;Gérer type de carte de paiement&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

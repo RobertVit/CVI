@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS2" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS2>
+    <HEADER>
+     <ATTR_ID>CVI_TERMINOLOGY</ATTR_ID>
+     <ROADMAP_ID>899</ROADMAP_ID>
+     <COUNTRY>A</COUNTRY>
+     <ACTIVITY>2</ACTIVITY>
+     <CRITICAL>2</CRITICAL>
+    </HEADER>
+    <TITLES>
+     <CUS_ATRT>
+      <SPRAS>D</SPRAS>
+      <ATTR_ID>CVI_TERMINOLOGY</ATTR_ID>
+      <TEXT>Informationen zur Terminologie</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>E</SPRAS>
+      <ATTR_ID>CVI_TERMINOLOGY</ATTR_ID>
+      <TEXT>Information About Terminology</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>F</SPRAS>
+      <ATTR_ID>CVI_TERMINOLOGY</ATTR_ID>
+      <TEXT>Informations sur la terminologie</TEXT>
+     </CUS_ATRT>
+    </TITLES>
+    <COMPONENTS>
+     <TFM18>
+      <DOKCLASS>SIMG</DOKCLASS>
+      <DOKNAME>CVI_TERMINOLOGY</DOKNAME>
+      <FUNCT>PAB0000028</FUNCT>
+     </TFM18>
+    </COMPONENTS>
+   </CUS2>
+  </asx:values>
+ </asx:abap>
+</abapGit>

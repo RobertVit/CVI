@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>CVI_FS_GEN_UN_ROLE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00033</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_FS_GEN_UN_ROLE</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Unsupported Roles</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This displays the business partners containing unsupported roles. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can view the business partner numbers and the corresponding roles.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The following business partner roles are no longer supported with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>S/4HANA On-Premise System:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>BAM001          Bank Contact Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>BBP002          Portal Provider</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>BBP003          Plant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>BBP004          Purchasing Firm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>BBP006          Invoicing Party</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CBIH10           External Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CBIH20           Authority</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CLERK1          First Processor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CLERK2          Second Processor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM000         Sold-to Party</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM002         Ship-to Party</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM003         Payer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM004         Bill-to Party</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM007        (Marketplace) Supplier</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM012        Consolidating Plant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>CRM013        Remanufacturer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HEA010         Doctor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HEA020         External Physician</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HEA030         Health Center</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HEA040         Laboratory</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HEA050         External Company</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>HR1000         Human Resources Payee</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>LOG010          Consumer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>RCFAGY          Agency</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>RCFBRA          Branch Role</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>RTP010          Retirement Plan Beneficiary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>RTP050          Deceased Holder of a Retirement Plan</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>TXS001          Investor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

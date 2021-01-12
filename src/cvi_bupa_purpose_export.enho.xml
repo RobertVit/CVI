@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>Unblock Customer/Vendor/Contact Person</SHORTTEXT>
+   <SPOT_NAME>BUPA_PURPOSE_EXPORT</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>BUPA_PURPOSE_EXPORT</SPOT_NAME>
+     <BADI_NAME>BUPA_PURPOSE_EXPORT</BADI_NAME>
+     <IMPL_NAME>CVI_BUPA_PURPOSE_EXPORT</IMPL_NAME>
+     <IMPL_CLASS>CL_CVI_BUPA_PURPOSE_EXPORT</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IMPL_SHORTTEXT>Implementierung: BAdI: Export von SORT-Details für gesperrte/entsperrte Geschäftspartner in anwendungsspezifischen Speicher</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>0050569171951ED3AD9CA67019AC161B</IMPL_SHORTTEXT_ID>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0050569171951ED3AD9CA07D6C10D617</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA07D6C10D617</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>057</LENGTH>
+       <TEXT>Kunde/Lieferant/Kontaktperson entsperren</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA07D6C10D617</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>057</LENGTH>
+       <TEXT>Unblock Customer/Vendor/Contact Person</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA07D6C10D617</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>057</LENGTH>
+       <TEXT>Débloquer client/fournisseur/contact</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>0050569171951ED3AD9CA67019AC161B</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA67019AC161B</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>177</LENGTH>
+       <TEXT>Implementierung: BAdI: Export von SORT-Details für gesperrte/entsperrte Geschäftspartner in anwendungsspezifischen Speicher</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA67019AC161B</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>177</LENGTH>
+       <TEXT>Implementation: BAdI: Exportation of SORT Details of Blocked/Unblocked Business Partner to application specific Memory</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050569171951ED3AD9CA67019AC161B</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>177</LENGTH>
+       <TEXT>Implémentation : BAdI : exportation de détails SoRT pour partenaites bloqués/débloqués dans mémoire spécifique à l&apos;application</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>CVI_BUPA_PURPOSE_EXPORT</OBJ_NAME>
+     <CONCEPT>0050569171951ED3AD9CA07D6C10D617</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>CVI_BUPA_PURPOSE_EXPORT</OBJ_NAME>
+     <CONCEPT>0050569171951ED3AD9CA67019AC161B</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

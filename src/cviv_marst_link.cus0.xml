@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVIV_MARST_LINK</ACTIVITY>
+     <DOCU_ID>SIMGCVIV_MARST_LINK</DOCU_ID>
+     <ATTRIBUTES>CVIV_MARST_LINK</ATTRIBUTES>
+     <C_ACTIVITY>CVIV_MARST_LINK</C_ACTIVITY>
+     <TCODE>S_AC0_52000776</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVIV_MARST_LINK</ACTIVITY>
+      <TEXT>Familienstände zuordnen</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVIV_MARST_LINK</ACTIVITY>
+      <TEXT>Assign Marital Statuses</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVIV_MARST_LINK</ACTIVITY>
+      <TEXT>Affecter situations familiales</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CC_INSTITUTE_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>CC_INSTITUTE</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Zahlungskartenart</DDTEXT>
+    <REPTEXT>Art (GP)</REPTEXT>
+    <SCRTEXT_S>Art (GP)</SCRTEXT_S>
+    <SCRTEXT_M>Kartenart(GP)</SCRTEXT_M>
+    <SCRTEXT_L>Zahlungskartenart(GP)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>CC_TYPE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Payment Card Type</DDTEXT>
+     <REPTEXT>Type (BP)</REPTEXT>
+     <SCRTEXT_S>Type (BP)</SCRTEXT_S>
+     <SCRTEXT_M>Card Type (BP)</SCRTEXT_M>
+     <SCRTEXT_L>Payment Card Type (BP)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de carte de paiement</DDTEXT>
+     <REPTEXT>Type (P)</REPTEXT>
+     <SCRTEXT_S>Type (P)</SCRTEXT_S>
+     <SCRTEXT_M>Type carte (P)</SCRTEXT_M>
+     <SCRTEXT_L>Type carte paiement (P)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

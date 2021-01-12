@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>CVIS_MESSAGE_ROW</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Gibt an welches Objekt sich in welcher Zeile verbirgt</DDTEXT>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>CVIS_MESSAGE_ROW</TABNAME>
+     <FIELDNAME>LINE</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>BAPI_LINE</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_MESSAGE_ROW</TABNAME>
+     <FIELDNAME>PARTNER_GUID</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <ROLLNAME>BU_PARTNER_GUID</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_MESSAGE_ROW</TABNAME>
+     <FIELDNAME>CUSTOMER</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <ROLLNAME>KUNNR</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>CVIS_MESSAGE_ROW</TABNAME>
+     <FIELDNAME>VENDOR</FIELDNAME>
+     <POSITION>0004</POSITION>
+     <ROLLNAME>LIFNR</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Indicates Which Object Is In Which Line</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Indique l&apos;objet et la ligne.</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENSC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>DEBITOR-/KREDITOR-INTEGRATION</SHORTTEXT>
+   <ENH_SPOTS>
+    <ENHSPOTNAME>CVI_CUSTOM_MAPPER</ENHSPOTNAME>
+    <ENHSPOTNAME>CVI_DEFAULT_VALUES</ENHSPOTNAME>
+    <ENHSPOTNAME>CVI_MAP_BANKDETAILS</ENHSPOTNAME>
+    <ENHSPOTNAME>CVI_MAP_CREDIT_CARDS</ENHSPOTNAME>
+    <ENHSPOTNAME>CVI_MAP_TITLE</ENHSPOTNAME>
+   </ENH_SPOTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

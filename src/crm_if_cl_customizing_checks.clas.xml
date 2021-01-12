@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CRM_IF_CL_CUSTOMIZING_CHECKS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for BAdI Implementation CRM_IF_CUST_VEND_CUSTOM_CHECKS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CRM_IF_CL_CUSTOMIZING_CHECKS</CLSNAME>
+     <CMPNAME>GC_APPL_NAME_CONTACT_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Contact Persons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CRM_IF_CL_CUSTOMIZING_CHECKS</CLSNAME>
+     <CMPNAME>GC_APPL_NAME_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Contact Persons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CRM_IF_CL_CUSTOMIZING_CHECKS</CLSNAME>
+     <CMPNAME>GC_APPL_NAME_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Contact Persons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CRM_IF_CL_CUSTOMIZING_CHECKS</CLSNAME>
+     <CMPNAME>GC_TRUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

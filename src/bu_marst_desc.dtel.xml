@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BU_MARST_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>BU_MARST</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Familienstand des Geschäftspartners</DDTEXT>
+    <REPTEXT>FamSt(GP)</REPTEXT>
+    <SCRTEXT_S>FamSt(GP)</SCRTEXT_S>
+    <SCRTEXT_M>Fam.Stand(GP)</SCRTEXT_M>
+    <SCRTEXT_L>Fam.Stand(GP)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MARITALSTATUS</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Marital Status of Business Partner</DDTEXT>
+     <REPTEXT>MarSt (BP)</REPTEXT>
+     <SCRTEXT_S>MarSt (BP)</SCRTEXT_S>
+     <SCRTEXT_M>Mar. Sts (BP)</SCRTEXT_M>
+     <SCRTEXT_L>Marital Status (BP)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Situation de famille du partenaire</DDTEXT>
+     <REPTEXT>SitFam.(P)</REPTEXT>
+     <SCRTEXT_S>SitFam.(P)</SCRTEXT_S>
+     <SCRTEXT_M>SituFamil. (P)</SCRTEXT_M>
+     <SCRTEXT_L>SituatFamil. (part.)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

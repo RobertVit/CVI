@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVI_MAP_TITLE</ACTIVITY>
+     <DOCU_ID>SIMGCVI_MAP_TITLE</DOCU_ID>
+     <ATTRIBUTES>CVI_MAP_TITLE</ATTRIBUTES>
+     <C_ACTIVITY>CVI_MAP_TITLE</C_ACTIVITY>
+     <TCODE>S_PCO_36000109</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVI_MAP_TITLE</ACTIVITY>
+      <TEXT>BAdI: Datenzuordnung der Anrede von Debitor/Kreditor nach GP</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVI_MAP_TITLE</ACTIVITY>
+      <TEXT>BAdI: Data Assignment of Form of Address from Customer/Vendor to BP</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVI_MAP_TITLE</ACTIVITY>
+      <TEXT>BAdI : Affectation données titre civilité clt/fourn. -&gt; part.</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

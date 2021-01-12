@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>BAdI Objekt-Mapping für IS-U-Szenario</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>BADI_BP_ISU_OBJ_MAPPING</BADI_NAME>
+     <INTERFACE_NAME>IF_EX_BP_ISU_OBJ_MAPPING</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Mapping-Prüfungen für IS-U-Szenario</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>FA163EC451CF1ED3B5A117AAD0B28A3F</BADI_SHORTTEXT_ID>
+     <INTERNAL_USE>X</INTERNAL_USE>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>FA163EC451CF1ED3B5A117AAD0B28A3F</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>FA163EC451CF1ED3B5A117AAD0B28A3F</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>048</LENGTH>
+       <TEXT>Mapping-Prüfungen für IS-U-Szenario</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>FA163EC451CF1ED3B5A117AAD0B28A3F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>048</LENGTH>
+       <TEXT>Mapping checks for IS-U Scenario</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>FA163EC451CF1ED3B5A117AAD0B28A3F</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>048</LENGTH>
+       <TEXT>Contrôles du mappage pour scénario IS-U</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>BDI_BUPA_ISU_OBJECT_MAPPING</OBJ_NAME>
+     <CONCEPT>FA163EC451CF1ED3B5A117AAD0B28A3F</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

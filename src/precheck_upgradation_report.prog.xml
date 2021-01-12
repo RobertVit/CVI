@@ -1,0 +1,1744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>PRECHECK_UPGRADATION_REPORT</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <DYNPROS>
+    <item>
+     <HEADER>
+      <PROGRAM>PRECHECK_UPGRADATION_REPORT</PROGRAM>
+      <SCREEN>0100</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>screen 100</DESCRIPT>
+      <TYPE>N</TYPE>
+      <NEXTSCREEN>0100</NEXTSCREEN>
+      <LINES>022</LINES>
+      <COLUMNS>107</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>CUST_CTRL</TYPE>
+       <NAME>CUSTOM_CONTROL</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>005</LINE>
+       <COLUMN>003</COLUMN>
+       <LENGTH>094</LENGTH>
+       <HEIGHT>014</HEIGHT>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>FRAME</TYPE>
+       <NAME>%#AUTOTEXT001</NAME>
+       <TEXT>Pre-upgrade_Checks______________________________________________________________________________</TEXT>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>097</LENGTH>
+       <VISLENGTH>097</VISLENGTH>
+       <HEIGHT>021</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>FRAME</TYPE>
+       <NAME>%#AUTOTEXT002</NAME>
+       <TEXT>Display_results_for__________________________________________________________________________</TEXT>
+       <LINE>002</LINE>
+       <COLUMN>003</COLUMN>
+       <LENGTH>094</LENGTH>
+       <VISLENGTH>094</VISLENGTH>
+       <HEIGHT>003</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>GV_CHECKBOX_CUST</NAME>
+       <TEXT>Customer</TEXT>
+       <LINE>003</LINE>
+       <COLUMN>004</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <PUSH_FCODE>CURR_CLIENT</PUSH_FCODE>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>GV_CHECKBOX_VEND</NAME>
+       <TEXT>Vendor</TEXT>
+       <LINE>003</LINE>
+       <COLUMN>018</COLUMN>
+       <LENGTH>008</LENGTH>
+       <VISLENGTH>008</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <PUSH_FCODE>CURR_CLIENT</PUSH_FCODE>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>GS_TEXT</NAME>
+       <TEXT>Number_of_Entries_to_be_Queried</TEXT>
+       <LINE>020</LINE>
+       <COLUMN>003</COLUMN>
+       <LENGTH>031</LENGTH>
+       <VISLENGTH>031</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>GS_INPUT</NAME>
+       <TEXT>_________________</TEXT>
+       <LINE>020</LINE>
+       <COLUMN>037</COLUMN>
+       <LENGTH>017</LENGTH>
+       <VISLENGTH>017</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>INT4</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>GV_ALL_CLIENT</NAME>
+       <TEXT>Display_Results_for_All_Clients</TEXT>
+       <LINE>020</LINE>
+       <COLUMN>062</COLUMN>
+       <LENGTH>033</LENGTH>
+       <VISLENGTH>033</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <PUSH_FCODE>CURR_CLIENT</PUSH_FCODE>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <NAME>OK_CODE</NAME>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE STATUS_0100.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE USER_COMMAND_0100.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>PRECHECK_UPGRADATION_REPORT</PROGRAM>
+      <SCREEN>0200</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>screen 200</DESCRIPT>
+      <TYPE>N</TYPE>
+      <NEXTSCREEN>0200</NEXTSCREEN>
+      <LINES>016</LINES>
+      <COLUMNS>131</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>CUST_CTRL</TYPE>
+       <NAME>CUSTOM_CONTAINER_FINAL</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>131</LENGTH>
+       <HEIGHT>016</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>008</C_LINE_MIN>
+       <C_COLN_MIN>023</C_COLN_MIN>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <NAME>OK_CODE_200</NAME>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE STATUS_0200.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE USER_COMMAND_0200.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>PRECHECK_UPGRADATION_REPORT</PROGRAM>
+      <SCREEN>0201</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>Scrren for Displaying the messages</DESCRIPT>
+      <TYPE>M</TYPE>
+      <NEXTSCREEN>0201</NEXTSCREEN>
+      <LINES>027</LINES>
+      <COLUMNS>136</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>CUST_CTRL</TYPE>
+       <NAME>CUSTOM_CONTROL_MSG</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>133</LENGTH>
+       <HEIGHT>026</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>011</C_LINE_MIN>
+       <C_COLN_MIN>035</C_COLN_MIN>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <NAME>OK_CODE_0201</NAME>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE STATUS_0201.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE> MODULE USER_COMMAND_0201.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+   </DYNPROS>
+   <CUA>
+    <ADM>
+     <ACTCODE>000006</ACTCODE>
+     <PFKCODE>000006</PFKCODE>
+    </ADM>
+    <STA>
+     <RSMPE_STAT>
+      <CODE>PF_STATUS</CODE>
+      <MODAL>D</MODAL>
+      <ACTCODE>/0CUST/000002</ACTCODE>
+      <PFKCODE>/0CUST/000002</PFKCODE>
+      <BUTCODE>0001</BUTCODE>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_STAT>
+     <RSMPE_STAT>
+      <CODE>STATUS_0200</CODE>
+      <MODAL>D</MODAL>
+      <ACTCODE>/0CUST/000006</ACTCODE>
+      <PFKCODE>/0CUST/000006</PFKCODE>
+      <BUTCODE>0001</BUTCODE>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_STAT>
+     <RSMPE_STAT>
+      <CODE>STATUS_0201</CODE>
+      <MODAL>D</MODAL>
+      <ACTCODE>/0CUST/000004</ACTCODE>
+      <PFKCODE>/0CUST/000004</PFKCODE>
+      <BUTCODE>0001</BUTCODE>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_STAT>
+    </STA>
+    <FUN>
+     <RSMPE_FUNT>
+      <CODE>BACK</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <FUN_TEXT>Zurück</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>CANCEL</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <TEXT_NAME>ICON_CANCEL</TEXT_NAME>
+      <ICON_ID>@0W@</ICON_ID>
+      <FUN_TEXT>Abbrechen</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>CANCEL</CODE>
+      <TEXTNO>002</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <FUN_TEXT>Beenden</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>EXECUTE</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <TEXT_NAME>ICON_EXECUTE_OBJECT</TEXT_NAME>
+      <ICON_ID>@15@</ICON_ID>
+      <FUN_TEXT>Ausführen</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>EXIT</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <FUN_TEXT>Beenden</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>OK</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <FUN_TEXT>Ok</FUN_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
+      <CODE>SAVE</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <TEXT_NAME>ICON_SYSTEM_SAVE</TEXT_NAME>
+      <ICON_ID>@2L@</ICON_ID>
+      <FUN_TEXT>Sichern</FUN_TEXT>
+     </RSMPE_FUNT>
+    </FUN>
+    <BUT>
+     <RSMPE_BUT>
+      <PFK_CODE>/0CUST/000002</PFK_CODE>
+      <CODE>0001</CODE>
+      <NO>01</NO>
+      <PFNO>08</PFNO>
+     </RSMPE_BUT>
+     <RSMPE_BUT>
+      <PFK_CODE>/0CUST/000004</PFK_CODE>
+      <CODE>0001</CODE>
+      <NO>01</NO>
+     </RSMPE_BUT>
+    </BUT>
+    <PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>00</PFNO>
+      <FUNCODE>OK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>03</PFNO>
+      <FUNCODE>BACK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>08</PFNO>
+      <FUNCODE>EXECUTE</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>11</PFNO>
+      <FUNCODE>SAVE</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>12</PFNO>
+      <FUNCODE>CANCEL</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000002</CODE>
+      <PFNO>15</PFNO>
+      <FUNCODE>EXIT</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000004</CODE>
+      <PFNO>00</PFNO>
+      <FUNCODE>OK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000004</CODE>
+      <PFNO>15</PFNO>
+      <FUNCODE>CANCEL</FUNCODE>
+      <FUNNO>002</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000006</CODE>
+      <PFNO>00</PFNO>
+      <FUNCODE>OK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000006</CODE>
+      <PFNO>03</PFNO>
+      <FUNCODE>BACK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000006</CODE>
+      <PFNO>11</PFNO>
+      <FUNCODE>SAVE</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000006</CODE>
+      <PFNO>12</PFNO>
+      <FUNCODE>CANCEL</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>/0CUST/000006</CODE>
+      <PFNO>15</PFNO>
+      <FUNCODE>EXIT</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+    </PFK>
+    <SET>
+     <RSMPE_STAF>
+      <STATUS>PF_STATUS</STATUS>
+      <FUNCTION>EXECUTE</FUNCTION>
+     </RSMPE_STAF>
+    </SET>
+    <DOC>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000001</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000001</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000001</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000002</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000002</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000002</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>pf status</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000003</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000003</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000003</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000004</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000004</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000004</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 201</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000005</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000005</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000005</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000006</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000006</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>/0CUST/000006</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>status 200</INT_NOTE>
+     </RSMPE_ATRT>
+    </DOC>
+    <TIT>
+     <RSMPE_TITT>
+      <CODE>TITL_100</CODE>
+      <TEXT>Vorprüfung Upgrade-Bericht</TEXT>
+     </RSMPE_TITT>
+     <RSMPE_TITT>
+      <CODE>TITL_200</CODE>
+      <TEXT>Vorprüfung Upgrade-Bericht</TEXT>
+     </RSMPE_TITT>
+     <RSMPE_TITT>
+      <CODE>TITL_201</CODE>
+      <TEXT>&amp;</TEXT>
+     </RSMPE_TITT>
+    </TIT>
+   </CUA>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Report PRECHECK_UPGRADATION_REPORT</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Customer Value Mapping Not Maintained</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>BP Roles Not Assigned to Account Groups</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>BP Grouping Not Available for Account Groups</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>CVI Mapping Not Maintained</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Vendor Value Mapping not maintained</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Industry not maintained in table TP038M1 in client kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Contact Person Mapping Not Maintained</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Customer/Vendor Value Mapping Not Maintained (BP-&gt;Customer/Vendor)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Error Description</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Contact person mapping - Customer</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Error Messages</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Checks</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Value mapping (BP -&gt; Customer/Vendor)</ENTRY>
+       <LENGTH>114</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Error Type</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Vendor value mapping</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Precheck Details</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Status</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Kindly refer to SAP Note 2210486.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>is not having CVI mapping check the table CVI_CUST_LINK.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Kindly refer to SAP Note 2210486.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Vendor account group is not maintained in table CVIC_VEND_TO_BP1.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Customer account group is not maintained in table CVIC_CUST_TO_BP1.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Vendor Account Group is not maintained in table CVIC_VEND_TO_BP2.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>024</KEY>
+       <ENTRY>is not having CVI mapping check the table CVI_VEND_LINK.</ENTRY>
+       <LENGTH>72</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>025</KEY>
+       <ENTRY>Contact person assignment not activated and not maintained in table CVIC_MAP_CONTACT.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>026</KEY>
+       <ENTRY>Department not maintained in table CVIC_CP1_LINK.</ENTRY>
+       <LENGTH>116</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>027</KEY>
+       <ENTRY>Function not maintained in table CVIC_CP2_LINK.</ENTRY>
+       <LENGTH>112</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>028</KEY>
+       <ENTRY>Authority not mainatined in table CVIC_CP3_LINK.</ENTRY>
+       <LENGTH>114</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>029</KEY>
+       <ENTRY>VIP Indicator not mainatined in table CVIC_CP4_LINK.</ENTRY>
+       <LENGTH>122</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Kindly refer to SAP Note 2210486.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Marital Status not mainatined in table CVIC_MARST_LINK.</ENTRY>
+       <LENGTH>128</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>Legal form not maintained in table CVIC_LEGFORM_LNK.</ENTRY>
+       <LENGTH>122</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Payment Card not maintained in table CVIC_CCID_LINK.</ENTRY>
+       <LENGTH>122</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>Industry not maintained in table TP038M2.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Industry not maintained in table TP038M1.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>Industry not maintained in table TP038M2.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Industry not maintained in table TP038M1.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>Contact person is not maintanined in table CVI_CUST_CT_LINK.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>Contact person is not maintained in table CVI_VEND_CT_LINK.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>Industry not maintained in table TP038M2.</ENTRY>
+       <LENGTH>102</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>Industry not maintained in table TP038M1.</ENTRY>
+       <LENGTH>102</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>Some of the customer or vendor account groups are not maintained kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>Some of the customer or vendor account groups are not assigned to any roles  kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>Some of the customer or vendor numbers are not mapped kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>Some of the customer value mapping is not maintained kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>046</KEY>
+       <ENTRY>Some of the vendor value mapping is not maintained kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>047</KEY>
+       <ENTRY>Some of the customers are not having contact person mapping kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>048</KEY>
+       <ENTRY>Some of the post value mapping for customer and vendor are not maintained kindly refer note 2210486</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>049</KEY>
+       <ENTRY>Synchronization direction (BP-&gt;Customer/Vendor) is not active</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Synchronization direction (BP-&gt;Customer/Vendor) is active</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Customizing Error</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>Data Error</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Pre-upgrade Checks</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>054</KEY>
+       <ENTRY>CVI link mapping</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>055</KEY>
+       <ENTRY>Vendor value Mapping</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>056</KEY>
+       <ENTRY>Value mapping (Customer/Vendor -&gt; BP)</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>057</KEY>
+       <ENTRY>Account group assigned to BP grouping</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>058</KEY>
+       <ENTRY>BP roles assigned to account groups</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>059</KEY>
+       <ENTRY>Mandatory checks cannot be unchecked</ENTRY>
+       <LENGTH>72</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>060</KEY>
+       <ENTRY>Synchronization direction</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>061</KEY>
+       <ENTRY>Check Name</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>062</KEY>
+       <ENTRY>Customer Account Group is not maintained in table CVIC_CUST_TO_BP2.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>Precheck Status Result</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>CVI link - Customer (&amp;1/&amp;2)</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>No Error</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>066</KEY>
+       <ENTRY>Industry not maintained in table TP038M2.</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>067</KEY>
+       <ENTRY>Display results for</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>068</KEY>
+       <ENTRY>CVI link - Vendor (&amp;1/&amp;2)</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>069</KEY>
+       <ENTRY>Contact person mapping - Vendor</ENTRY>
+       <LENGTH>62</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Contact person mapping</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>BP role assigned to customer account group</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>BP role assigned to vendor account group</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Customer account group assigned to BP role</ENTRY>
+       <LENGTH>84</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>Vendor account group assigned to BP role</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>Choose either Customer or Vendor to execute</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>PRECHECK_UPGRADATION_REPORT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00154</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>PRECHECK_UPGRADATION_REPORT</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This report performs the necessary checks for Business Partner before</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>upgrading to S/4HANA.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;ZH&gt;prechecks &lt;/&gt;that the report executes are listed here:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BP roles are assigned to account groups&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Every account group BP Grouping must be available&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Customer Value Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Vendor Value Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Customer and Vendor Value Mapping (BP-&gt; Customer or Vendor)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;CVI_Link&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;CVI Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Contact Person Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Note that &lt;LS&gt;CVI Mapping&lt;/&gt; and &lt;LS&gt;Contact Person Mapping&lt;/&gt; are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mandatory checks that you need to perform.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report also performs a &lt;ZH&gt;post check&lt;/&gt;, &lt;LS&gt;Contact Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Attributes&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Before you execute the report, ensure that you maintain the Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries listed below for the checks that you want the report to perform:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;PRECHECKS&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;BP roles are assigned to account groups &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>For &lt;ZH&gt;Customer&lt;/&gt;, you must maintain the entries in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Master Data Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;-&gt; &lt;LS&gt;Business Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_CUST_TO_BP2&gt;Define BP Role  for Direction Customer to BP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>For &lt;ZH&gt;Vendor&lt;/&gt;, you must maintain the entries in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Master Data Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;-&gt; &lt;LS&gt;Business Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_VEND_TO_BP2&gt;Define BP Role for Direction Vendor to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For every account group BP Grouping must be available&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>For &lt;ZH&gt;Customer&lt;/&gt;, you must maintain the entries in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt;&lt;LS&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Master Data Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Business Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration &lt;/&gt;-&gt; &lt;LS&gt;Field Assignment for Customer Integration&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Assign Keys&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_CUST_TO_BP1&gt;Define Number Assignment for Direction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>For &lt;ZH&gt;Vendor&lt;/&gt;, you must maintain the entries in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Master Data Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;-&gt; &lt;LS&gt;Business Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration &lt;/&gt;-&gt; &lt;LS&gt;Field Assignment for Vendor Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Assign Keys&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_VEND_TO_BP1&gt;Define Number Assignment for Direction Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For Customer Value Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You must maintain the entries in Customizing for &lt;ZH&gt;Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt; &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Field Assignment for Customer Integration &lt;/&gt;-&gt;&lt;LS&gt;Assign Attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; -&gt; &lt;LS&gt;Contact Person&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVI_MAP_CONTACT&gt;Activate Assignment of Contact Persons&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Assign Department Numbers for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Assign Functions of Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Assign Authority of Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;Assign VIP Indicator for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You must maintain the entries in Customizing for &lt;ZH&gt;Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt; &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Field Assignment for Customer Integration &lt;/&gt;-&gt;&lt;LS&gt;Assign Attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_MARST_LINK&gt;Assign Marital Statuses&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Assign Legal Form to Legal Status&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIC_CCID_LINK&gt;Assign Payment Cards&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.VC_TP038M&gt;Assign Industries&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For Vendor Value Mapping&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You must maintain the entries in Customizing for &lt;ZH&gt;Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt; &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Field Assignment for Vendor Integration &lt;/&gt;-&gt;&lt;LS&gt;Assign Attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; -&gt; &lt;LS&gt;Assign Industries&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For Checking Direction from Customer to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You must maintain the entries in Customizing for &lt;ZH&gt;Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt; &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Customer Integration &lt;/&gt;-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_CUST_TO_BP2&gt;Define BP Role for Direction Customer to BP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For Checking Direction from Vendor to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>You must maintain the entries in Customizing for &lt;ZH&gt;Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; -&gt; &lt;LS&gt;Customer/Vendor Integration &lt;/&gt;-&gt; &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Settings &lt;/&gt;-&gt; &lt;LS&gt;Settings for Vendor Integration&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.CVIV_VEND_TO_BP2&gt;Define BP Role for Direction Vendor to BP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AM</TDFORMAT>
+       <TDLINE>You must &lt;ZH&gt;mandatorily &lt;/&gt;maintain the Customizing entries for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following checks.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For CVI Mapping &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>In transaction &lt;ZH&gt;SE 11&lt;/&gt;, ensure that you maintain in mapping tables,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;CVI_CUST_LINK &lt;/&gt;and &lt;ZH&gt;CVI_VEND_LINK&lt;/&gt;, the same number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries as in customer table &lt;ZH&gt;KNA1&lt;/&gt; and vendor table &lt;ZH&gt;LFA1&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For Contact Person Mapping &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>In transaction &lt;ZH&gt;SE 11&lt;/&gt;, ensure that you maintain in mapping tables,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;CVI_CUST_CT_LINK&lt;/&gt; and &lt;ZH&gt;CVI_VEND_CT_LINK&lt;/&gt;, the same number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries as in contact table &lt;ZH&gt;KNVK &lt;/&gt;with the condition &lt;ZH&gt;KNVK</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;with where condition &lt;ZH&gt;KUNNR &lt;&gt; SPACE&lt;/&gt; and &lt;ZH&gt;KNVK  &lt;/&gt;with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>where condition &lt;ZH&gt;LIFNR &lt;&gt; SPACE&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;POSTCHECK&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG.CVIV_CP1_LINK&gt;Assign Department Numbers for Contact Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; are available in Customizing for &lt;ZH&gt;Business Partner &lt;/&gt;under</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;SAP Business Partner -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner Relationships -&gt; Contact Person -&gt; &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Define Departments&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Define Functions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Define Powers of Attorney&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt;Define VIP Entries&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG.CVIV_MARST_LINK&gt;Assign Marital Statuses&lt;/&gt; for  are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available in Customizing for &lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cr</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>oss-Application Components&lt;/&gt; -&gt; &lt;LS&gt;SAP Business Partner -&gt; Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner -&gt; Persons -&gt; Marital Statuses&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG._CABP_TB027&gt;Maintain Marital Status&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Assign Legal Form to Legal Status&lt;/&gt;  are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available in Customizing for &lt;ZH&gt;Business Partner &lt;/&gt;under</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;SAP Business Partner -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner -&gt; &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>   &lt;DS:SIMG._CABP_TB019&gt;&lt;/&gt;&lt;LS&gt;Maintain Legal Forms&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Assign Legal Form to Legal Status&lt;/&gt;  are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available in Customizing for &lt;ZH&gt;Business Partner &lt;/&gt;under</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt; &lt;LS&gt;SAP Business Partner -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner -&gt; &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>   &lt;DS:SIMG._CABP_TB019&gt;&lt;/&gt;&lt;LS&gt;Maintain Legal Forms&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG.CVIC_CCID_LINK&gt;Assign Payment Cards&lt;/&gt; are available in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing for &lt;ZH&gt;Business Partner &lt;/&gt;under &lt;LS&gt;Cross-Application</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components&lt;/&gt; -&gt; &lt;LS&gt;Payment Cards&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>   &lt;DS:SIMG._CABP_V_TB033_SEC&gt;Maintain Payment Card Type&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You must ensure that the entries that you have maintained in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.VC_TP038M&gt;Assign Industries&lt;/&gt; are available in Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for Business Partner-&gt; under &lt;LS&gt;Cross-Application Components&lt;/&gt; -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;SAP Business Partner -&gt; Organizations -&gt;&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:SIMG._CABP_BUPA_TB038&gt;Maintain Industry Systems and Industries</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE> &amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Based on your requirements, select the checks that you want the report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to perform. Then, execute the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report generates an ALV output containing the status of each check</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that it performs.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the status is green, this indicates that check is successful.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the status is red, you must click on the status icon to get more</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information on what caused the error and resolve the errors by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintaining the Customizing entries listed in &lt;ZH&gt;Prerequisites&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

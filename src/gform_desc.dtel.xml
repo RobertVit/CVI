@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>GFORM_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>GFORM</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Geschäftsform</DDTEXT>
+    <REPTEXT>GF(CVI)</REPTEXT>
+    <SCRTEXT_S>GF(CVI)</SCRTEXT_S>
+    <SCRTEXT_M>GeForm(CVI)</SCRTEXT_M>
+    <SCRTEXT_L>Geschäftsform(CVI)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>LEGALSTAT</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Legal Status</DDTEXT>
+     <REPTEXT>LS (CVI)</REPTEXT>
+     <SCRTEXT_S>LS (CVI)</SCRTEXT_S>
+     <SCRTEXT_M>Legal Sts (CVI)</SCRTEXT_M>
+     <SCRTEXT_L>Legal Status (CVI)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Forme juridique</DDTEXT>
+     <REPTEXT>FJ (IVC)</REPTEXT>
+     <SCRTEXT_S>FJ (IVC)</SCRTEXT_S>
+     <SCRTEXT_M>FormJur. (IVC)</SCRTEXT_M>
+     <SCRTEXT_L>Forme jurid. (IVC)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

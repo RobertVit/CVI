@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface IF_EX_CVI_MAPPER</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_CUSTOMERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartnergesamtdaten Kundendaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_CUSTOMERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign All Business Partner Data to Customer Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_VENDORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartnergesamtdaten Lieferantendaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_VENDORS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign All Business Partner Data to Vendor Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMERS_TO_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kundendaten Geschäftspartnergesamtdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMERS_TO_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Customer Data to All Business Parter Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDORS_TO_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lieferantendaten Geschäftspartnergesamtdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDORS_TO_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Vendor Data to All Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

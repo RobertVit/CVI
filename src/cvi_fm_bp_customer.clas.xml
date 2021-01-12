@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Datenzuordnung zwischen GP und Debitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Geschäftspartner</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Debitor</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Business Partner</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Customer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Partenaire</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Client</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>DELIVER_CUSTOMER_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Debitordaten werden angefragt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>DELIVER_CUSTOMER_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer Data Requested</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CUST_ACCOUNT_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads Account Group for FI Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ENHANCEMENT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liest die erweiterten Daten am Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ENHANCEMENT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads Extended Data for Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Feld Mapping zwischen GP und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Mapping Between BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Bankverbindungen des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Bank Details for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_BANK_DATA_TEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Communication Data from BP to CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_CREDIT_CARDS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Kreditkarten des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_CREDIT_CARDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Credit Cards for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_FS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen FS-Attribute des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_FS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns FS-Specific Attributes for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Branchendaten des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Industry Data for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_TAX_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Steuerdaten des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_TAX_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Tax Data for BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten des GPs dem Debitor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns BP Data to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Bankverbindungen des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Bank Details for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Communication Data from BP to CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_CREDIT_CARDS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Kreditkarten des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_CREDIT_CARDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Credit Cards for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Branchendaten des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Industry Data for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TAX_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Steuerdaten des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TAX_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Tax Data for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TO_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TRADING_PARTNER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Partnergesellschaft des Debitors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TRADING_PARTNER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Trading Partner for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CONTACT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00049</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CONTACT</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität können Sie die Ansprechpartnerzuordnungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aktivieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie nehmen die Aktivierung der Zuordnungen vor, wenn die folgenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beiden Aussagen zutreffen: Die Ansprechpartnerattribute sollen im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner oder Debitorenstammsatz bearbeitet werden und Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>möchten durch die Zuordnungen der Attribute sicherstellen, dass der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartner im Rahmen der Debitorenintegration synchronisiert wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können die folgenden Attribute des Ansprechpartners synchronisieren:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Abteilungsnummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Funktionen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vollmachten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP-Kennzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben die jeweiligen Ansprechpartnerattribute des Geschäftspartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und des Debitorenstammsatzes entsprechend den Erfordernissen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration in den folgenden IMG-Aktivitäten definiert:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Debitorenstammsatz:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt;Standardabteilungen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt;Funktionen Ansprechpartner definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Vollmachten definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;VIP-Kennzeichen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geschäftspartner:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Abteilungen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Funktionen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Vollmachten definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt;VIP-Einträge definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard ist das Kennzeichen nicht gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Wenn Sie die Ansprechpartnerattribute im Rahmen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration synchronisieren möchten, dann setzen Sie in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dieser IMG-Aktivität das Kennzeichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Nehmen Sie in den in den folgenden IMG-Aktivitäten die Zuordnungen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Attribute vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Abteilungsnummern des Ansprechpartners zuordnen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Funktionen des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Vollmachten des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;VIP-Kennzeichen des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben die Customer-Vendor-Integration im Einsatz und möchten die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartnerattribute synchronisieren. Wenn Sie die Zuordnung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartnerattribute in dieser IMG-Aktivität aktivieren und die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungen der Attribute einstellen, dann werden (bei entsprechender</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Einstellung der Synchronisationssteuerung) die in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnerbearbeitung eingegebenen Ansprechpartnerattribute auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>im Debitorenstammsatz mit fortgeschrieben und die in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenbearbeitung eingegebene Werte auch in den Geschäftspartner.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CONTACT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00039</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CONTACT</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you can activate the assignment of contact persons.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You activate assignment if both of the following statements are true:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Contact person attributes are to be processed in the business partner or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the customer master record and you want to assign attributes to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ensure that the contract person is synchronized as part of customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can synchronize the following attributes for the contact person:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Department numbers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Functions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Authority</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP Indicator</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have defined the attributes for the contact persons for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and the customer master record as required for Customer/Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Integration in the following IMG activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Customer master record:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt;Define Standard Departments&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt;Define Contact Person Functions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Define Authority&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;Define VIP Indicator&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Business partner:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Define Departments&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Define Functions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Define Authority&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt;Define VIP Entries&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The indicator is not set in the standard system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>If you want to synchronize attributes for the contact person as part of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration, then set the indicator in this IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Assign the attributes in the following IMG activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Assign Department Numbers for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Assign Functions of Contact Person &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Assign Authority of Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;Assign VIP Indicator for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You are using Customer/Vendor Integration and want to synchronize</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attributes for the contact person. If you activate the assignment of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact person attributes in this IMG activity and set assignment for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the attributes, then the attributes for the contact person entered in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner processing will also be updated in customer processing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and vice versa.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_CONTACT</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00039</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_CONTACT</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;activer les affectations des contacts.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Activez ces affectations si les attributs du contact doivent être</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traités dans le partenaire ou la fiche client et si vous voulez vous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assurer, via l&apos;affectation des attributs, de la synchronisation du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire dans le cadre de l&apos;intégration client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez synchroniser les attributs suivants :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Numéros de département</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Fonctions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Procurations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Code VIP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans les activités IMG ci-dessous, vous avez défini les attributs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>actuels du partenaire et de la fiche client en fonction des exigences de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;intégration client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Fiche client :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt;Définir les départements par défaut&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt;Définir les fonctions des contacts&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Définir les procurations&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;Définir les codes VIP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Partenaire :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Définir départements&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Définir fonctions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Définir procurations&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt;Définir code VIP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le système standard, ce code n&apos;est pas activé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Pour synchroniser les attributs du partenaire dans le cadre de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;intégration client/fournisseur, activez le code dans cette activité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Affectez les attributs dans les activités IMG suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Affecter numéros de département du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Affecter fonctions du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Affecter procurations du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;Affecter code VIP du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>L&apos;intégration client/fournisseur est en cours de traitement et vous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>voulez synchroniser les attributs du contact. Si vous activez et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>paramétrez l&apos;affectation des attributs du contact dans cette activité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG, vous mettez à jour (en paramétrant de façon appropriée le pilotage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de la synchonisation) les attributs du contact indiqués dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traitement du partenaire dans la fiche client et les valeurs indiquées</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dans le traitement du client dans le partenaire .</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

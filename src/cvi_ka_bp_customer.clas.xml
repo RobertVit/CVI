@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Zuordnung eines GP zu einem Debitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbindung zwischen Kunde und Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connection Between Customer and Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>ASSIGNMENTS_NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbindung zwischen Kunde und Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>ASSIGNMENTS_NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connection Between Customer and Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_CUSTOMER_ID_AVAILABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überprüft, ob die neue Debitorennummer noch frei ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_CUSTOMER_ID_AVAILABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks Whether New Customer Number Is Still Available</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_CUSTOMER_ID_CORRECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überprüft, ob die neue Debitorennummer formal korrekt ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_CUSTOMER_ID_CORRECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks Whether New Customer Number Is Formally Correct</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_EXISTENCE_METHOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Checks if Method Exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_EXISTENCE_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks If Method Exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_ID_FOR_NEW_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt eine neue Debitorennummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CHECK_ID_FOR_NEW_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines New Customer Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbindung zwischen Beziehung und Kontaktpartner des Kunden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connec. Between Relationship + Activity Partner for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_DEL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbindung zwischen Beziehung und Kontaktpartner des Kunden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_DEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connec. Between Relationship + Activity Partner for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbindung zwischen Beziehung und Kontaktpartner des Kunden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>CT_ASSIGNMENTS_NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connec. Between Relationship + Activity Partner for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>DOES_CUSTOMER_EXIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob der Debitor bereits existiert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>DOES_CUSTOMER_EXIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Customer Already Exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>FACTORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts (UKM Factorymethode)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>FACTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object (UKM Factory Method)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ALL_CUST_CTS_FOR_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert alle Ansprechpartner eines Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ALL_CUST_CTS_FOR_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies All Contact Persons for Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ALL_CUST_CTS_FOR_PERSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert alle Ansprechpartnerbeziehungen des Ansprechpartners</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ALL_CUST_CTS_FOR_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies All Contact Person Relationships for Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BP_FOR_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den einem Debitor zugeordneten Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BP_FOR_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Business Partner Assigned to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_REL_FOR_CUST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die einem Debitor zugeordneten Kontaktperson</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_REL_FOR_CUST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Person Assigned to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUSTOMER_FOR_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den einem Geschäftspartner  zugeordneten Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUSTOMER_FOR_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Customer Assigned to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUST_CT_4_BP_REL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den einer GP-Beziehung zugeordneten Ansprechpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUST_CT_4_BP_REL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Person Assigned to BP Relationship</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_BP_4_CUSTOMER_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Zuordnung zwischen Debitor und Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_BP_4_CUSTOMER_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Assignment Between Customer and Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CT_ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lesen Verbindung zwischen Beziehung und Ansprechpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CT_ASSIGNMENTS_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads Connection Between Relationship and Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CUSTOMER_4_BP_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Zuordnung zwischen Geschäftspartner  und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CUSTOMER_4_BP_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Assignment Between Business Partner and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP1</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Einstellung der Nummerierung für GP und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP1</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Setting for Numbering for BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP1_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Einstellung der Nummerierung für GP und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP1_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Setting for Numbering for BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP2</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Rollenzuordnung für Debitor zu Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Role Assignment for Customer to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP2_LINES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Rollenzuordnung für Debitor zu Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_CVIC_CUST_TO_BP2_LINES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Role Assignment for Customer to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_EXTERNAL_CUSTOMER_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt eine via Dialog extern vergebene Debitorennummer zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_EXTERNAL_CUSTOMER_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a Customer Number Issued Externally Via Dialog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_NEW_CUSTOMER_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Besorgt eine neue Debitorennummer mit int. Nummernvergabe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_NEW_CUSTOMER_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Provides New Customer Number with Internal No. Assignment</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_T077D</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Kontengruppen für Debitoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_T077D</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Account Groups for Customers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_T077D_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Kontengruppe für Debitoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_T077D_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Account Group for Customers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD001</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Verbindungen zw. Gruppierung und Kontengruppe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD001</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Connections Between Grouping and Account Group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD001_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Verbindung zw. Gruppierung und Kontengruppe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD001_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Connection Between Grouping and Account Group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD002</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die zusätzl. Definitionen debitorischer Rollen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>GET_TBD002</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Additional Definitions for Customer Roles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zuordnung eines GP zu einem Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assignment of BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_IN_CUSTOMER_ROLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>To check if bp is created in customer role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_IN_CUSTOMER_ROLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>To Check If BP Is Created in Customer Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_REQUIRED_FOR_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob zum Debitor ein GP zugeordnet werden muss</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_REQUIRED_FOR_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether BP Has To Be Assigned to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_WITH_SAME_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob Nummerngleichheit für den GP erforderlich ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_BP_WITH_SAME_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Numbers Have to Be the Same for BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CONSUMER_ACCOUNT_GROUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob es eine Kontengruppe für Konsumenten ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CONSUMER_ACCOUNT_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether It Is Account Group for Consumers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_ID_EXTERNAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob die Debitorennummer extern zu vergeben ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_ID_EXTERNAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Customer No. Is To Be Assigned Externally</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_REQUIRED_FOR_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob zum GP ein Debitor zugeordnet werden muss</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_REQUIRED_FOR_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Customer Has To Be Assigned to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_RETAIL_SITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob der Debitor Teil eines Vertriebszentrums ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_RETAIL_SITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Customer Is Part of Sales Center</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_WITH_SAME_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt an, ob Nummerngleichheit f. d. Debitor erforderlich ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>IS_CUSTOMER_WITH_SAME_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicates Whether Numbers Have To Be The Same for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Legt eine neue Zuordnung zwischen GP und Debitor an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates New Assignment Between BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUSTOMER_CONTACT_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt eine neue Ansprechpartnernummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUSTOMER_CONTACT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines New Contact Person Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUSTOMER_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt eine neue Debitorennummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUSTOMER_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines New Customer Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Legt neue Zuordnung zw. GP-Beziehung und Ansprechpartner an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>NEW_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates New Assignment Between BP Rel. and Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REFRESH_CT_ASSIGNMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Refresh all the assignments table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REFRESH_CT_ASSIGNMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Refresh Entire Assignments Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REL_TYPE_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartner-Beziehungstyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REL_TYPE_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Partner Relationship Category</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REMOVE_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht die Zuordnung zw. GP-Beziehung und Ansprechpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>REMOVE_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deletes Assignment Between BP Relationship + Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNDO_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Revidiert die Neuanlage einer Zuordnung zw. GP und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNDO_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revises Creation of Assignment Between BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNDO_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Revidiert die Neuanlage einer Ansprechpartnerzuordnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNDO_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revises Creation of Assignment of Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNREMOVE_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Revidiert die Löschung einer Ansprechpartnerzuordnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_KA_BP_CUSTOMER</CLSNAME>
+     <CMPNAME>UNREMOVE_CUST_CT_ASSIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revises Deletion of Assignment of Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

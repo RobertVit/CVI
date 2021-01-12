@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_VEND_TO_BP2</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00033</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_VEND_TO_BP2</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dieser IMG-Aktivität ordnen Sie der &lt;DS:DE.KTOKK&gt;Kontengruppe&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditorenstammsatzes &lt;DS:DE.BU_ROLE&gt;GP-Rollen&lt;/&gt; zu, in denen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner bei der Kreditorenbearbeitung mit angelegt werden soll.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Geschäftspartner wird im Rahmen der Kreditorenintegration bei der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bearbeitung des Kreditors mit der entsprechenden Kontengruppe in den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GP-Rollen mit angelegt, die dieser Kontengruppe zugeordnet sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben im Customizing des Finanzwesens die Kontengruppen und die den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kontengruppen zugeordneten Nummernkreise für das Anlegen von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditorenkonten festgelegt. Diese Einstellungen nehmen Sie in den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>folgenden IMG-Aktivitäten vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD3&gt;Kontengruppen mit Bildaufbau definieren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Kreditoren)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXKN1&gt;Nummernkreise für Kreditorenkonten anlegen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAS&gt;Nummernkreise den Kontengruppen für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditoren zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die GP-Rolle im Customizing des SAP-Geschäftspartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definiert und eingestellt. Diese Einstellung nehmen Sie in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG-Aktivität &lt;DS:SIMG.CABP_BUPA_TB003&gt;GP-Rollen definieren&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben das Customizing der Stammdatenintegration unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Anwendungsübergreifende Komponenten-&gt; Stammdatensynchronisation&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechend ihrer Bedürfnisse eingestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Ordnen Sie der Kontengruppe des Kreditors die GP-Rollen zu, in denen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner bei der Kreditorenbearbeitung mit angelegt werden soll.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Führen Sie auch die IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVIV_VEND_TO_BP1&gt;Nummernvergabe für Richtung Kreditor nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner festlegen&lt;/&gt; der &lt;LS&gt;Customer-Vendor-Integration&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_VEND_TO_BP2</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00025</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_VEND_TO_BP2</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this IMG activity you assign &lt;DS:DE.BU_ROLE&gt; BP roles&lt;/&gt; to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.KTOKK&gt; account group&lt;/&gt; for the vendor master record in which the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner is to be created when processing the vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you process the vendor as part of vendor integration the system</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>creates a business partner with the relevant account group in the BP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>roles that are assigned to this account group.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have determined the account groups and the number ranges assigned to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the account groups for creating vendor accounts in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Financial Accounting&lt;/&gt;. You make these settings in the following</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD3&gt;Define Account Groups with Screen Layout</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Vendors)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXKN1&gt;Create Number Ranges for Vendor Accounts&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAS&gt;Assign Number Ranges to Vendor Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Groups&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have defined and made settings for the BP role in Customizing for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;SAP Business Partner&lt;/&gt;. You make this setting in the IMG activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CABP_BUPA_TB003&gt;Define BP Roles&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have made the required settings in Customizing for &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization&lt;/&gt; by choosing &lt;LS&gt;Cross-Application Components-&gt; Master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data Synchronization&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Assign the BP roles in which the business partner is to be created when</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processing vendors to the account group for the vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Execute the IMG activity &lt;DS:SIMG.CVIV_VEND_TO_BP1&gt;Assign Numbers for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Direction Vendor to BP&lt;/&gt; which belongs to Customer/Vendor Integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVIV_VEND_TO_BP2</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00027</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVIV_VEND_TO_BP2</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette activité IMG vous permet d&apos;affecter au &lt;DS:DE.KTOKK&gt;groupe de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>compte&lt;/&gt; de la fiche fournisseur des &lt;DS:DE.BU_ROLE&gt;rôles partenaires</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; dans lesquels créer le partenaire lors du traitement du fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le cadre de l&apos;intégration fournisseur, la création du partenaire</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>s&apos;effectue, lors du traitement du fournisseur, avec le groupe de comptes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondant et dans les rôles partenaires affectés à ce groupe.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini dans le Customizing de la comptabilité financière les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>groupes de comptes et les tranches de numéros qui leur sont affectés</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pour créer des comptes fournisseur. Sélectionnez ces options dans les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activités IMG suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBD3&gt;Définir groupe de comptes avec mise en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>écran (fournisseur)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBXKN1&gt;Créer tranches de numéros pour comptes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fournisseur&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUORFBOBAS&gt;Affecter tranches de numéros aux groupes de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comptes pour fournisseurs&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini et paramétré les rôles partenaire dans le Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du partenaire SAP. Effectuez ce paramétrage dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CABP_BUPA_TB003&gt;Définir rôles partenaire&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez effectué le Customizing de l&apos;intégration de données de base</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sous &lt;LS&gt;Composants inter-applications -&gt; Synchronisation de données de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>base&lt;/&gt;, suivant vos besoins.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Affectez aux groupes de comptes du fournisseur les rôles partenaire dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lesquels créer le partenaire lors du traitement des fournisseurs.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Exécutez également l&apos;activité IMG &lt;DS:SIMG.CVIV_VEND_TO_BP1&gt;Définir</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribution de numéros pour le sens fournisseur vers partenaire&lt;/&gt; de l&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;LS&gt;intégration client-fournisseur&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

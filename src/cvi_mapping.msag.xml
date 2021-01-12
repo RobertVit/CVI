@@ -1,0 +1,1842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>CVI_MAPPING</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Fehler aus Zuordnungsobjekten der DKI</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Datenträger voll: Bitte legen Sie eine neue Diskette ein (x)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ungültiger Task &amp;1 für Objekt &amp;2 mit Identifikation &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Branche &amp;1 des Objekts &amp;2 mit ID &amp;3 konnte nicht zugeordnet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Mapping der Bankverbindung für Partner &amp;1 mit Current State nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Mapping der Bankverbindung für Debitor &amp;1 mit Current State nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Mapping Bankverbindung für Kreditor &amp;1 mit Current State nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Debitorennummer wurde bei externer Nummernvergabe nicht gefüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Kreditorennummer wurde bei externer Nummernvergabe nicht gefüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Fehler beim Schreiben der Tabelle: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Datenbankänderungen wurden durchgeführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Es wurden keine Änderungen durchgeführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Debitorennummer ist ungleich Geschäftspartnernummer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Geschäftspartnernummer wird als Debitorennummer gesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Bei interner Nummernvergabe darf keine Debitorennummer übergeben werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Sie haben keine Berechtigung zum Starten des Reports</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Die gewünschte Funktion ist nicht verfügbar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Keine Zuordnungsfunktion für Objekttyp &amp;1 möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Es liegen keine zu löschenden Vernüpfungen zwischen Objekt &amp;1 und &amp;2 vor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Nummernkreise von Kontengruppe &amp;1 und Gruppierung &amp;2 sind unterschiedlich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Kein GP-Rollentyp für GP-Rolle &amp;1 im Customizing vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Kein Debitor erforderlich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Kein Kreditor erforderlich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Debitor wird automatisch zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Kreditor wird automatisch zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Dem Geschäftspartner &amp;1 ist bereits ein Debitor &amp;2 zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Dem Geschäftspartner &amp;1 ist bereits ein Kreditor &amp;2 zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Feld &apos;&amp;1&apos; darf nicht initial sein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Wählen Sie mindestens eine Attributübernahme aus</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Report nicht ausführbar; siehe Programmdokumentation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Kreditorennummer ist ungleich Geschäftspartnernummer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Geschäftspartnernummer wird als Kreditorennummer gesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Bei interner Nummernvergabe darf keine Kreditorennummer übergeben werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Kein Zuordnungs-Customizing für Zahlungskartenart &apos;&amp;1&apos; hinterlegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Kontengruppe &amp;1 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Kontengruppe &amp;1 wurde kein Nummernkreis zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Nummernkreis &amp;1 zu Kontegruppe &amp;2 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Geschäftspartnergruppierung &amp;1 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Geschäftspartnergruppierung &amp;1 wurde kein Nummernkreis zugewiesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Nummernkreis &amp;1 zu Geschäftspartnergruppierung &amp;2 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Gruppierung &amp;1 darf nicht mit Nummerngleichheit verwendet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Gruppierung &amp;1 darf nur mit Nummerngleichheit verwendet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Geben Sie eine Geschäftspartnergruppierung ein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Debitor &amp;1 existiert bereits</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Kreditor &amp;1 existiert bereits</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Debitorennummer liegt nicht im Interval &amp;1 - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Kreditorennummer liegt nicht im Interval &amp;1 - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Addressdaten werden nicht synchronisiert, Gültigkeit in der Zukunft</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING011</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei eingestellter Nummerngleichheit für Geschäftspartner und Debitor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>müssen die Nummern übereinstimmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Übergeben Sie eine Debitorennummer, die der Geschäftspartnernummer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entspricht.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Prüfen Sie in der Aktivität &lt;DS:SIMG.V_TBD001&gt;Kontengruppe Gruppierung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zuordnen&lt;/&gt;, ob das Customizing korrekt eingestellt ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING011</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you have set the &lt;ZK&gt;Same Numbers&lt;/&gt; indicator for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and customer, then the numbers have to be the same.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Transfer a customer number that is the same as the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Check whether the correct settings have been made in Customizing in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity &lt;DS:SIMG.V_TBD001&gt;Assign Account Group to Grouping&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING011</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si vous avez activé la fonction de numéros identiques pour le partenaire</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>et le client, leurs numéros doivent être identiques.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Transférez un numéro de client correspondant au numéro du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Contrôlez dans l&apos;activité &lt;DS:SIMG.V_TBD001&gt;Affecter groupement à groupe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de compte&lt;/&gt; que le Customizing est correctement paramétré.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING012</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING012</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben bei eingestellter Nummerngleichheit zwischen Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Debitor keine Debitorennummer mitgegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System setzt die Geschäftspartnernummer als Debitorennummer ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING012</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING012</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;ZK&gt;Same Numbers&lt;/&gt; indicator is set for the business partner and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer. You have not specified a customer number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system sets the business partner number as the customer number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING012</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING012</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La fonction de numéros identiques entre le partenaire et le client est</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activée, mais vous n&apos;avez indiqué aucun numéro de client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le système utilise le numéro de partenaire comme numéro de client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING014</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING014</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben nicht die Berechtigung, den Report auszuführen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System gibt einen Fehler aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Festlegung, ob das Zuordnungs-Customizing und die entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abgleichreporte der Customer-Vendor-Integration bearbeitet werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können, nehmen Sie mit dem Berechtigungsobjekt &lt;DS:UO.CVI_CUST&gt;CVI_CUST</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bearbeitung von Zuordnungs-Customizing und Abgleichreporten&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:TRAN.SU01&gt;Prüfen Sie, ob dem Benutzer das benötigte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Berechtigungsobjekt zugeordnet wurde.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING014</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING014</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You do not have the authorization to execute the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system issues an error message.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You use the authorization object &lt;DS:UO.CVI_CUST&gt;CVI_CUST Process</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assignment Customizing and Synchronization Reports&lt;/&gt; to determine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>whether the synchronization reports for Customer/Vendor Integration can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be processed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:TRAN.SU01&gt;Check Whether User Has Been Assigned Required</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Authorization Object.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING014</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00009</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING014</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous n&apos;êtes pas autorisé à exécuter ce programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Une erreur est émise.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>L&apos;objet d&apos;autorisation &lt;DS:UO.CVI_CUST&gt;CVI_CUST Traitement du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing d&apos;affectation et des programmes de comparaison&lt;/&gt; vous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>permet de définir si le Customizing d&apos;affectation et les programmes de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comparaison correspondants de l&apos;intégration client/fournisseur peuvent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>être traités.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:TRAN.SU01&gt;Contrôlez l&apos;affectation de l&apos;objet d&apos;autorisation requis à</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;utilisateur.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING019</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING019</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Prüfen Sie die Einstellung der GP-Rolle in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;GP-Rollen definieren.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING019</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING019</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Check the settings for the BP role in the IMG activity &lt;LS&gt;Define BP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Roles&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING019</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING019</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contrôlez le paramétrage du rôle partenaire dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Définir rôles partenaire.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING029</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING029</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Bei eingestellter Nummerngleichheit für Geschäftspartner und Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>müssen die Nummern übereinstimmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Übergeben Sie eine Kreditorennummer, die der Geschäftspartnernummer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entspricht.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Prüfen Sie in der Aktivität &lt;DS:SIMG.V_TBC001&gt;Kontengruppe Gruppierung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zuordnen&lt;/&gt;, ob das Customizing korrekt eingestellt ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING029</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING029</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you have set the &lt;LS&gt;Same Numbers&lt;/&gt; indicator then the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner number and the vendor number have to be the same.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transfer a vendor number that corresponds to the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Check whether the correct settings have been made in Customizing in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity &lt;DS:SIMG.V_TBC001&gt;Define Number Assignment for Direction BP to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vendor&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING029</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING029</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Si vous avez paramétré la fonction de numéros identiques pour le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire et le fournisseur, leurs numéros doivent être identiques.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transférez un numéro de fournisseur correspondant au numéro de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Contrôlez dans l&apos;activité &lt;DS:SIMG.V_TBC001&gt;Affecter groupement à groupe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de compte&lt;/&gt; si le Customizing est correctement paramétré.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING030</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben bei eingestellter Nummerngleichheit zwischen Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Debitor keine Debitorennummer mitgegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System setzt die Geschäftspartnernummer als Debitorennummer ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING030</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;LS&gt;Same Numbers&lt;/&gt; indicator is set between the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and the customer number and you have not specified a customer number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system sets the business partner number as the customer number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING030</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous avez activé la fonction de numéros identiques entre le partenaire</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>et le client, mais vous n&apos;avez indiqué aucun numéro de client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le système utilise le numéro de partenaire comme numéro de client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING032</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es soll eine Zahlungskartenart zugeordnet  werden, für die kein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zuzuordnender Eintrag im Customizing vorhanden ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Zuordnung kann nicht durchgeführt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Definieren Sie in der IMG-Aktivität &lt;LS&gt;Zuahlungskarten zuordnen&lt;/&gt; eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>geeignete Zuordnung für die Zahlungskartenart  &apos;&amp;V1&amp;&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING032</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A payment card type is to be assigned for which no entry to be assigned</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>has been made in Customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The assignment cannot be carried out.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Define a suitable assignment for the payment card type &apos;&amp;V1&amp;&apos; in the IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity &lt;LS&gt;Assign Payment Cards&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>CVI_MAPPING032</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Un type de carte de paiement auquel ne correspond aucune entrée</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation dans le Customizing a été affecté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>L&apos;affectation ne peut pas être effectuée.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Définissez dans l&apos;activité IMG &lt;LS&gt;Affecter carte de paiement&lt;/&gt; une</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectation appropriée pour le type de carte de paiement &quot;&amp;V1&amp;&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>CVI_MAPPING</ARBGB>
+     <STEXT>Error from CVI Assignment Objects</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Test</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Invalid task &amp;1 for object &amp;2 with identification &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Industry &amp;1 for object &amp;2 with ID &amp;3 could not be assigned</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>It is not possible to map bank details for partner &amp;1 with current state</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>It is not possible to map bank details for customer &amp;1 with current state</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>It is not possible to map bank details for vendor &amp;1 with current state</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Customer number was not filled during external number assignment</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Vendor number was not filled during external number assignment</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error when writing to the table: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Database has been changed</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No changes have been made</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Customer number is not the same as the business partner number</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Business partner number is set as customer number</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>No customer number may be transferred during internal number assignment</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>You do not have the authorization to start the report</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>The function requested is not available</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>No assigment function is possible for object type &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>There are no links to be deleted between object &amp;1 and &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>The number ranges for account group &amp;1 and grouping &amp;2 are different</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>No BP role category has been maintained for BP role &amp;1 in Customizing</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>No customer is required</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>No vendor is required</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Customer is automatically assigned</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Vendor is automatically assigned</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Business partner &amp;1 already has customer &amp;2 assigned to it</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business partner &amp;1 already has vendor &amp;2 assigned to it</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Field &apos;&amp;1&apos; is not allowed to be empty</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Select at least one attribute to transfer</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Report cannot be executed; see program documentation</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Vendor number is not the same as the business partner number</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Business partner number is set as vendor number</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You cannot transfer a vendor number when assigning numbers internally</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>There is no assignment mapping defined for payment card type &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Account group &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>No number range has been assigned to account group &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Number range &amp;1 for account group &amp;2 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Business partner grouping &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>No number range has been assigned to business partner grouping &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Number range &amp;1 for business partner grouping &amp;2 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>You are not permitted to use grouping &amp;1 with identical numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>You are only permitted to use grouping &amp;1 with identical numbers</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Enter a business partner grouping</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Customer &amp;1 already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Vendor &amp;1 already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Customer number is not within interval &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Vendor number is not within interval &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Address data is not synchronized, validity is in the future</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

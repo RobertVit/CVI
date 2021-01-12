@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_S4_CHECKS_BP_ENH</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Pre check report for upgradation</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_S4_CHECKS_BP_ENH</CLSNAME>
+     <CMPNAME>ACT_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of number range object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_S4_CHECKS_BP_ENH</CLSNAME>
+     <CMPNAME>CHECK_TAX_CATEGORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tax Category check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_S4_CHECKS_BP_ENH</CLSNAME>
+     <CMPNAME>GV_MSEG_TABLE_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_S4_CHECKS_BP_ENH</CLSNAME>
+     <CMPNAME>GV_SITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

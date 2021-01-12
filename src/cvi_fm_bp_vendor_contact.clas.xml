@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Assignment Between BP + Contact Person for Vendor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>CREATE_ORG_AND_REL_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generates New Address for Relationship and Organization</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>GET_VC_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines Addresses for Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Address for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_BUSINESS_HOURS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Visiting Hours for Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Addr. for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Person to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VC_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Address for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VC_BUSINESS_HOURS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Visiting Hours for Contact Person to Relationship</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VC_CONTACT_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VC_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VC_PRIVATE_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Private Address for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR_CONTACT</CLSNAME>
+     <CMPNAME>MAP_VEND_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

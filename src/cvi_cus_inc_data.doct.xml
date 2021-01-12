@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>CVI_CUS_INC_DATA</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00024</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_CUS_INC_DATA</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Inconsistent Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You have not maintained consistent data in the Tax, Industry/Location,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and Bank fields. Perform the following steps:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>If there is an entry in the &lt;LS&gt;Inconsistent Tax Data &lt;/&gt;table,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintainconsistent data in the following fields of corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer table and the linked supplier table:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;STCD1 - Tax Number 1 &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;STCD2 - Tax Number 2&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;STKZU - Liable for VAT&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;STCEG - VAT Registration Number&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>If there is an entry in the &lt;LS&gt;Inconsistent Industry/Location Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;table, maintain consistent data in the following fields of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding customer table and the linked supplier table:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BBBNR - International Location Number (part 1)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BBSNR - International Location Number (part 2)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BUBKZ - Check Digit for the International Location Number&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;BRSCH - Industry Key &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;VBUND - Company ID&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>If there is an entry in the &lt;LS&gt;Inconsistent Bank Data &lt;/&gt;table,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintain consistent data in the following fields of corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer table and the linked supplier table.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BANKS - Bank Country Key&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BANKL - Bank Number&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BANKN - Bank Account Number&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

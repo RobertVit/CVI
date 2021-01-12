@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>Ermittlung des Geschäftspartnerstyps aufgrund der Anrede</SHORTTEXT>
+   <SPOT_NAME>CVI_MAP_TITLE</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>CVI_MAP_TITLE</SPOT_NAME>
+     <BADI_NAME>CVI_MAP_TITLE</BADI_NAME>
+     <IMPL_NAME>CVI_MAP_BP_CATEGORY</IMPL_NAME>
+     <IMPL_CLASS>CL_IM_CVI_MAP_BP_CATEGORY</IMPL_CLASS>
+     <IMPL_SHORTTEXT>Ermittlung des Geschäftspartnerstyps aufgrund der Anrede</IMPL_SHORTTEXT>
+     <IMPL_SHORTTEXT_ID>42816C3CEDA9067BE10000000A114E5B</IMPL_SHORTTEXT_ID>
+     <MIG_BADI_IMPL>CVI_MAP_BP_CATEGORY</MIG_BADI_IMPL>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>42816C28EDA9067BE10000000A114E5B</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>42816C28EDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ermittlung des Geschäftspartnerstyps aufgrund der Anrede</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42816C28EDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Determine BP Category On The Basis of Form of Address</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42816C28EDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Détermination de la catégorie de partenaire selon le titre</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>42816C3CEDA9067BE10000000A114E5B</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>42816C3CEDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ermittlung des Geschäftspartnerstyps aufgrund der Anrede</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42816C3CEDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Determine BP Category On The Basis of Form of Address</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42816C3CEDA9067BE10000000A114E5B</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Détermination de la catégorie de partenaire selon le titre</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>CVI_MAP_BP_CATEGORY</OBJ_NAME>
+     <CONCEPT>42816C28EDA9067BE10000000A114E5B</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>CVI_MAP_BP_CATEGORY</OBJ_NAME>
+     <CONCEPT>42816C3CEDA9067BE10000000A114E5B</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

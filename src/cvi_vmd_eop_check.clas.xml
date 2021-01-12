@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Vendor EOP Check</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GC_DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GC_SPACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GC_TASK_FINAL_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of 9 digits</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GC_X</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GT_PUR_CMPLT_PARTNERS_FINAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maintanence of Business Partner for SORT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_APPL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_CHECK_PUR_COMPL_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for Purpose Completion Status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_DETAIL_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>EoP Check: Detail Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_EOP_RUN_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execution Mode for EoP Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_PROT_OUTPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>EoP Check: Output of Object Logs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_TEST_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_VMD_EOP_CHECK</CLSNAME>
+     <CMPNAME>GV_VALIDATE_NXTCHK_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate Next Check Date Information during EoP Check</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

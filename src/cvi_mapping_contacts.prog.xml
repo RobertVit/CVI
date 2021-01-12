@@ -1,0 +1,1640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>CVI_MAPPING_CONTACTS</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>P</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Abteilungsnummern</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Funktionen</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Vollmachten</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>VIP-Kennzeichen</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Familienstände</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Customizing der Ansprechpartnerattribute abgleichen</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_02_27</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_10_AB</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_12_FK</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_14_PV</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_16_IP</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_27_02</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AB_10</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FK_12</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_IP_16</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PV_14</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Department Numbers</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Functions</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Authorities</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>VIP Indicator</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Marital Statuses</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Synchronize Customizing for Contact Person Attributes</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_02_27</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_10_AB</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_12_FK</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_14_PV</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_16_IP</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_27_02</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_AB_10</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FK_12</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_IP_16</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PV_14</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Numéros de service</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Fonctions</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Procurations</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Code VIP</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Situations de famille</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Comparer Customizing des attributs de contact</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_02_27</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_10_AB</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_12_FK</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_14_PV</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_16_IP</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_27_02</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_AB_10</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FK_12</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_IP_16</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PV_14</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_CONTACTS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00119</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_CONTACTS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Report können Sie unter bestimmten Voraussetzungen die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungen zwischen den  Ansprechpartnerattributen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und den Ansprechpartnerattributen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes herstellen. Mit diesen Zuordnungen unterstützen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die bidirektionale Synchronisation des Ansprechpartners innerhalb der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenintegration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit dem Report können die folgenden Attribute abgeglichen werden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Abteilungsnummern des Ansprechpartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Funktionen des Ansprechpartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vollmachten des Ansprechpartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP-Kennzeichen des Ansprechpartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Familienstände</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report kann beim Einrichten des Systems für das jeweilige</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Attributpaar einmalig ausgeführt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report übernimmt die Customizing-Einträge eines Quellobjekts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(entweder die entsprechenden Ansprechpartnerattribute des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners oder die korrespondierenden Ansprechpartnerattribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des Debitorenstammsatzes) in das Customizing des geeigneten Zielobjekts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(entweder die entsprechenden Ansprechpartnerattribute des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes oder die Ansprechpartnerattribute des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners) und stellt die Zuordnungen zwischen den beiden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objekten her.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beachten Sie, dass durch fehlende oder fehlerhafte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing-Zuordnungen während der anschließenden Geschäftspartner-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bzw. Debitorenbearbeitung keine Fehler ausgelöst werden, die Attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aber dennoch nicht in das Zielobjekt fortgeschrieben werden!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Report kann direkt oder über das Sychnronisationscockpit aufgerufen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können die Zuordnungen der entsprechenden Customizing-Einträge auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manuell in den folgenden IMG-Aktivitäten vornehmen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Abteilungsnummern des Ansprechpartners zuordnen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Funktionen des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Vollmachten des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;VIP-Kennzeichen des Ansprechpartners zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_MARST_LINK&gt;Familienstände zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beachten Sie, dass sie zusätzlich zur Zuordnung auch den entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Eintrag im Customizing des Zielobjekts sicherstellen. Hierzu stehen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ihnen entweder die folgenden IMG-Aktivitäten des Debitorenstammsatzes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder die entsprechenden IMG-Aktivitäten des Geschäftspartners zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verfügung:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>K1</TDFORMAT>
+       <TDLINE>Debitorenstammsatz,,Geschäftspartner:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt;Standardabteilungen definieren&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Abteilungen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt;Funktionen Ansprechpartner definieren&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Funktionen definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt;Vollmachten definieren&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Vollmachten definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;VIP-Kennzeichen definieren&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt;VIP-Einträge definieren&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.OHIX0024&gt;Familienstand festlegen&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_TB027&gt;Familienstände pflegen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben entweder das jeweilige Ansprechpartnerattribut des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes oder das Asprechpartnerattribut des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners im Customizing definiert. Das jeweils bereits</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingestellte Objekt stellt ihr Quellobjekt dar. Bei Ihrer Analyse können</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie die einzelnen Attributpaare jeweils für sich betrachten und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>festlegen, welches Attribut (entweder Geschäftspartner oder Debitor) ihr</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Quellobjekt darstellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Stellen Sie vor Ausführung des Reports sicher, dass im Zielobjekt und im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungs-Customizing noch keine Einträge vorhanden sind. Sollte das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>jeweilige Ansprechpartnerattribut bereits in beiden Objekten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Geschäftspartner und Debitor) oder im Zuordnungs-Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingestellt sein, nehmen Sie die Zuordnung dieses Attributs manuell in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den entsprechenden IMG-Aktivitäten  vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können für jedes Attributpaar separat auswählen, wie die Übernahme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Zuordnung der Einträge erfolgt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie beim jeweiligen Attributpaar das Kennzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Kunde/Lieferant-&gt; Partner&lt;/&gt; wählen, dann können Sie die Einträge</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dieses Ansprechpartnerattributs des Debitorenstammsatzes in das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechende Customizing des Geschäftspartners übernehmen und die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnung der Attribute beider Stammdaten herstellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie beim jeweiligen Attributpaar das Kennzeichen &lt;LS&gt;Partner-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kunde/Lieferant&lt;/&gt; wählen, dann können Sie die Einträge dieses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartnerattributs des Geschäftspartners in das entsprechende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing des Debitorenstammsatzes übernehmen und die Zuordnung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Attribute beider Stammdaten herstellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können das passende Kennzeichen für das jeweilige Attributpaar nur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>setzen, wenn die Voraussetzung erfüllt ist, dass ausschließlich für das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> Quellobjekt Einträge vorgenommen worden sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Prüfen Sie vor Ausführung des Reports für jedes Attributpaar einzeln, ob</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Voraussetzungen für die Ausführung gegeben sind oder ob Sie das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing manuell ausführen sollten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Führen Sie den Report für die zugelassene Zuordnungsrichtung des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>jeweiligen Attributpaares aus und prüfen Sie das Ergebnis.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In der Debitorenintegration sollen die Ansprechpartnerattribute des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und Debitors synchronisiert werden. Beim Einrichten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Customer-Vendor-Integration möchten Sie folglich die benötigten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing-Einstellungen für die Ansprechpartnerattributzuordnungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vornehmen. Der Report kann Ihnen die erforderlichen Zuordnungen durch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Automatisierung erleichtern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie analysieren die jeweiligen Attributpaare jeweils für sich:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Die Standardabteilungen des Debitorenstammsatzes sind bereits im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing des Vertriebs definiert.  Sie haben sichergestellt, dass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine Abteilungen des Geschäftspartners definiert wurden und dass auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>noch keine Zuordnungen zwischen den Abteilungen des Debitors und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners vorgenommen wurden. Wenn diese Voraussetzungen gegeben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sind, können Sie durch Ausführen des Reports das Zuordnungs-Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Abteilungen automatisch vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Die VIP-Kennzeichen des Geschäftspartners sind bereits im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner-Customizing definiert. Sie haben sichergestellt, dass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine VIP-Kennzeichen des Debitors definiert wurden und dass auch noch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine Zuordnungen zwischen den VIP-Kennzeichen des Debitors und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners vorgenommen wurden. Wenn diese Voraussetzungen gegeben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sind, können Sie durch Ausführen des Reports das Zuordnungs-Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der VIP-Kennzeichen automatisch vornehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Abschnitt &lt;LS&gt;Abteilungsnummern&lt;/&gt; setzen Sie unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Kunde/Lieferant-&gt; Partner&lt;/&gt; das Kennzeichen und im Abschnitt &lt;LS&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>VIP-Kennzeichen&lt;/&gt; setzen Sie unter unter &lt;LS&gt;Partner-&gt; Kunde/Lieferant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;das Kennzeichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können den Report für das jeweilige Attributpaar einmalig ausführen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Der Report legt die Definitionen der Abteilungsnummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und der VIP-Kennzeichen des Debitors an und legt die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungen zwischen den jeweiligen Abteilungsnummern und jeweilingen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vip-Kennezichen fest.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_CONTACTS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <TXTLINES>00104</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_CONTACTS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can use this report to assign contact person attributes for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner to contact person attributes for customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records and vice versa, assuming certain prerequisites have been met.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>These assignments support the bidirectional synchronization of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact person within customer integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can synchronize the following attributes using this report:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Department numbers for contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Functions of contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Authority of contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP indicator for contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Marital statuses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can run the report once for each attribute pair when you set up the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report transfers the Customizing entries for a source object (either</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the corresponding contact person attributes for the business partner or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the corresponding contact person attributes for the customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>record) to the Customizing for a suitable target object (either the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding contact person attributes for the customer master record</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or the contact person attributes for the business partner) and makes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignments between both objects.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Note that the system does not trigger errors during subsequent business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner or customer processing as a result of missing or incorrect</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing assignments but that it does not update attributes in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>target object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can call up the report directly or from the synchronization cockpit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can assign the relevant Customizing settings manually in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following IMG activities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt; Assign Department Numbers for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt; Assign Functions of Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt; Assign Authority of Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt; Assign VIP Indicator for Contact Person&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_MARST_LINK&gt; Assign Marital Statuses&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Note that in addition to the assignment you also have to ensure that you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>make the corresponding entry in the Customizing for the target object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You can do this by using either the following IMG activities for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer master records or the corresponding IMG activities for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>K1</TDFORMAT>
+       <TDLINE>Customer master record,,Business partner:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt; Define Standard Departments&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt; Define Departments&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt; Define Contact Person Functions&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt; Define Functions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSR&gt; Define Authority&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt; Define Authority&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt; Define VIP Indicator&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB916&gt; Define VIP Entries&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.OHIX0024&gt; Create Marital Status&lt;/&gt;,,&lt;DS:SIMG._CABP_TB027&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Maintain Marital Status&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have defined either the contact person attribute for the customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master record or the contact person attribute for the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in Customizing. This object is your source object. When you carry out an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>analysis you can examine the attribute pairs individually and determine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which attribute (either business partner or customer) is to be your</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>source object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Before you run the report, ensure that no entries are available in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>target object or in the assignment Customizing. If the contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute in question is already set in both objects (business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and customer) or in the assignment Customizing, assign this attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manually in the relevant IMG activity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can select how each attribute pair is transferred and how the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries are assigned.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you select the &lt;LS&gt;Customer/Vendor-&gt; Partner&lt;/&gt; indicator for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute pair then you can transfer the entries for this contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute from the customer master record into the Customizing for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner and assign the attributes for both sets of master data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you select the &lt;LS&gt;Partner-&gt; Customer/Vendor&lt;/&gt; indicator for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute pair then you can transfer the entries for this contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute from the business partner into the Customizing for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer master record and assign the attributes for both sets of master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can set the indicator for the attribute pair only if entries have</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>been made exclusively for the source object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Before you run the report for each object pair individually check</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>whether the prerequisites have been met or whether you have to make</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing settings manually.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Run the report for the assignment direction indicated for the attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pair and check the results.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You want to synchronize the contact person attributes for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and the customer in customer integration. When you set up</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration you therefore want to make the required</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing settings for assigning contact person attributes. The report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can help you to make the required assignments by automating some of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You examine each attribute pair individually.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have already defined the standard departments for the customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master data in Customizing for Sales and Distribution.  You have ensured</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that no departments have been defined for the business partner and that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>there are no assignments between the departments for the customer and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>those for the business partner. If these prerequisites have been met you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can automatically transfer the assignment Customizing for departments by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>running the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have already defined the VIP indicator for the business partner in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner Customizing. You have ensured that no VIP indicator has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>been defined for the customer and that there are no assignments between</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the VIP indicator for the customer and those for the business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>If these prerequisites have been met you can automatically transfer the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment Customizing for the VIP indicator by running the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Set the &lt;LS&gt;Customer/Vendor-&gt; Partner&lt;/&gt; indicator in the &lt;LS&gt;Department</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Numbers&lt;/&gt; section and the &lt;LS&gt;Partner-&gt; Customer/Vendor&lt;/&gt; indicator in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the &lt;LS&gt;VIP Indicator&lt;/&gt; section.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can run the report once for each attribute pair. The report creates</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definitions of department numbers for the business partner and the VIP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>indicator for the customer, and makes assignments between the department</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers and the VIP indicators.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_CONTACTS</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0013</VERSION>
+      <TXTLINES>00106</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_CONTACTS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00013</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme vous permet, sous certaines conditions, de générer les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations entre les attributs du contact du partenaire et les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attributs du contact de la fiche client. Ces affectations  permettent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>une synchronisation bilatérale du contact au sein de l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme vous permet de comparer les attributs suivants :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Numéros de service du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Fonctions du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Procurations du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Code VIP du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Situations de famille</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Lors de l&apos;installation du système, vous pouvez exécuter ce programme une</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>seule fois pour le couple d&apos;attributs actuel.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme reprend les entrées de Customizing d&apos;un objet source (les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attributs du contact du partenaire correspondants ou les attributs du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact de la fiche client correspondants) dans le Customizing de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;objet cible approprié (les attributs du contact de la fiche client</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondants ou les attributs du contact du partenaire) et génère les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations entre les deux objets.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Notez que des affectations de Customizing erronées ou manquantes ne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>peuvent entraîner l&apos;émission d&apos;une erreur pendant le traitement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consécutif du partenaire ou du client. Cependant, les attributs ne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>seront pas mis à jour dans l&apos;objet cible !</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Appelez ce programme directement ou via le cockpit de synchronisation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez également procéder manuellement aux affectations des entrées</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du Customizing correspondantes dans les activités IMG suivantes:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP1_LINK&gt;Affecter numéros de département du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP2_LINK&gt;Affecter fonctions du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP3_LINK&gt;Affecter procurations du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_CP4_LINK&gt;Affecter code VIP du contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.CVIV_MARST_LINK&gt;Affecter situations de famille&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Notez que, outre l&apos;affectation, ces activités garantissent l&apos;existence</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de l&apos;entrée correspondante dans le Customizing de l&apos;objet cible. Pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cela, vous diposez des activités IMG de la fiche client suivantes ou des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activités IMG du partenaire correspondantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>K1</TDFORMAT>
+       <TDLINE>Fiche client,,Partenaire :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSQ&gt;Définir départements par défaut&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB910&gt;Définir départements&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVSN&gt;Définir fonctions du contact&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB912&gt;Définir fonctions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Définir procurations&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_GPB_TB914&gt;Définir procurations&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;Définir codes VIP&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOVR7&gt;Définir entrées VIP&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T1</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG.OHIX0024&gt;Déterminer situation de famille&lt;/&gt;,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG._CABP_TB027&gt;Gérer situation de famille&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous avez défini l&apos;attribut actuel du contact de la fiche client ou</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;attribut du contact du partenaire dans le Customizing. L&apos;objet déjà</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>paramétré à ce moment constitue votre objet source. Lors de votre</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>analyse, vous pouvez considérer les couples d&apos;attributs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>individuellement, et déterminer celui qui représente votre objet source</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(partenaire ou client).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Avant d&apos;exécuter le programme, assurez-vous qu&apos;il n&apos;existe encore aucune</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entrée dans l&apos;objet cible ainsi que dans le Customizing d&apos;affectation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Si l&apos;attribut du partenaire actuel est déjà paramétré dans les deux</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objets (partenaire ou client) ou dans le Customizing d&apos;affectation,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>procédez manuellement à l&apos;affectation de l&apos;attribut dans les activités</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>IMG correspondantes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pour chacun de ces attributs, vous pouvez définir séparément la manière</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dont la reprise et l&apos;affectation des entrées s&apos;effectuent :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Si vous sélectionnez le code &lt;LS&gt;Client/Fournisseur-&gt; Partenaire&lt;/&gt; pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le couple d&apos;attribut actuel, vous pouvez reprendre les entrées de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;attribut correspondant du contact de la fiche client dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing du partenaire correspondant et générer l&apos;affectation des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attributs des deux ensembles de données de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Si vous sélectionnez le code &lt;LS&gt;Partenaire -&gt; Client/Fournisseur&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pour le couple d&apos;attributs actuel, vous pouvez reprendre les entrées de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;attribut correspondant du contact partenaire dans le Customizing de la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fiche client correspondant et générer l&apos;affectation des attributs des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deux ensembles de données de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez activer le code approprié pour le couple d&apos;attributs actuel</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>uniquement si les entrées ont été reprises exclusivement pour l&apos;objet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>source.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Avant d&apos;exécuter le programme, contrôlez individuellement pour chaque</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>couple d&apos;attributs si les conditions requises pour l&apos;exécution sont</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>satisfaites ou si vous devez exécuter manuellement le Customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Exécutez le programme pour le sens d&apos;affectation du couple d&apos;attributs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>actuel autorisé et contrôlez le résultat.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Les attributs du contact du partenaire et du client doivent être</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisés dans l&apos;intégration client. Lors de l&apos;installation de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;intégration client/fournisseur, vous voulez définir les options de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing nécessaires pour les affectations des attributs de contact.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Via l&apos;automatisation, ce programme peut prendre en charge pour vous les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations indispensables.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Analysez individuellement les couples d&apos;attributs actuels :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Les départements par défaut de la fiche client sont déjà définis dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing de la distribution. Vous vous êtes assuré qu&apos;aucun</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>département du partenaire n&apos;a été défini, et qu&apos;aucune affectation n&apos;a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>encore été effectuée entre les départements du client et du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Si ces conditions sont satisfaites, vous pouvez définir automatiquement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le Customizing des affectations de départements en exécutant le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Les codes VIP des partenaires sont déjà définis dans le Customizing du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire. Vous vous êtes assuré qu&apos;aucun code VIP du client n&apos;a été</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>défini et qu&apos;aucune affectation n&apos;a encore été effectuée entre les codes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>VIP du client et ceux du partenaire. Si ces conditions sont satisfaites,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vous pouvez définir le Customizing des affectations de codes VIP en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>exécutant le programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans la section &lt;LS&gt;Numéros de département&lt;/&gt;, activez le code sous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Client/Fournisseur -&gt; Partenaire&lt;/&gt;, et dans la section &lt;LS&gt;Code VIP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;, activez le code sous &lt;LS&gt;Partenaire -&gt; Client/Fournisseur&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez exécuter une seule fois le programme pour le couple</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;attributs actuel. Le programme fixe les définitions des numéros de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>département  du partenaire ainsi que le code VIP du client et détermine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les affectations entre les numéros de département actuels et les codes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>VIP actuels.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

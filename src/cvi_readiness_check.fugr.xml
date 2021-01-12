@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>CVI-RC-FB für Debitor und Kreditor</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LCVI_READINESS_CHECKTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLCVI_READINESS_CHECK</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>CVI_READINESS_CHECK</FUNCNAME>
+     <SHORT_TEXT>FM for CVI RC check</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOWNLOAD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ABAP_BOOL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PATH</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_XML</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_XSL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>TRANSFORMATION_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOWNLOAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Download the XML and XSL file to front end</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PATH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table for Converting Internal File Names into External Names</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_XML</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_XSL</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return parameter table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TRANSFORMATION_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Error while generating xml</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

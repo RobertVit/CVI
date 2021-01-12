@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Synchronisierung der Steuernummern</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LCVI_SYNC_TAX_NUMBERSP01</SOBJ_NAME>
+    <SOBJ_NAME>LCVI_SYNC_TAX_NUMBERSP02</SOBJ_NAME>
+    <SOBJ_NAME>LCVI_SYNC_TAX_NUMBERSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLCVI_SYNC_TAX_NUMBERS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>CVI_ANALYSE_CUST_TAX_DATA</FUNCNAME>
+     <SHORT_TEXT>Analysiert die Steuerdaten bei BP und Debitor</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_TAB_PP_STATUS_CHANGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabedaten zur Statusänderung von Objekten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_ANALYSE_VEND_TAX_DATA</FUNCNAME>
+     <SHORT_TEXT>Analysiert die Steuerdaten bei BP und Kreditor</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_TAB_PP_STATUS_CHANGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabedaten zur Statusänderung von Objekten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_SYNC_CUST_TAX_DATA</FUNCNAME>
+     <SHORT_TEXT>Analysiert die Steuerdaten bei BP und Debitor</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_TAB_PP_STATUS_CHANGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabedaten zur Statusänderung von Objekten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_SYNC_VEND_TAX_DATA</FUNCNAME>
+     <SHORT_TEXT>Analysiert die Steuerdaten bei BP und Debitor</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_TAB_PP_STATUS_CHANGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_TAB_STATUS_CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabedaten zur Statusänderung von Objekten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_TAX_BUILD_CUST_PACKAGES</FUNCNAME>
+     <SHORT_TEXT>Aufbau der Pakete für die Synchronisierung der Steuernummern des Debitors</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_STR_PARAM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVIS_CONVERSION_PARAMS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_STR_PP_PACKAGEKEY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_LIMIT_HIGH</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_LIMIT_LOW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_FLG_NO_PACKAGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_STR_PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Globale Parameter für die Umsetzung von CVI-Daten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schlüssel einer Paketvorlage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LIMIT_HIGH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LIMIT_LOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_FLG_NO_PACKAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kein Paket mehr erzeugt</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_TAX_BUILD_VEND_PACKAGES</FUNCNAME>
+     <SHORT_TEXT>Aufbau der Pakete für die Synchronisierung der Steuernummern des Kreditors</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_STR_PARAM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVIS_CONVERSION_PARAMS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_STR_PP_PACKAGEKEY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_LIMIT_HIGH</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_LIMIT_LOW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_FLG_NO_PACKAGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_STR_PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Globale Parameter für die Umsetzung von CVI-Daten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schlüssel einer Paketvorlage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LIMIT_HIGH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LIMIT_LOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_FLG_NO_PACKAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kein Paket mehr erzeugt</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_TAX_SET_CUST_CURR_OBJLIST</FUNCNAME>
+     <SHORT_TEXT>Setzt die aktuelle Liste der zu bearbeitenden Debitoren/GP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_STR_APPLPARAM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVIS_CONVERSION_PARAMS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_STR_PP_PACKAGEKEY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIMIT_LOW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIMIT_HIGH</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_XRESTART</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FLG_ABORTED</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_STR_APPLPARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Globale Parameter für die Umsetzung von CVI-Daten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schlüssel einer Paketvorlage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LIMIT_LOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LIMIT_HIGH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_XRESTART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FLG_ABORTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_TAX_SET_VEND_CURR_OBJLIST</FUNCNAME>
+     <SHORT_TEXT>Setzt die aktuelle Liste der zu bearbeitenden Kreditoren/GP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_STR_APPLPARAM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVIS_CONVERSION_PARAMS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_STR_PP_PACKAGEKEY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIMIT_LOW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIMIT_HIGH</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BANK_DTE_PP_OBJNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_XRESTART</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FLG_ABORTED</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_STR_APPLPARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Globale Parameter für die Umsetzung von CVI-Daten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STR_PACKAGE_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schlüssel einer Paketvorlage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LIMIT_LOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LIMIT_HIGH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nummer eines Objekts in der Parallelisierung (Schlüssel)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_XRESTART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FLG_ABORTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

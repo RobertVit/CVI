@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVI_CUSTOM_MAPPER</ACTIVITY>
+     <DOCU_ID>SIMGCVI_CUSTOM_MAPPER</DOCU_ID>
+     <ATTRIBUTES>CVI_CUSTOM_MAPPER</ATTRIBUTES>
+     <C_ACTIVITY>CVI_CUSTOM_MAPPER</C_ACTIVITY>
+     <TCODE>S_PCO_36000102</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVI_CUSTOM_MAPPER</ACTIVITY>
+      <TEXT>BAdI: Datenzuordnung GP&lt;-&gt;Debitor/Kreditor/Ansprechpartner</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVI_CUSTOM_MAPPER</ACTIVITY>
+      <TEXT>BAdI: Data Assignment BP &lt;-&gt; Customer/Vendor/Contact Person</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVI_CUSTOM_MAPPER</ACTIVITY>
+      <TEXT>BAdI : Affectation données Partenaire-Client/Fourn./Contact</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

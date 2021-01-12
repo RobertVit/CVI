@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CVI_MAP_CONTACT</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>BOOLE</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Ansprechpartnerzuordnung aktivieren</DDTEXT>
+    <REPTEXT>Ansprechpartnerzuordnung aktiv</REPTEXT>
+    <SCRTEXT_S>AP aktiv</SCRTEXT_S>
+    <SCRTEXT_M>Ansprechpartn. aktiv</SCRTEXT_M>
+    <SCRTEXT_L>Ansprechpartnerzuordnung aktiv</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Activate Assignment of Contact Person</DDTEXT>
+     <REPTEXT>Contact Person Assign. Active</REPTEXT>
+     <SCRTEXT_S>CP Active</SCRTEXT_S>
+     <SCRTEXT_M>Cntct Person Active</SCRTEXT_M>
+     <SCRTEXT_L>Contact Person Assign. Active</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Activer affectation contact</DDTEXT>
+     <REPTEXT>Affectation contact active</REPTEXT>
+     <SCRTEXT_S>Ctct actif</SCRTEXT_S>
+     <SCRTEXT_M>Affct. contct active</SCRTEXT_M>
+     <SCRTEXT_L>Affectation contact active</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_MAP_CONTACT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAP_CONTACT</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bewirkt, dass die Ansprechpartnerzuordnungen in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration aktiviert werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie nehmen die Aktivierung der Zuordnungen vor, wenn die folgenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beiden Aussagen zutreffen: Die Ansprechpartnerattribute sollen an  der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnerbeziehung oder Debitorenstammsatz bearbeitet werden und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie möchten durch die Zuordnungen der Attribute sicherstellen, dass der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartner im Rahmen der Debitorenintegration synchronisiert wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Sie können die folgenden Attribute des Ansprechpartners synchronisieren:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Abteilungsnummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Funktionen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vollmachten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP-Kennzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben das Customizing der Ansprechpartnerattribute unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Stammdatensynchronisation-&gt; Customer-Vendor-Integration-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Einstellungen des Geschäftspartners-&gt; Einstellungen zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kunden-/Debitorenintegration-&gt; Feldzuordnung für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenintegration-&gt; Zuordnung von Attributen-&gt; Ansprechpartner &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>vollständig eingestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_MAP_CONTACT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00017</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAP_CONTACT</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ensures that assignment of contact persons is activated in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You activate this assignment if both of the following statements are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>true: You want to process contract person attributes in business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relationships or in customer master records, and you want to assign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>these attributes to ensure that the contact person is synchronized as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>part of customer integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can synchronize the following attributes for the contact person:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Department numbers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Functions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Authority</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>VIP indicator</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have made all Customizing settings for contact person attributes by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>choosing &lt;LS&gt;Master Data Synchronization-&gt; Customer/Vendor Integration-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner Settings-&gt; Settings for Customer Integration-&gt; Field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assignment for Customer Integration-&gt; Assign Attributes-&gt; Contact Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_MAP_CONTACT</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00016</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAP_CONTACT</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Entraîne l&apos;activation des affectations du contact dans l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Procédez à l&apos;activation de l&apos;affectation si les attributs du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>doivent être traités dans la relation partenaire ou la fiche client, et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>si vous voulez garantir via les affectations des attributs la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation du contact dans le cadre de l&apos;intégration client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Vous pouvez synchroniser les attributs du partenaire suivants :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Numéros du département</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Fonctions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Procurations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Code VIP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous avez complètement paramétré le Customizing des attributs du contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sous &lt;LS&gt;Synchronisation de données de base -&gt; Intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur -&gt; Options du partenaire -&gt; Options de l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur -&gt; Affectation de zones pour l&apos;intégration client -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Affectation d&apos;attributs -&gt; Contact&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

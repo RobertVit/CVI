@@ -1,0 +1,1 @@
+Permet de représenter la fonctionalité existant pour la création de valeurs par défaut via les tables TBD002 et TBC002.

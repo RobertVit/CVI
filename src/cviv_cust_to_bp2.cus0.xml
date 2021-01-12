@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVIV_CUST_TO_BP2</ACTIVITY>
+     <DOCU_ID>SIMGCVIV_CUST_TO_BP2</DOCU_ID>
+     <ATTRIBUTES>CVIV_CUST_TO_BP2</ATTRIBUTES>
+     <C_ACTIVITY>CVIV_CUST_TO_BP2</C_ACTIVITY>
+     <TCODE>S_PCO_36000080</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVIV_CUST_TO_BP2</ACTIVITY>
+      <TEXT>GP-Rolle für Richtung Debitor nach GP festlegen</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVIV_CUST_TO_BP2</ACTIVITY>
+      <TEXT>Define BP Role for Direction Customer to BP</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVIV_CUST_TO_BP2</ACTIVITY>
+      <TEXT>Définir le rôle partenaire pour le sens client à partenaire</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>CVI_FS_C_C_IND_KEY_OUT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_FS_C_C_IND_KEY_OUT</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Missing Industry Keys - Outgoing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Industry key mapping is missing in the direction Business Partner to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor. To assign the Industry Key, follow the below steps:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Click &lt;LS&gt;Customizing &lt;/&gt;button.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Choose the &lt;LS&gt;Industry System&lt;/&gt;. It opens the Customizing activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>    &lt;DS:SIMG.SIMG_CFMENUORFBOB44&gt;Define Industries.&lt;/&gt; Multiple Industry</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keys cannot have the same Industry Sector under an Industry System.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Maintain the mapping and click &lt;LS&gt;Save&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

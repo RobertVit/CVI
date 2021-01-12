@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_MAPPER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Zuordnung der Daten der Objekte in der CVI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Beziehung</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Geschäftspartner</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Debitor</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Kreditor</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Person</ENTRY>
+     <LENGTH>6</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Relationship</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Business Partner</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Customer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Vendor</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Person</ENTRY>
+       <LENGTH>6</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Relation</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Partenaire</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Client</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Fournisseur</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Pers.</ENTRY>
+       <LENGTH>6</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BADI_REF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung der Datenzuordnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BADI_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BADI_REF_TITLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BADI_REF_TITLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_GROUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_ORG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_ORG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_PERSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>BP_AS_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CUSTOMER_MAPPING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name einer Key Assignment Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CUSTOMER_MAPPING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of a Key Assignment Instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAPPER_BADI_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAPPER_BADI_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_BANKDETAILS_BADI_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_BANKDETAILS_BADI_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_CREDIT_CARDS_BADI_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_CREDIT_CARDS_BADI_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_TITLE_BADI_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>CVI_MAP_TITLE_BADI_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>DETERMINE_BP_CUST_ASSIGNMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die (neuen/bestehenden) GP-Debitor-Verknüpfungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>DETERMINE_BP_CUST_ASSIGNMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines (New/Existing) BP - Customer Links</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>DETERMINE_BP_VEND_ASSIGNMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die (neuen/bestehenden) GP-Kreditor-Verknüpfungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>DETERMINE_BP_VEND_ASSIGNMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines (New/Existing) BP - Vendor Links</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>EXTRACT_VALID_ROLE_CATEGORIES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt aus der  GP-CIF die gültigen Rollenkategorien</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>EXTRACT_VALID_ROLE_CATEGORIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines Valid Role Categories from BP-CIF</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FALSE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FALSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FIELD_MAPPER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mapper for bp values with other partner objects</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FIND_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt einen Kunden innerhalb einer Kundenliste</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FIND_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines Customer Within Customer List</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FLUSH_ASSIGNMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert alle Schlüsselzuordnungen auf der Datenbank</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FLUSH_ASSIGNMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Saves All Key Assignments to Database</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Debitor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP and Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kontaktperson des Debitors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kreditor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP and Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kontaktperson des Kreditors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>FM_BP_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP and Contact Person for Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BPS_FOR_CUSTOMERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Debitoren bereits zugeordn. Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BPS_FOR_CUSTOMERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Business Partners Already Assigned to Customers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BPS_FOR_VENDORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Kreditoren bereits zugeordn. Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_BPS_FOR_VENDORS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Business Partners Already Assigned to Vendors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_RELS_4_CUSTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Debitoren zugeordneten Kontaktpersonen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_RELS_4_CUSTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Persons Assigned to Customers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_RELS_4_VENDS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Kreditoren zugeordneten Kontaktpersonen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CONT_RELS_4_VENDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Persons Assigned to Vendors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUSTOMERS_FOR_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Geschäftspartnern bereits zugeordn. Debitoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUSTOMERS_FOR_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Customers Already Assigned to Business Partners</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUST_CT_4_BP_RELS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die den GP-Beziehungen zugeordneten Ansprechpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_CUST_CT_4_BP_RELS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Persons Assigned to BP Relationships</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_VENDORS_FOR_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Geschäftspartnern bereits zugeordn. Kreditoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_VENDORS_FOR_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Vendors Already Assigned to Business Partners</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_VEND_CT_4_BP_RELS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die den GP-Beziehungen zugeordneten Ansprechpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_VEND_CT_4_BP_RELS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Contact Persons Assigned to BP Relationships</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_KA_REFERENCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt das zugehörige Key Assignment Objekt zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GET_KA_REFERENCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns Corresponding Key Assignment Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GT_RETURN_VENDOR_CANDIDATES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Table to store return vendors candidates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>GT_RETURN_VENDOR_CANDIDATES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for Storing Return Vendor Candidates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>HANDLE_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bearbeiten von Fehlermeldungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>HANDLE_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Edits Error Messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zuordnung der Daten der Objekte in der CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assignment of Data for Objects in CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>IS_MAPPING_FOR_CONTACT_ACTIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Einstellung für die Aktivierung der AP Zuordnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>IS_MAPPING_FOR_CONTACT_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Settings for Activating Contact Person Assignment</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>KA_REFS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zuordnung eines Key Assignments zum realisierenden Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>KA_REFS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assignment of Key Assignment to Realizing Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_CUSTOMERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überführt Geschäftspartnerdaten in Debitoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_CUSTOMERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Business Partner Data to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_VENDORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überführt Geschäftspartnerdaten in Kreditoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BPS_TO_VENDORS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Business Partner Data to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a business partner object to a customer object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a business partner object to a customer contact object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a business partner object to a vendor object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMERS_TO_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überführt Debitorendaten in Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMERS_TO_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Customer Data to Business Parter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_CONTACT_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a customer contact object to a business partner object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a customer object to a business partner object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDORS_TO_BPS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überführt Kreditorendaten in Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDORS_TO_BPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Vendor Data to Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maps a vendor object to a business partner object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MSG_CLASS_CVI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>MSG_CLASS_CVI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_CURRENT_STATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_CURRENT_STATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_INSERT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_MODIFY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_MODIFY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_STANDARD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_STANDARD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TASK_UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TEMP_HANDLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Präfix für temporäre Nummern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TEMP_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prefix for Temporary Numbers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TRUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAdI für Erweiterung zur Datenzuordnung der Anrede und des G</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>TRUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Extending Data Assignment for Form of Address + BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>UNDO_ASSIGNMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Revidiert die Neuanlage einer Zuordnung der jew. Objektpaare</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>UNDO_ASSIGNMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revises Creation of Assignment for Each Object Pair</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>VENDOR_MAPPING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name einer Key Assignment Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_MAPPER</CLSNAME>
+     <CMPNAME>VENDOR_MAPPING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of a Key Assignment Instance</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

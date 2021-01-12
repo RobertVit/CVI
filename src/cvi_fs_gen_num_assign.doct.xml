@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>CVI_FS_GEN_NUM_ASSIGN</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00019</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_FS_GEN_NUM_ASSIGN</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Define Number Assignments</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can view the existing and overlapping number ranges for Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner, Customer and Supplier. The system also displays number range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>proposals.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To view proposed number ranges, enter desired value in &lt;LS&gt;Number Range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Factor &lt;/&gt;field and then &lt;LS&gt;Execute&lt;/&gt;. You can save number ranges from</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the proposed list.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To get a proposal for a common number range for business partner and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/supplier, select the check box and enter &lt;LS&gt;Start Number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;and &lt;LS&gt;End Number &lt;/&gt;values. The system proposes the same (if</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available) or nearest available number range. Save the number range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>All the proposed number ranges are selected by default. You can clear if</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a selection is not required. Additionally, you can modify the proposed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values for Number Range Number. If you enter an already existing number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>range number, the system throws an error.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The sub screens on the right would display information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>overlapping of Numeric and Alphanumeric Number Ranges, including the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>percentage of overlap.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

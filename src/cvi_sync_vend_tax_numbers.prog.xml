@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>CVI_SYNC_VEND_TAX_NUMBERS</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Gestartete Jobs</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Jobverteilung</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Richtung für die initiale Synchronisation der Steuernummern</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Initiale Synchronisation der Steuernummern des GPs und des Kreditors</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BPVEND</KEY>
+     <ENTRY>Geschäftspartner nach Kreditor</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NODIR</KEY>
+     <ENTRY>Keine Richtung ausgewählt</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PSIZE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RUNID</KEY>
+     <ENTRY>Eindeutige Lauf-ID</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SOFT_D</KEY>
+     <ENTRY>Automatisch Richtung wechseln</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VENDBP</KEY>
+     <ENTRY>Kreditor nach Geschäftspartner</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Jobs Started</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Job Distribution</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Direction for Initial Synchronization of Tax Numbers</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Initial Synchronization of Tax Numbers for BP and Vendor</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_BPVEND</KEY>
+       <ENTRY>Business Partner to Vendor</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_NODIR</KEY>
+       <ENTRY>No Direction Chosen</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_RUNID</KEY>
+       <ENTRY>Unique Run ID</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SOFT_D</KEY>
+       <ENTRY>Switch Direction Automatically</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VENDBP</KEY>
+       <ENTRY>Vendor to Business Partner</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PSIZE</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Jobs lancés</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Répartition des jobs</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Sens de la synchronisation initiale des n° d&apos;identif. fisc.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Synchro. initiale des n° d&apos;identif. fisc. du parten. et du fournisseur</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_BPVEND</KEY>
+       <ENTRY>Du partenaire au fournisseur</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_NODIR</KEY>
+       <ENTRY>Aucun sens sélectionné</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_RUNID</KEY>
+       <ENTRY>ID exécution programme unique</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SOFT_D</KEY>
+       <ENTRY>Changer sens automatiquement</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VENDBP</KEY>
+       <ENTRY>Du fournisseur au partenaire</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PSIZE</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_SYNC_VEND_TAX_NUMBERS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00112</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_VEND_TAX_NUMBERS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ab Release &lt;LS&gt;SAP ECC 6.0 &lt;/&gt;werden die Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und des Kreditors im Rahmen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren-/Kreditorenintegration automatisch synchronisiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Report können Sie die vorhandenen Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und/oder Kreditors vor Beginn der automatischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren-/Kreditorenintegration initial synchronisieren, um einen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>konsistenten Zustand für die weitere Bearbeitung des  Objektpaars</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner/Kreditor herzustellen. Der Report sollte daher vor dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>produktiven Arbeiten mit den Stammdaten des Geschäftspartners/Kreditors</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gestartet werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report wird im Rahmen des Upgrade auf Release S&lt;LS&gt;AP ECC 6.0</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;eingesetzt. Er ist nur für Kunden relevant, die die Debitoren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>-/Kreditorenintegration bereits im Einsatz haben und Steuernummern am</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner oder am Kreditor hinterlegt haben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report setzt auf dem Auswertungsergebnis des Reports</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse der Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und des Kreditors &lt;/&gt;auf und synchronisiert die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des Geschäftspartners mit den Steuernummern des Kreditors.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beachten Sie, dass sie diesen Report vor dem Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_MIGRATE_VEND_LINKS &lt;LS&gt;Zuordnungstabelle der Verknüpfung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner-Kreditor umsetzen&lt;/&gt; ausführen, wenn Sie auch die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungstabellen für das Objektpaar Geschäftspartner/Kreditor umsetzen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>möchten. Weitere Informationen finden Sie in der entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Reportdokumentation. Um die Steuernummern synchronisieren zu können,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>müssen die Inhalte der alten Zuordnungstabelle BC001 &lt;LS&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Geschäftspartner: Zuordnung Kreditor - Partner &lt;/&gt;noch vorhanden sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Allgemeine Informationen zur Debitoren/-Kreditorenintegration finden Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in der SAP-Bibliothek unter &lt;LS&gt;ERP Central Components-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anwendungsübergreifende Komponenten-&gt; Stammdatensynchronisation-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren/-Kreditorenintegration&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Report wird vom Framework &lt;LS&gt;Parallelverarbeitung von Massendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; unterstützt. Allgemeine Informationen zur Parallelverarbeitung von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Massendaten finden Sie in der SAP-Bibliothek unter &lt;LS&gt;ERP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components-&gt; Anwendungsübergreifende Komponenten-&gt; Allgemeine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anwendungsfunktionen (CA-GTF) -&gt; Parallelverarbeitung von Massendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(CA-GTF-TS-PPM)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben den Report CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des Geschäftspartners und des Kreditors &lt;/&gt;ausgeführt und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>anhand des Protokolls festgestellt, dass eine initiale Synchronisation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Steuernummern erforderlich ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Unter &lt;LS&gt;Richtung für die initiale Synchronisation der Steuernummern&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können Sie folgende Eingaben auswählen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Keine Richtung ausgewählt&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Gibt den Zustand vor dem ersten Start des Reports an. Wählen Sie eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gültige Synchronisationsrichtung aus, um den Report starten zu können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Geschäftspartner nach Kreditor&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die initiale Synchronisation erfolgt vom Geschäftspartner zum Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hin.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Kreditor nach Geschäftspartner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die initiale Synchronisation erfolgt vom Kreditor zum Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hin.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Automatisch Richtung wechseln&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Wenn Sie diese Option aktivieren, dann wird unabhängig von der gewählten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisationsrichtung immer das Objekt mit initialen Steuernummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>überschrieben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Nach dem ersten Lauf des Reports sind die Parameter nicht mehr</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingabebereit!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können eine &lt;LS&gt;eindeutige Lauf-ID&lt;/&gt; und die &lt;LS&gt;Paketgröße&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auswählen. Mit der &lt;LS&gt;eindeutigen Lauf-ID&lt;/&gt; können Sie ihre Jobs im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Parallelverarbeitungs-Tool für Massendaten eindeutig identifizieren. Mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Paketgröße können Sie die Anzahl der Geschäftspartner pro Paket</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>festlegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Unter &lt;LS&gt;Jobverteilung&lt;/&gt; können Sie eine weitere Einteilung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prozesse auf Server/Servergruppen vornehmen. Diese übersteuert die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingestellte Anzahl der parallelen Jobs in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._AM_PPJ_DISTR&gt;Jobverteilung pflegen&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die ausgewählte Synchronisationsrichtung wird in der Tabelle BPCONSTANTS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> im Feld CONSTANT = &apos;CVISCT&apos;  gespeichert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report schreibt die Ergebnisse in ein Protokoll, das unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Anwendungslog: Protokolle anzeigen&lt;/&gt; (Transaktion SLG1) analysiert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden kann.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Führen Sie den Report CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des Geschäftspartners und des Kreditors &lt;/&gt;aus und werten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie das Protokoll aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Wählen Sie in diesem Report eine &lt;LS&gt;eindeutige Lauf-ID&lt;/&gt; und die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Paketgröße&lt;/&gt; aus. Unter &lt;LS&gt;Jobverteilung&lt;/&gt; können Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Einteilung der Prozesse auf Server/Servergruppen ändern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Legen Sie in Abhängigkeit des Auswertungsergebnisses des Reports</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse der Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und des Kreditors &lt;/&gt;die Synchronisationsrichtung des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Reports fest. Wenn die Bearbeitung der Steuernummern beispielsweise</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bisher hauptsächlich im Kreditor stattgefunden hat, dann wählen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bearbeitungsrichtung &lt;LS&gt;Kreditor nach Geschäftspartner&lt;/&gt; aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Kontrollieren Sie unter &lt;LS&gt;PPF-Monitor aufrufen&lt;/&gt; (Transaktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BANK_PP_MONITOR) den korrekten Lauf der Jobs. Im Falle eines Fehlers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können Sie den Report mit der gleichen eindeutigen Lauf-ID erneut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>starten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Nach erfolgreichem Lauf der Jobs analysieren Sie unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Anwendungslog: Protokolle anzeigen&lt;/&gt; (Transaktion SLG1) das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Protokoll. Das zu analysierende Objekt heißt FS_PROT und die externe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Identifikation entspricht dem Wert der eindeutigen Lauf-ID.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Synchronisationsrichtung &lt;LS&gt;Kreditor nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner&lt;/&gt; ausgewählt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Sowohl der momentan zu bearbeitende Kreditor als der zugehörige</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner besitzt Steuernummern. Die Steuernummern des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners werden von den Steuernummern des Kreditors</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>überschrieben. Es werden jedoch die Steuernummern des Geschäftspartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erhalten, die nicht synchronisiert werden können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie haben die Richtung &lt;LS&gt;Kreditor nach Geschäftspartner&lt;/&gt; ausgewählt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und zusätzlich das Kennzeichen &lt;LS&gt;Automatisch Richtung wechseln&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gesetzt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Beim momentan zu bearbeitenden Kreditor sind keine Steuernummern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hinterlegt, der zugehörige Geschäftspartner besitzt jedoch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern. Wenn das Kennzeichen &lt;LS&gt;Automatisch Richtung wechseln</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;nicht gesetzt wäre, dann würde die gewählte Richtung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation nun die vorhandenen Daten des Geschäftspartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>überschrieben. Weil der automatische Richtungswechsel aber aktiviert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ist, werden nun die Steuernummern des Geschäftspartners in den Kreditor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>übernommen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_SYNC_VEND_TAX_NUMBERS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <TXTLINES>00099</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_VEND_TAX_NUMBERS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As of Release &lt;LS&gt;SAP ECC 6.0&lt;/&gt; the tax numbers for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and the vendor are automatically synchronized as part of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can use this report to synchronize the existing tax numbers for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner and/or vendor before starting the automatic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor integration. This ensures that you have a consistent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>state for continuing to process the object pair business partner/vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You should, therefore, start this report before going live with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master data for the business partner/vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report is used in connection with the upgrade to Release &lt;LS&gt;SAP ECC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>6.0&lt;/&gt;. It is relevant only for customers who already use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor integration and have stored tax numbers in the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner or in the vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report is based on the evaluation results of the report CVI_ANALYSE_</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>VEND_TAX_NUMBERS &lt;LS&gt;Analysis of Tax Numbers for Business Partner and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vendor&lt;/&gt; and synchronizes the tax numbers for the business partner with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the tax numbers for the vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Note that you have to execute this report before the report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_MIGRATE_VEND_LINKS &lt;LS&gt;Convert Assignment Table for Link Between</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner + Vendor&lt;/&gt; if you also want to convert the assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tables for the object pair business partner/vendor. For more</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information, see the corresponding report documentation. To synchronize</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the tax numbers, the content of the old assignment table BC0001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Business Partner: Assignment Vendor - Partner&lt;/&gt; must be available.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For general information about customer/vendor integration, see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;SAP Library&lt;/&gt; by choosing &lt;LS&gt;ERP Central Components -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Cross-Application Components-&gt; Master Data Synchronization-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The report is supported by the framework &lt;LS&gt;Parallel Processing of Mass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data&lt;/&gt;. For general information about the parallel processing of mass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data, see the &lt;LS&gt;SAP Library&lt;/&gt; by choosing &lt;LS&gt;ERP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components-&gt; Cross-Application Components-&gt; General Application</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Functions (CA-GTF)-&gt; Parallel Processing of Mass Data (CA-GTS-TS-PPM)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have executed the report CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analysis</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of Tax Numbers for Business Partner and Vendor&lt;/&gt; and determined that an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>initial synchronization of tax numbers is necessary using the log.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can choose the following options under &lt;LS&gt;Direction for Initial</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization of Tax Numbers&lt;/&gt;:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;No Direction Chosen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Indicates the state before the report is started for the first time.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Choose a valid synchronization direction to start the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Business Partner to Vendor&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The initial synchronization takes place from the business partner to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Vendor to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The initial synchronization takes place from the vendor to the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Switch Direction Automatically&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If you activate this option then the system always overwrites the object</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with no tax numbers, irrespective of the synchronization direction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>chosen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>After the report has been executed for the first time, you can no longer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enter values in the parameters.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can select a &lt;LS&gt;unique run ID&lt;/&gt; and the &lt;LS&gt;package size&lt;/&gt;. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can use the &lt;LS&gt;unique run ID&lt;/&gt; to uniquely identify your jobs in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parallel processing tool for mass data. You can use the &lt;LS&gt;package size</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; to specify the number of business partners for each package.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Under &lt;LS&gt;Job Distribution&lt;/&gt; you can further divide processes into</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>servers/server groups. This overrides the number of parallel jobs that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is set in the IMG activity &lt;DS:SIMG._AM_PPJ_DISTR&gt; Maintain Job</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Distribution&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The synchronization direction chosen is saved in table BPCONSTANTS in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the CONSTANT = CVISCT field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report writes the results to a log. You can analyze the results</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>under &lt;LS&gt;Application Log: Display Logs&lt;/&gt; (transaction SLG1).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Execute the report CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analysis of Tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Numbers for Business Partner and Vendor&lt;/&gt; and evaluate the log.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>In this report select a unique run ID and the package size. Under</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Job Distribution&lt;/&gt; you can further divide processes into</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>servers/server groups.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Depending on the analysis results for the report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analysis of Tax Numbers for Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner and Vendor&lt;/&gt;, determine the synchronization direction for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report. If tax numbers have mainly been processed in the customer to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>date, for example, choose the processing direction &lt;LS&gt;Vendor to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Check that the job ran correctly under &lt;LS&gt;Call PPF Monitor&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(transaction BANK_PP_MONITOR). If an error occurred, you can start the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report again with the same unique run ID.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Once the job has run correctly, evaluate the log for the analysis report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>under &lt;LS&gt;Application Log: Display Logs&lt;/&gt; (transaction SLG1). The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object to be analyzed is FS_PROT and the external identification is the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>same as the unique run ID.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have chosen the synchronization direction &lt;LS&gt;Vendor to Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Both the vendor currently being processed and the corresponding business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner have tax numbers. The tax numbers for the vendor overwrite the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tax numbers for the business partner. However, the tax numbers for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner that could not be synchronized are kept.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have chosen the direction &lt;LS&gt;Vendor to Business Partner&lt;/&gt; and also</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>set the &lt;LS&gt;Switch Direction Automatically&lt;/&gt; indicator.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>There are no tax numbers stored for the vendor currently being</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processed, however, the assigned business partner has tax numbers. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the &lt;LS&gt;Switch Direction Automatically&lt;/&gt; indicator had not been set</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>then the synchronization direction chosen would have overwritten the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>existing data for the business partner. However, seeing as &lt;LS&gt;Switch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Direction Automatically&lt;/&gt; is activated, the tax numbers for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner are transferred to the vendor.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_SYNC_VEND_TAX_NUMBERS</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <TXTLINES>00109</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_SYNC_VEND_TAX_NUMBERS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A partir de la version &lt;LS&gt;SAP ECC 6.0&lt;/&gt;, le système synchronise</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatiquement les numéros d&apos;identification fiscale du partenaire et du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client dans le cadre de l&apos;intégration client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme permet de synchroniser initialement les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale existants du partenaire et/ou du client avant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le début de l&apos;intégration automatique client/fournisseur, afin d&apos;assurer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>un état cohérent pour le traitement ultérieur de la paire d&apos;objets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire/client. Par conséquent, vous devez lancer ce programme avant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le travail productif avec les données de base du partenaire/client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le programme est utilisé dans le cadre de la montée de version &lt;LS&gt;SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ECC 6.0&lt;/&gt;. Il est pertinent seulement pour les clients qui utilisent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>déjà l&apos;intégration client/fournisseur et qui ont défini les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale pour le partenaire ou le client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le programme est basé sur le résultat d&apos;analyse du programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse des numéros d&apos;identification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fiscale du partenaire et du client&lt;/&gt; et synchronise les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du partenaire avec les informations fiscales du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous devez exécuter ce programme avant le programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_MIGRATE_VEND_LINKS &lt;LS&gt;Convertir table d&apos;affectation du lien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire-client&lt;/&gt;, si vous souhaitez également convertir les tables</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation pour la paire d&apos;objets partenaire/client. Vous trouverez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des informations supplémentaires dans la documentation de programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondante. Afin de pouvoir analyser et synchroniser initialement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les numéros d&apos;identification fiscale, les contenus de l&apos;ancienne table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation BD001 &lt;LS&gt;Partenaire : affectation client - partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>doivent toujours exister.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Vous trouverez des informations générales sur l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur dans la bibliothèque SAP dans &lt;LS&gt;ERP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components -&gt; Composantes inter-applications -&gt; Synchronisation de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données de base -&gt; Intégration client/fournisseur&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Le programme est supporté par le cadre &lt;/&gt;Traitement parallèle de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données en masse&lt;/&gt;. Vous trouverez des informations générales sur le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traitement parallèle de données en masse dans la bibliothèque SAP dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;ERP Central Components -&gt; Composantes inter-applications -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Fonctions applicatives générales (CA-GTF) -&gt; Traitement parallèle de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données en masse (CA-GTF-TS-PPM)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous avez exécuté le programme CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des numéros d&apos;identification fiscale du partenaire et du client&lt;/&gt; et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>constaté au moyen du journal qu&apos;une synchronisation initiale des numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale est nécessaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dans &lt;LS&gt;Sens pour la synchronisation initiale des numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; vous pouvez définir les options suivantes :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Aucun sens sélectionné&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Spécifie l&apos;état avant le premier lancement du programme. Sélectionnez un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sens de synchronisation valable afin de pouvoir lancer le programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Partenaire vers le client&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>La synchronisation initiale est effectuée du partenaire vers le client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Client vers le partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>La synchronisation initiale est effectuée du client vers le partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Changer automatiquement le sens&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Si vous activez cette option, le système remplace toujours l&apos;objet avec</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les numéros d&apos;identification fiscale initiaux indépendamment du sens de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation sélectionné.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Après la première exécution du programme, les paramètres ne peuvent plus</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>être saisis !</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez sélectionner une &lt;LS&gt;ID d&apos;exécution univoque&lt;/&gt; et la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;taille du paquet&lt;/&gt;. L&apos;&lt;LS&gt;ID d&apos;exécution univoque&lt;/&gt; permet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identifier univoquement vos jobs dans l&apos;outil de traitement parallèle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données en masse. La taille de paquet permet de déterminer le nombre</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de partenaires par paquet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans &lt;LS&gt;Répartition de jobs&lt;/&gt; vous pouvez effectuer une distribution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>supplémentaire des processus sur les serveurs/groupes de serveurs. Cette</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>option est définie par le nombre des jobs parallèles spécifié dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;activité IMG &lt;DS:SIMG._AM_PPJ_DISTR&gt;Gérer répartition de jobs&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le sens de synchronisation sélectionné est enregistré dans la table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BPCONSTANTS dans la zone CONSTANT = &quot;CVISCT&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le programme reporte les résultats dans un journal que vous pouvez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>analyser dans &lt;LS&gt;Journal d&apos;application : afficher journaux&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(transaction SLG1).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Exécutez le programme CVI_ANALYSE_VEND_TAX_NUMBERS &lt;LS&gt;Analyse des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du partenaire et du client&lt;/&gt; et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>analysez le journal.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Sélectionnez dans ce programme une &lt;LS&gt;ID d&apos;exécution univoque&lt;/&gt; et la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;taille de paquet&lt;/&gt;. Dans &lt;LS&gt;répartition de jobs&lt;/&gt;, vous pouvez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>modifier la distribution des processus sur les serveurs/groupes de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>serveurs.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Déterminez le sens de synchronisation du programme en fonction du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>résultat de l&apos;analyse du programme CVI_ANALYSE_VEND_TAX_NUMBERS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Analyse des numéros d&apos;identification fiscale du partenaire et du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client&lt;/&gt;. Si par exemple le traitement des numéros d&apos;identification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fiscale a été effectué jusqu&apos;à présent principalement dans le client,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sélectionnez le sens de traitement client vers partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Contrôlez dans &lt;LS&gt;Appeler moniteur PPF&lt;/&gt; (transaction BANK_PP_MONITOR)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;exécution correcte du job. En cas d&apos;erreur, vous pouvez relancer le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>programme avec la même ID d&apos;exécution univoque.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Après une exécution réussie du travail, vous pouvez consulter le journal</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du programme d&apos;analyse dans &lt;LS&gt;Journal d&apos;application : afficher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>journaux&lt;/&gt; (transaction SLG1). L&apos;objet à analyser s&apos;appelle FS_PROT et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;identification externe correspond à la valeur de l&apos;ID d&apos;exécution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>univoque.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez sélectionné le sens de synchronisation &lt;LS&gt;Client vers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire&lt;/&gt; :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Le client à traiter actuellement et le partenaire correspondant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>possèdent des numéros d&apos;identification fiscale. Les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du partenaire sont remplacés par les numéros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;identification fiscale du client. Cependant, sont conservés les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale du partenaire qui ne peuvent pas être</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisés.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous avez défini le sens &lt;LS&gt;client vers partenaire&lt;/&gt; et le code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Changer automatiquement le sens&lt;/&gt; :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Pour le client à traiter actuellement, aucun numéro d&apos;identification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>L</TDFORMAT>
+       <TDLINE>fiscale n&apos;est défini mais le partenaire correspondant possède des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numéros d&apos;identification fiscale. Si le code &lt;LS&gt;Changer automatiquement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sens&lt;/&gt; était activé, le sens sélectionné de la synchronisation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>remplacerait maintenant les données existantes du partenaire. Comme le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>changement automatique de sens est activé, les numéros d&apos;identification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fiscale du partenaire sont repris dans le client.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Read Vendor - Business Partner Link Tab</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LCVI_LINK_TABLE_READTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLCVI_LINK_TABLE_READ</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>CVI_GET_VENDOR_MAP_BE</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>VENDOR_RANGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVI_VEND_LINK-VENDOR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LT_PARTNER_GUID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUT000-PARTNER_GUID</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>VENDOR_RANGE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_PARTNER_GUID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_VENDOR_MAPPING_BE</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CURRENT_TIME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TIMESTAMP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROCESS_MODE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>IT_PARTNER_GUID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>IT_VENDOR_NO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>ET_VENDORMAP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CURRENT_TIME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROCESS_MODE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PARTNER_GUID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_VENDOR_NO</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_VENDORMAP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CVI_VENDOR_MAPPING_READ</FUNCNAME>
+     <SHORT_TEXT>Verknüpfung Lieferant und Geschäfspartner (SRM)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CURRENT_TIME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TIMESTAMP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROCESS_MODE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>IT_PARTNER_GUID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>IT_VENDOR_NO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>ET_VENDORMAP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CURRENT_TIME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>UTC-Zeitstempel in Kurzform (JJJJMMTThhmmss)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROCESS_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>internal process mode (see source code)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PARTNER_GUID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>range table for partner guid</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_VENDOR_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>range table for vendor no</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_VENDORMAP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

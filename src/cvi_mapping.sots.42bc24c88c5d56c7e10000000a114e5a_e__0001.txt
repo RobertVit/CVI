@@ -1,0 +1,1 @@
+The existing function to create defaults using table TBD002 and TBC002 is implemented in this BAdI.

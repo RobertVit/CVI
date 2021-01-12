@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface IF_EX_CVI_CUSTOM_MAPPER</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GP-Beziehungsdaten Ansprechpartnerdaten  zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign BP Relationship Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Assign BP Relationship Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign BP Relationship Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartnerdaten Debitorendaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Business Partner Data to Customer Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartnerdaten Ansprechpartnerdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Business Partner Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartnerdaten Kreditorendaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Business Partner Data to Vendor Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Assign Business Partner Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Business Partner Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TO_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Debitorendaten Geschäftspartnerdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Customer Data to Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUST_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ansprechpartnerdaten Geschäftspartnergesamtdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_CUST_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Contact Person Data to All Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Personendaten Ansprechpartnerdaten  zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Person Data to Contact Person data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Assign Person Data to Contact Person data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_VENDOR_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Person Data to Contact Person Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TO_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kreditorendaten Geschäftspartnerdaten zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Vendor Data to Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VEND_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Assign Contact Person Data to All Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_CUSTOM_MAPPER</CLSNAME>
+     <CMPNAME>MAP_VEND_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assign Contact Person Data to All Business Partner Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

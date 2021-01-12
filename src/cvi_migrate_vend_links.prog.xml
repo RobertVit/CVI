@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>CVI_MIGRATE_VEND_LINKS</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Erzeugte Jobs</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Jobverteilung</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Zuordnungstabelle der Verknüpfung Geschäftspartner-Kreditor umsetzen</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PSIZE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RUNID</KEY>
+     <ENTRY>Eindeutige Lauf-ID</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Jobs Generated</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Job Distribution</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Convert Assignment Table for Link Between Business Partner + Vendor</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_RUNID</KEY>
+       <ENTRY>Unique Run ID</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PSIZE</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Jobs créés</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Répartition des jobs</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Convertir table d&apos;affectation du lien partenaire-fournisseur</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_RUNID</KEY>
+       <ENTRY>ID exécution programme unique</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PSIZE</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MIGRATE_VEND_LINKS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0014</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00058</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MIGRATE_VEND_LINKS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00014</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für neu angelegte Verknüpfungen zwischen Geschäftspartnern und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditorenstammsätzen gibt es ab Release &lt;LS&gt;SAP ECC 6.0 &lt;/&gt;die neue</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungstabelle CVI_VEND_LINK &lt;LS&gt;Zuordnung zwischen Lieferant und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner. &lt;/&gt;Weiterhin gibt es die Zuordnungstabelle BC001&lt;LS&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartner: Zuordnung Kreditor- Partner&lt;/&gt; für bereits bestehende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Einträge.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem Report können Sie die Zuordnungstabelle BC001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Geschäftspartner: Zuordnung Kreditor - Partner &lt;/&gt;in die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungstabelle&lt;LS&gt; &lt;/&gt;CVI_VEND_LINK&lt;LS&gt; Zuordnung zwischen Lieferant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Geschäftspartner &lt;/&gt;umsetzen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die Umsetzung der Tabellen ist zu diesem Release noch nicht zwingend</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erforderlich, weil die neue Zugriffslogik alle Tabellen berücksichtigt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Alle neu angelegten Verknüpfungen zwischen Geschäftspartnern und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditorenstammsätzen werden in der Tabelle &lt;LS&gt;CVI_VEND_LINK Zuordnung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zwischen Lieferant und Geschäftspartner &lt;/&gt;hinterlegt und alle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bestehenden in Tabelle &lt;LS&gt;BC001 Geschäftspartner: Zuordnung Kreditor -</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können die Zuordnungsabelle BC001 &lt;LS&gt;Geschäftspartner: Zuordnung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kreditor - Partner &lt;/&gt;nach einem erfolgreichen Lauf des Reports mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Datenbankwerkzeugen leeren. Diese Leerung kann die Performance der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anlage und des Lesens neuer Verknüpfungen steigern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Achtung &amp;ABAP_ICON_EXCL&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vor dem Löschen des Inhalts der Tabelle müssen Sie die initiale</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation der Steuernummern mit dem Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNCH_VEND_TAX_NUMBERS &lt;LS&gt;(Initiale Synchronisation der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des Geschäftspartners und des Kreditors) &lt;/&gt;zwingend</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durchgeführt haben!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Weitere technische Informationen zu den Datenzuordnungen finden Sie im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAP Hinweis &lt;LS&gt;851444&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Allgemeine Informationen zur Debitoren/-Kreditorenintegration finden Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in der SAP-Bibliothek unter E&lt;LS&gt;RP Central Components-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anwendungsübergreifende Komponenten-&gt; Stammdatensynchronisation-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren/-Kreditorenintegration&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report wird vom Framework &lt;LS&gt;Parallelverarbeitung von Massendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; unterstützt. Allgemeine Informationen zur Parallelverarbeitung von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Massendaten finden Sie in der SAP-Bibliothek unter E&lt;LS&gt;RP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components-&gt; Anwendungsübergreifende Komponenten-&gt; Allgemeine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anwendungsfunktionen (CA-GTF) -&gt; Parallelverarbeitung von Massendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(CA-GTF-TS-PPM).&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben vor Ausführung des Reports den Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_VEND_TAX_NUMBERS  &lt;LS&gt;(Initiale Synchronisation der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuernummern des Geschäftspartners und des Kreditors) &lt;/&gt;ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Weitere Informationen zu dem Report finden Sie in der entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Reportdokumentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können eine &lt;LS&gt;eindeutige Lauf-ID&lt;/&gt; und die &lt;LS&gt;Paketgröße&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auswählen. Mit der &lt;LS&gt;eindeutigen Lauf-ID&lt;/&gt; können Sie ihre Jobs im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Parallelverarbeitungs-Tool für Massendaten eindeutig identifizieren. Mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der &lt;LS&gt;Paketgröße&lt;/&gt; können Sie die Anzahl der Geschäftspartner pro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Paket festlegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Unter &lt;LS&gt;Jobverteilung&lt;/&gt; können Sie eine weitere Einteilung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prozesse auf Server/Servergruppen vornehmen. Diese übersteuert die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingestellte Anzahl der parallelen Jobs in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._AM_PPJ_DISTR&gt;Jobverteilung pflegen&lt;/&gt;&lt;LS&gt;.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Stellen Sie die Jobverarbeitung entsprechend ihrer Bedürfnisse ein und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>führen Sie den Report aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MIGRATE_VEND_LINKS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0014</VERSION>
+      <TXTLINES>00050</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MIGRATE_VEND_LINKS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00014</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As of Release &lt;LS&gt;SAP ECC 6.0&lt;/&gt; there is a new assignment table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_VEND_LINK &lt;LS&gt;Assignment Between Vendor and Business Partner&lt;/&gt; for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>new links created between business partners and vendor master records.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assignment table BC001 &lt;LS&gt;Business Partner: Assignment Vendor - Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; is still available for existing entries.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can use this report to convert the assignment table BC001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Business Partner: Assignment Vendor - Partner&lt;/&gt; to the assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table CVI_VEND_LINK &lt;LS&gt;Assignment Between Vendor and Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>It is not absolutely necessary to convert the tables in this release</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>because the new access logic includes all tables. All new links created</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>between business partners and vendor master records are stored in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table CVI_VEND_LINK &lt;LS&gt;Assignment Between Vendor and Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; and all existing links are stored in the table BC001 &lt;LS&gt;Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner: Assignment Vendor - Partner&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can empty assignment table BC001 &lt;LS&gt;Business Partner: Assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vendor - Partner&lt;/&gt; using database tools once the report has run</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>successfully. Emptying this table can improve performance when creating</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and reading new links.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Caution &amp;ABAP_ICON_EXCL&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Before you delete the contents of the table it is essential that you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>have carried out the initial synchronization of the tax numbers using</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the report CVI_SYNCH_VEND_TAX_NUMBERS &lt;LS&gt;Initial Synchronization of Tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Numbers for Business Partner and Vendor&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For further technical information about data assignment, see SAP Note</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;851444&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For general information about customer/vendor integration, see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;SAP Library&lt;/&gt; by choosing &lt;LS&gt;ERP Central Components -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Cross-Application Components-&gt; Master Data Synchronization-&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report is supported by the framework &lt;LS&gt;Parallel Processing of Mass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data&lt;/&gt;. For general information about the parallel processing of mass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data, see the &lt;LS&gt;SAP Library&lt;/&gt; by choosing &lt;LS&gt;ERP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components-&gt; Cross-Application Components-&gt; General Application</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Functions (CA-GTF)-&gt; Parallel Processing of Mass Data (CA-GTS-TS-PPM)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have executed the report CVI_SYNC_VEND_TAX_NUMBERS (&lt;LS&gt;Initial</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization of Tax Numbers for Business Partner and Vendor&lt;/&gt;)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>before you execute this report.  For further information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report, see the corresponding report documentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can select a &lt;LS&gt;unique run ID&lt;/&gt; and the &lt;LS&gt;package size&lt;/&gt;. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can use the &lt;LS&gt;unique run ID&lt;/&gt; to uniquely identify your jobs in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parallel processing tool for mass data. You can use the &lt;LS&gt;package size</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; to specify the number of business partners for each package.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Under &lt;LS&gt;Job Distribution&lt;/&gt; you can further divide processes into</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>servers/server groups. This overrides the number of parallel jobs that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is set in the IMG activity &lt;DS:SIMG._AM_PPJ_DISTR&gt; Maintain Job</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Distribution&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Make the settings that you require for &lt;LS&gt;Job Distribution&lt;/&gt; and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>execute the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MIGRATE_VEND_LINKS</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0014</VERSION>
+      <TXTLINES>00053</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MIGRATE_VEND_LINKS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00014</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pour les liens nouvellement créés entre les partenaires et les fiches</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client il existe depuis la version &lt;LS&gt;SAP ECC 6.0&lt;/&gt; la nouvelle table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation CVI_VEND_LINK &lt;LS&gt;Affectation entre le client et le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire&lt;/&gt;. Il existe aussi la table d&apos;affectation BD001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Partenaire : affectation client - partenaire&lt;/&gt; pour les entrées qui</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>existent déjà.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ce programme permet de convertir la table d&apos;affectation BD001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Partenaire : affectation client - partenaire&lt;/&gt; en table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation CVI_VEND_LINK &lt;LS&gt;Affectation entre client et partenaire</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>La conversion des tables n&apos;est pas encore obligatoire pour cette version</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>car la nouvelle logique d&apos;accès prend en compte toutes les tables. Tous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les liens nouvellement créés entre les partenaires et les fiches client</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sont définis dans la table CVI_VEND_LINK &lt;LS&gt;Affectation entre client et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire&lt;/&gt; et tous les liens existants dans la table BD001</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Partenaire : affectation client - partenaire&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez vider avec les outils de base de données la table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affectation BD001 &lt;LS&gt;Partenaire : affectation client - partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>après une exécution réussie du programme. Ce vidage peut améliorer la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performance de création et de lecture des nouveaux liens.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Attention &amp;ABAP_ICON_EXCL&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Avant la suppression du contenu de la table vous devez obligatoirement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>effectuer la synchronisation initiale des informations fiscales avec le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>programme CVI_SYNCH_VEND_TAX_NUMBERS &lt;LS&gt;Synchronisation initiale des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>informations fiscales du partenaire et du client&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous trouverez des informations techniques supplémentaires sur les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations de données de la documentation client/fournisseur dans la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>note SAP &lt;LS&gt;851444&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous trouverez des informations générales sur l&apos;intégration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur dans la bibliothèque SAP dans &lt;LS&gt;ERP Central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Components -&gt; Composantes inter-applications -&gt; Synchronisation de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données de base -&gt; Intégration client/fournisseur&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le programme est supporté par le cadre &lt;LS&gt;Traitement parallèle de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données en masse&lt;/&gt;. Vous trouverez des informations générales sur le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>traitement parallèle de données en masse dans la bibliothèque SAP dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;ERP Central Components-&gt; Composantes inter-applications -&gt; Fonctions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>applicatives générales (CA-GTF) -&gt; Traitement parallèle de données en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>masse (CA-GTF-TS-PPM)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Exécutez, avant l&apos;exécution du programme, le programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CVI_SYNC_VEND_TAX_NUMBERS &lt;LS&gt;(Synchronisation initiale des informations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fiscales du partenaire et du client)&lt;/&gt;. Vous trouverez des informations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>supplémentaires sur le programme dans la documentation correspondante.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez sélectionner une &lt;LS&gt;ID d&apos;exécution univoque&lt;/&gt; et la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;taille de paquet&lt;/&gt;. Avec l&apos;&lt;LS&gt;ID d&apos;exécution univoque&lt;/&gt; vous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pouvez identifier univoquement vos jobs dans l&apos;outil de traitement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parallèle pour les données en masse. Avec la &lt;LS&gt;taille de paquet&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vous pouvez déterminer le nombre des partenaires par paquet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dans &lt;LS&gt;Répartition de jobs&lt;/&gt; vous pouvez effectuer une distribution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>supplémentaire des processus sur les serveurs/groupes de serveurs. Cette</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>option est définie par le nombre spécifié de jobs parallèles dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;activité &lt;DS:SIMG._AM_PPJ_DISTR&gt;Gérer répartition de jobs&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Configurez le traitement de job en fonction de vos besoins et exécutez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le programme.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

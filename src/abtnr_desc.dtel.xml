@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ABTNR_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ABTNR</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Abteilungsnummer (CVI)</DDTEXT>
+    <REPTEXT>Abteilung (CVI)</REPTEXT>
+    <SCRTEXT_S>Abt (CVI)</SCRTEXT_S>
+    <SCRTEXT_M>Abteilung (CVI)</SCRTEXT_M>
+    <SCRTEXT_L>Abteilung (CVI)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Department Number (CVI)</DDTEXT>
+     <REPTEXT>Departmnt (CVI)</REPTEXT>
+     <SCRTEXT_S>Dept (CVI)</SCRTEXT_S>
+     <SCRTEXT_M>Departmnt (CVI)</SCRTEXT_M>
+     <SCRTEXT_L>Department (CVI)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro de service (index de valeur client)</DDTEXT>
+     <REPTEXT>NºService (IVC)</REPTEXT>
+     <SCRTEXT_S>Serv.(IVC)</SCRTEXT_S>
+     <SCRTEXT_M>NºService (IVC)</SCRTEXT_M>
+     <SCRTEXT_L>NºService (IVC)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

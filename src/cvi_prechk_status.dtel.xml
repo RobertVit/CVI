@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CVI_PRECHK_STATUS</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>CVI_PRECHK_STATUS</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Status für Migrationsvorprüfung</DDTEXT>
+    <REPTEXT>Status für Migrationsvorprüfg</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Status für</SCRTEXT_M>
+    <SCRTEXT_L>Status für Migration</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Status For Migration Pre-Check</DDTEXT>
+     <REPTEXT>Status For Migration Pre-Check</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status For</SCRTEXT_M>
+     <SCRTEXT_L>Status For Migration</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>CVI_PRECHK_STATUS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_PRECHK_STATUS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Indicates whether the precheck is in process&lt;(&gt;,&lt;)&gt; or completed, or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>terminated due to a system error.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If the precheck is completed, double-click the &lt;LS&gt;Details &lt;/&gt;icon to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view error details</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If the precheck is terminated, double-click the &lt;LS&gt;Details &lt;/&gt;icon to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view details</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You can use &lt;LS&gt;Refresh &lt;/&gt;button to get the latest status of a run</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVIV_LEGFORM_LNK</ACTIVITY>
+     <DOCU_ID>SIMGCVIV_LEGFORM_LNK</DOCU_ID>
+     <ATTRIBUTES>CVIV_LEGFORM_LNK</ATTRIBUTES>
+     <C_ACTIVITY>CVIV_LEGFORM_LNK</C_ACTIVITY>
+     <TCODE>S_AC0_52000775</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>CVIV_LEGFORM_LNK</ACTIVITY>
+      <TEXT>Rechtsform Geschäftsform zuordnen</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVIV_LEGFORM_LNK</ACTIVITY>
+      <TEXT>Assign Legal Form to Legal Status</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>CVIV_LEGFORM_LNK</ACTIVITY>
+      <TEXT>Affecter le statut juridique à forme juridique de société</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

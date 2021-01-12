@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>CVI_CUSTOM_PRECHK</BADI_NAME>
+     <INTERFACE_NAME>IF_CVI_CUSTOM_PRECHK</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>BAdI: Additional Custom Checks</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>005056B2782E1EE98D9FF6F7EBA558B6</BADI_SHORTTEXT_ID>
+     <IMG_DOCU_ID>CVI_CUSTOM_PRECHK</IMG_DOCU_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

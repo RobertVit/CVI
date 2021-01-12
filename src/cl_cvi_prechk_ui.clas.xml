@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>UI layer class to display ALV and handle events</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Object Type</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Description</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Total Records Processed</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Total Error Count</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Business Checks</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Action Required</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Do you want to delete this record?</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Yes</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Customer</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Vendor</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Refresh</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Delete</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Sr. Num</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Serial Number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Object ID</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Business Check</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Status</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Technical Field Name</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Checks</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Completed</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>In Progress</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Terminated</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Error Description</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>024</KEY>
+       <ENTRY>Field Value</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>DISPLAY_LOG_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display Log ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>DISPLAY_RESULT_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display Result ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>EXECUTE_CHECKS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calls process_selection_data in Cl_CVI_PRECHECK</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>GET_AND_DISP_LOG_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fetch Data and display in ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>GET_AND_DISP_RES_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fetch all erroneous records and display in ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>HANDLE_HOTSPOT_CLICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler method for ALV hotspot click</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>HANDLE_LOG_ALV_TOOLBAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler Method for Log ALV Toolbar - Remove few toolbar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>HANDLE_LOG_ALV_USERCOMMAND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler Method for Log ALV User command</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>HANDLE_LOG_DOUBLECLICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler Method for Double click event</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>HANDLE_RES_ALV_TOP_OF_PAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler Method for Result ALV Top of Page</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>LOG_ALV_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Log Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>LOG_CONTAINER_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>PREPARE_LOG_ALV_FCAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare Fielcatalog for ALV Log display</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>PREPARE_RESULT_FCAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare Fielcatalog for ALV Result display</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>REFRESH_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Refreshing the ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>REF_LOG_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>REF_LOG_ALV_CONT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Abstract Container for GUI Controls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>REF_RESULT_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>REF_RESULT_ALV_CONT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Abstract Container for GUI Controls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_ALV_CONTAINER_BODY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for ALV Body</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_ALV_CONTAINER_HEAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for ALV Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_ALV_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Result Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_ALV_HEADER_DOC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynamic Documents: Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_ALV_SPLITTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Splitter Control</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>RES_CONTAINER_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>SELECTED_LOG_ALV_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selected Row Data of Log ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_CVI_PRECHK_UI</CLSNAME>
+     <CMPNAME>VALIDATE_SELECTION_IP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate General Selection – Selection</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

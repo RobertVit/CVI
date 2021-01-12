@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>PAFKT_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>PAFKT</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Funktion des Ansprechpartners</DDTEXT>
+    <REPTEXT>Fkt (CVI)</REPTEXT>
+    <SCRTEXT_S>Fkt (CVI)</SCRTEXT_S>
+    <SCRTEXT_M>Funktion (CVI)</SCRTEXT_M>
+    <SCRTEXT_L>Funktion (CVI)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>FUNCT_CODE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Function of Contact Person</DDTEXT>
+     <REPTEXT>Func.(CVI)</REPTEXT>
+     <SCRTEXT_S>Func.(CVI)</SCRTEXT_S>
+     <SCRTEXT_M>Function (CVI)</SCRTEXT_M>
+     <SCRTEXT_L>Function (CVI)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Fonction du contact</DDTEXT>
+     <REPTEXT>Fonct(IVC)</REPTEXT>
+     <SCRTEXT_S>Fonct(IVC)</SCRTEXT_S>
+     <SCRTEXT_M>Fonction (IVC)</SCRTEXT_M>
+     <SCRTEXT_L>Fonction (IVC)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_BANKDETAILS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0015</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00035</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_BANKDETAILS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00015</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In (BAdI) wird in der Komponente &lt;LS&gt;Stammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation (AP-MD-BF-SYN)&lt;/&gt; verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem BAdI können Sie die Feldzuordnungen der Bankdaten in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration ändern und erweitern. Insbesondere können</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie die Zuordnungen zwischen den Bankverbindungen des Geschäftspartners</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und den Bankverbindungen des Debitoren-/Kreditorenstammsatzes anpassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard ist das BAdI aktiviert.  Das Default-Coding wird automatisch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Siehe auch:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese BAdI-Definition verwendet das Interface IF_EX_CVI_MAP_BANKDETAILS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>.Um weitere Informationen zu erhalten, zeigen Sie das Interface im Class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard aktiv implementierte Methoden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_CUSTOMER&gt;Akti</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>v: Bankverbindungen des GP Kunden zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_VENDOR&gt;Aktiv:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindungen des GP Lieferanten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANKDETAILS&gt;Aktiv:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindungen des Kunden Geschäftspartner zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANKDETAILS&gt;Aktiv:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindungen des Lieferanten GP zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Beispielmethoden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_CUSTOMER&gt;Beispi</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>el: Bankverbindungen des GPs Kunden zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_VENDOR&gt;Beispiel</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>: Bankverbindungen des GPs Lieferanten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANK_DATA&gt;Beispiel:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindungen des Kunden GP zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANK_DATA&gt;Beispiel:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindungen des Lieferanten GP zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_BANKDETAILS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0015</VERSION>
+      <TXTLINES>00030</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_BANKDETAILS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00015</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN)&lt;/&gt; component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can use this BAdI to change and extend field assignments for bank</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data in Customer/Vendor Integration. You can adjust the assignments</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>between bank details for the business partner and bank details for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer/vendor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The BAdI is activated in the standard system. The default coding is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>carried out automatically.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>See also:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI definition uses the interface IF_EX_CVI_MAP_BANKDETAILS. For</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>more information, display the interface in the Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Methods implemented as active in the standard version</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_CUSTOMER&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Active: Assign Bank Details for Business Partner to Customer&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_VENDOR&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Active: Assign Bank Details for Business Partner to Vendor&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANKDETAILS&gt; Active:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Bank Details for Customer to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANKDETAILS&gt; Active:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Bank Details for Vendor to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Sample methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_CUSTOMER&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sample: Assign Bank Details for Business Partner to Customer&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_VENDOR&gt; Sample:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Bank Details for Business Partner to Vendor&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANK_DATA&gt; Sample:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Bank Details for Customer to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANK_DATA&gt; Sample:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Bank Details for Vendor to Business Partner&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_MAP_BANKDETAILS</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0015</VERSION>
+      <TXTLINES>00031</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_MAP_BANKDETAILS</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00015</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce Business Add-In (BAdI) est utilisé dans la composante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Synchronisation de données de base (AP-MD-BF-SYN)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Il vous permet de modifier et d&apos;étendre les affectations des zones des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données bancaires dans l&apos;intégration client/fournisseur. Vous pouvez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>notamment adapter les affectations entre les coordonnées bancaires du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire et les coordonnées bancaires de la fiche client/fournisseur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le système standard, le Business Add-In est activé. Le codage par</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>défaut est automatiquement exécuté.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Voir également :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette définition de BAdI utilise l&apos;interface IF_EX_CVI_MAP_BANKDETAILS.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Pour obtenir de plus amples informartions, affichez l&apos;interface dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Méthodes actives par défaut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_CUSTOMER&gt;Acti</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>f: affecter coordonnées bancaires du partenaire au client&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANKDETAILS_TO_VENDOR&gt;Actif:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaire du partenaire au fournisseur&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANKDETAILS&gt;Actif:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaire du client au partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANKDETAILS&gt;Actif:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaires du fournisseur au partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Méthodes d&apos;exemple :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_CUSTOMER&gt;Exempl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>e: affecter coordonnées bancaires du partenaire au client&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_BP_BANK_DATA_TO_VENDOR&gt;Exemple:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaires du partenaire au fournisseur&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_CUSTOMER_BANK_DATA&gt;Exemple:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaires du client au partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_MAP_BANKDETAILS     MAP_VENDOR_BANK_DATA&gt;Exemple:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter coordonnées bancaire du fournisseur au partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS2" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS2>
+    <HEADER>
+     <ATTR_ID>CVIV_VEND_TO_BP2</ATTR_ID>
+     <ROADMAP_ID>204</ROADMAP_ID>
+     <COUNTRY>A</COUNTRY>
+     <ACTIVITY>2</ACTIVITY>
+     <CRITICAL>2</CRITICAL>
+    </HEADER>
+    <TITLES>
+     <CUS_ATRT>
+      <SPRAS>D</SPRAS>
+      <ATTR_ID>CVIV_VEND_TO_BP2</ATTR_ID>
+      <TEXT>GP-Rolle für Richtung Kreditor nach Geschäftspartner festlegen</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>E</SPRAS>
+      <ATTR_ID>CVIV_VEND_TO_BP2</ATTR_ID>
+      <TEXT>Define BP Role for Direction Vendor to Business Partner</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>F</SPRAS>
+      <ATTR_ID>CVIV_VEND_TO_BP2</ATTR_ID>
+      <TEXT>Définir le rôle partenaire pour le sens fournisseur à partenaire</TEXT>
+     </CUS_ATRT>
+    </TITLES>
+    <COMPONENTS>
+     <TFM18>
+      <DOKCLASS>SIMG</DOKCLASS>
+      <DOKNAME>CVIV_VEND_TO_BP2</DOKNAME>
+      <FUNCT>PAB0000028</FUNCT>
+     </TFM18>
+    </COMPONENTS>
+   </CUS2>
+  </asx:values>
+ </asx:abap>
+</abapGit>

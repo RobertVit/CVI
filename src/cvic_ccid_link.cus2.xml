@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS2" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS2>
+    <HEADER>
+     <ATTR_ID>CVIC_CCID_LINK</ATTR_ID>
+     <ROADMAP_ID>201</ROADMAP_ID>
+     <COUNTRY>A</COUNTRY>
+     <ACTIVITY>2</ACTIVITY>
+     <CRITICAL>2</CRITICAL>
+    </HEADER>
+    <TITLES>
+     <CUS_ATRT>
+      <SPRAS>D</SPRAS>
+      <ATTR_ID>CVIC_CCID_LINK</ATTR_ID>
+      <TEXT>Zahlungskarten zuordnen</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>E</SPRAS>
+      <ATTR_ID>CVIC_CCID_LINK</ATTR_ID>
+      <TEXT>Assign Payment Cards</TEXT>
+     </CUS_ATRT>
+     <CUS_ATRT>
+      <SPRAS>F</SPRAS>
+      <ATTR_ID>CVIC_CCID_LINK</ATTR_ID>
+      <TEXT>Affecter cartes de paiement</TEXT>
+     </CUS_ATRT>
+    </TITLES>
+    <COMPONENTS>
+     <TFM18>
+      <DOKCLASS>SIMG</DOKCLASS>
+      <DOKNAME>CVIC_CCID_LINK</DOKNAME>
+      <FUNCT>PAB0000028</FUNCT>
+     </TFM18>
+    </COMPONENTS>
+   </CUS2>
+  </asx:values>
+ </asx:abap>
+</abapGit>

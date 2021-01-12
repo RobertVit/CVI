@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Datenzuordnung zwischen GP und Kreditor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Geschäftspartner</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Kreditor</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Business Partners</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Vendor</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Partenaire</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fournisseur</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>DELIVER_VENDOR_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kreditordaten werden angefragt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>DELIVER_VENDOR_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Vendor Data Requested</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>GET_ENHANCEMENT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liest die erweiterten Daten am Geschäftspartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>GET_ENHANCEMENT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads Extended Data for Business Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>GET_VEND_ACCOUNT_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads Account Group for FI Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kreditor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP and Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Bankdaten des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Bank Data for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Communication Data from BP to CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_FS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen FS-Attribute des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_FS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns FS-Specific Attributes for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_TAX_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Steuerdaten des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_TAX_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Tax Data for BP to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten des GPs dem Kreditor zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_BP_TO_VENDOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns BP Data to Vendor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANKDETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Bankdaten des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_BANKDETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Bank Data for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers Communication Data from BP to CVI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressen des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_INDUSTRY_SECTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Addresses for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TAX_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Steuerdaten des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TAX_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Tax Data for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TO_BP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TO_BP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TRADING_PARTNER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Partnergesellschaft des Kreditors dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_VENDOR</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TRADING_PARTNER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Trading Partner for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

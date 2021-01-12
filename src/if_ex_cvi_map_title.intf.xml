@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface IF_EX_CVI_MAP_TITLE</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TITLE_BP_CHANGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GP-Änderung: Anrede des Debitors Geschäftspartner zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TITLE_BP_CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change BP: Assign Form of Address for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TITLE_BP_CREATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GP-Anlage: Anrede des Debitors Geschäftspartner zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_CUSTOMER_TITLE_BP_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create BP: Assign Form of Address for Customer to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TITLE_BP_CHANGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GP-Änderung: Anrede des Kreditors GP zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TITLE_BP_CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change BP: Assign Form of Address for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TITLE_BP_CREATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GP-Anlage: Anrede des Kreditors Geschäftspartner zuordnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_CVI_MAP_TITLE</CLSNAME>
+     <CMPNAME>MAP_VENDOR_TITLE_BP_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create BP: Assign Form of Address for Vendor to BP</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

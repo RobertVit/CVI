@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_CUSTOM_MAPPER</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0023</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00048</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_CUSTOM_MAPPER</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00023</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In (BAdI) wird in der Komponente &lt;LS&gt;Stammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation (AP-MD-BF-SYN)&lt;/&gt; verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit diesem BAdI können Sie die Feldzuordnungen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer-Vendor-Integration ändern und erweitern. Insbesondere können</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie die Zuordnungen zwischen Geschäftspartner-/Debitoren-/Kreditoren-/</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Ansprechpartnerdaten und die Zuordnungen zwischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnerbeziehungsdaten und den Ansprechpartnerdaten anpassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die hierzu vorgesehenen Methoden des BAdI werden nach den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Standardzuordnungen gerufen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Beachten Sie, dass Sie keine Schlüsseleinträge ändern, da die Zuordnung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Daten getrennt von der Zuordnung der Schlüssel erfolgt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Standard ist das Business Add-In nicht aktiv.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das BAdI ist mehrfach nutzbar. Alle aktivierten Implementierungen werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgerufen und ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BADI-Implementierungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_BBPCUSTOM_MAPPER Mapping für SRM spezifische Erweiterungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BUSINESS_ADDRESS Implementierung: BADI: DATENZUORDNUNG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GP-KUNDE/LIEFERANT/ANSPRECHPARTNER</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Mit dieser Implementierung wird die abweichende Dienstadresse des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ansprechpartners des Debitors der zugeordneten Ansprechpartnerbeziehung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>am Geschäftspartner und den durch diese Beziehung verbundenen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnern zugeordnet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Siehe auch:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese BAdI-Definition verwendet das Interface IF_EX_CVI_CUSTOM_MAPPER.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Um weitere Informationen zu erhalten, zeigen Sie das Interface im Class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Methoden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER&gt;Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>daten Debitorendaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_REL_TO_CUSTOMER_CONTACT&gt;GP-B</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>eziehungsdaten Ansprechpartnerdaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER_CONTACT&gt;Geschäft</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>spartnerdaten Ansprechpartnerdaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_VENDOR&gt;Geschäftspartnerda</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>ten Kreditorendaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUSTOMER_TO_BP&gt;Debitorendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnerdaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUST_CONT_TO_BP_AND_REL&gt;Ansprec</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>hpartnerdaten Geschäftspartnergesamtdaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_VENDOR_TO_BP&gt;Kreditorendaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartnerdaten zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_PERSON_TO_CUSTOMER_CONTACT&gt;Pers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>onendaten Ansprechpartnerdaten  zuordnen&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_CUSTOM_MAPPER</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0023</VERSION>
+      <TXTLINES>00043</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_CUSTOM_MAPPER</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00023</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In (BAdI) is used in the &lt;LS&gt;Master Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronization (AP-MD-BF-SYN)&lt;/&gt; component.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can use this BAdI to change and extend field assignments for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customer/Vendor Integration. You can adjust the assignments between</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner/customer/vendor and contact person data, and the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignments between business partner relationship data and contact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>person data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI methods intended for this purpose are called up in accordance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with the standard assignments.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Note that you cannot change any key entries because the assignment of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data takes place separately from the assignment of keys.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The Business Add-In is not activated in the standard system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The BAdI can be used several times. All active implementations are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>called and executed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Implementations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_BBPCUSTOM_MAPPER Mapping for SRM-Specific Enhancements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BUSINESS_ADDRESS Implementation: BADI: Data Assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BP-Customer/Vendor/Contact Person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>With this implementation you can assign an alternative business address</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the customer contact person to the contact person relationship</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to this contact person in the business partner and to any</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partners connected to this relationship.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>See also:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This BAdI definition uses the interface IF_EX_CVI_CUSTOM_MAPPER. For</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>more information, display the interface in the Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER&gt;Assign Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Data to Customer Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_REL_TO_CUSTOMER_CONTACT&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign BP Relationship Data to Contact Person Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER_CONTACT&gt; Assign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Business Partner Data to Contact Person Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_VENDOR&gt; Assign Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Partner Data to Vendor Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUSTOMER_TO_BP&gt; Assign Customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data to Business Partner Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUST_CONT_TO_BP_AND_REL&gt; Assign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Contact Person Data to All Business Partner Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_VENDOR_TO_BP&gt; Assign Vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data to Business Partner Data&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_PERSON_TO_CUSTOMER_CONTACT&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Assign Person Data to Contact Person Data&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGCVI_CUSTOM_MAPPER</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0023</VERSION>
+      <TXTLINES>00043</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGCVI_CUSTOM_MAPPER</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00023</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce Business Add-In (BAdI) est utilisé dans la composante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Synchronisation de données de base (AP-MD-BF-SYN)&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Il vous permet de modifier et d&apos;étendre l&apos;affectation des zones de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;intégration client-fournisseur. Vous pouvez notamment adapter les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations entre les données partenaires et les données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur/contact ainsi que les affectations entre les données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de relation entre partenaires et les données du contact.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Appelez les méthodes du BAdI prévue à cette fin en fonction des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectations standard.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Attention, vous ne modifiez aucune entrée de clé, puisque l&apos;affectation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des données s&apos;effectue séparément de l&apos;affectation des clés.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans le système standard, le Business Add-In n&apos;est pas actif.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez utiliser le BAdI à plusieurs reprises. Toutes les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implémentations activées sont alors appelées et exécutées.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Implémentations du BAdI</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_BBPCUSTOM_MAPPER Mappage pour extensions spécifiques à SRM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CVI_MAP_BUSINESS_ADDRESS Implémentation : BADI : AFFECTATION DE DONNÉES</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>PARTENAIRE-CLIENT/FOURNISSEUR/CONTACT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Cette impémentation permet l&apos;affectation de l&apos;adresse professionnelle du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contact du client différente à la relation contact/partenaire affectée</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ainsi qu&apos;aux partenaires liés via cette relation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE BADI_ENH_IMPLEMENTATION OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Voir également :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette définition de BAdI utilise l&apos;interface IF_EX_CVI_CUSTOM_MAPPER.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Pour obtenir de plus amples informations, affichez l&apos;interface dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Class Builder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Méthodes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER&gt;Affecter données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire à données client&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_REL_TO_CUSTOMER_CONTACT&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Affecter données relations partenaire à données contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_CUSTOMER_CONTACT&gt;Affecter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données partenaire à données contact&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_BP_TO_VENDOR&gt;Affecter données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire à données fournisseur&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUSTOMER_TO_BP&gt;Affecter données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client à données partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_CUST_CONT_TO_BP_AND_REL&gt;Affecte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>r données contact à données globales partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_VENDOR_TO_BP&gt;Affecter données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fournisseur à données partenaire&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:IO.IF_EX_CVI_CUSTOM_MAPPER       MAP_PERSON_TO_CUSTOMER_CONTACT&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Affecter données individuelles à données contact&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

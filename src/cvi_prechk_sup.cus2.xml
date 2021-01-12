@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS2" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS2>
+    <HEADER>
+     <ATTR_ID>CVI_PRECHK_SUP</ATTR_ID>
+     <ROADMAP_ID>105</ROADMAP_ID>
+     <COUNTRY>A</COUNTRY>
+     <ACTIVITY>2</ACTIVITY>
+     <CRITICAL>2</CRITICAL>
+    </HEADER>
+    <TITLES>
+     <CUS_ATRT>
+      <SPRAS>E</SPRAS>
+      <ATTR_ID>CVI_PRECHK_SUP</ATTR_ID>
+      <TEXT>Activate Field-Check Suppression</TEXT>
+     </CUS_ATRT>
+    </TITLES>
+    <COMPONENTS>
+     <TFM18>
+      <DOKCLASS>SIMG</DOKCLASS>
+      <DOKNAME>CVI_PRECHK_SUP</DOKNAME>
+      <FUNCT>PAB0000028</FUNCT>
+     </TFM18>
+    </COMPONENTS>
+   </CUS2>
+  </asx:values>
+ </asx:abap>
+</abapGit>

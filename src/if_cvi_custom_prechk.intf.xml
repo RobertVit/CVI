@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_CVI_CUSTOM_PRECHK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for BAdI: CVI_CUSTOM_PRECHECK</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_CUSTOM_PRECHK</CLSNAME>
+     <CMPNAME>EXECUTE_CUSTOM_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes custom checks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_CUSTOM_PRECHK</CLSNAME>
+     <CMPNAME>TT_KUNNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for kna1-kunnr</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_CVI_CUSTOM_PRECHK</CLSNAME>
+     <CMPNAME>TT_LIFNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for lfa1-lifnr</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

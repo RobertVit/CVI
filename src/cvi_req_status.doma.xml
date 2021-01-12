@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Status notwendiger Zuordnungen</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>R</DOMVALUE_L>
+     <DDTEXT>Erforderlich</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>O</DOMVALUE_L>
+     <DDTEXT>Optional</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>N</DOMVALUE_L>
+     <DDTEXT>Nicht erforderlich</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>CVI_REQ_STATUS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>S</DOMVALUE_L>
+     <DDTEXT>Sender der Anfrage</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Status of Required Assignments</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut des affectations nécessaires</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>R</DOMVALUE_L>
+     <DDTEXT>Required</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>R</DOMVALUE_L>
+     <DDTEXT>Obligatoire</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>O</DOMVALUE_L>
+     <DDTEXT>Optional</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>O</DOMVALUE_L>
+     <DDTEXT>Facultatif</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N</DOMVALUE_L>
+     <DDTEXT>Not Required</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>N</DOMVALUE_L>
+     <DDTEXT>Non nécessaire</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>S</DOMVALUE_L>
+     <DDTEXT>Sender of Request</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>S</DOMVALUE_L>
+     <DDTEXT>Expéditeur de la demande</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

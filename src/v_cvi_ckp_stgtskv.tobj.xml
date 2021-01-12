@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>V_CVI_CKP_STGTSK</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <OBJCATEG>SYST</OBJCATEG>
+    <OBJTRANSP>2</OBJTRANSP>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>D</LANGUAGE>
+    <OBJECTNAME>V_CVI_CKP_STGTSK</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>V_CVI_CKP_STGTSK</OBJECTNAME>
+     <OBJECTTYPE>V</OBJECTTYPE>
+     <TABNAME>CVI_CKP_STGTSK</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+   </OBJS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

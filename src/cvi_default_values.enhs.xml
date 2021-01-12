@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>Vorbelegungen für Datenanlagen GP nach Debitor/Kreditor</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>CVI_DEFAULT_VALUES</BADI_NAME>
+     <INTERFACE_NAME>IF_CVI_DEFAULT_VALUES</INTERFACE_NAME>
+     <CONTEXT_MODE>S</CONTEXT_MODE>
+     <DEFAULT_CLASS>CVI_DEFAULT_VALUES_CLASSIC</DEFAULT_CLASS>
+     <BADI_SHORTTEXT>Vorbelegungen für Debitor-/Kreditor-Integration</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>426D127F0B545AFEE10000000A155439</BADI_SHORTTEXT_ID>
+     <BADI_LONGTEXT_ID>42BC24C88C5D56C7E10000000A114E5A</BADI_LONGTEXT_ID>
+     <IMG_DOCU_ID>SIMGSIMGSIMGSIMGSIMGSIMGSIMGSI</IMG_DOCU_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>426CBA64ABF64923E10000000A155439</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>426CBA64ABF64923E10000000A155439</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Vorbelegungen für Debitor-/Kreditor-Integration</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>426CBA64ABF64923E10000000A155439</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Defaults for Customer/Vendor Integration</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>426CBA64ABF64923E10000000A155439</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Valeurs par défaut pour intégration client/fournisseur</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>426D127F0B545AFEE10000000A155439</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>426D127F0B545AFEE10000000A155439</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Vorbelegungen für Debitor-/Kreditor-Integration</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>426D127F0B545AFEE10000000A155439</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Defaults for Customer/Vendor Integration</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>426D127F0B545AFEE10000000A155439</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Valeurs par défaut pour intégration client/fournisseur</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>42B8B5F491967023E10000000A155438</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>42B8B5F491967023E10000000A155438</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Vorbelegungen für Datenanlagen GP nach Debitor/Kreditor</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42B8B5F491967023E10000000A155438</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Defaults for Creating Data from BP to Customer/Vendor</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>42B8B5F491967023E10000000A155438</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Valeurs par défaut pour création de données partenaire pour client/fournisseur</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>CVI_DEFAULT_VALUES</OBJ_NAME>
+     <CONCEPT>426CBA64ABF64923E10000000A155439</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>CVI_DEFAULT_VALUES</OBJ_NAME>
+     <CONCEPT>426D127F0B545AFEE10000000A155439</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>CVI_DEFAULT_VALUES</OBJ_NAME>
+     <CONCEPT>42B8B5F491967023E10000000A155438</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

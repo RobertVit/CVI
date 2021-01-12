@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Datenzuordnung zwischen GP und Kontaktperson des Debitors</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Geschäftspartner</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Ansprechpartner</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Business Partner</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Contact Person</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Partenaire</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Contact</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>CREATE_ORG_AND_REL_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugen einer neuen Adresse für die Beziehung und die Org.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>CREATE_ORG_AND_REL_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generates New Address for Relationship and Organization</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>GET_CC_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Adressen des Ansprechpartners</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>GET_CC_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determines Addresses for Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert eine Instanz des Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Supplies Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenzuordnung zwischen GP und Kontaktperson des Debitors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Assignment Between BP + Contact Person for Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressdaten des GPs der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet Dienstadresse des GP der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Address for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Communication Data for Relationshp to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten des GPs der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for BP to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressdaten der GP-Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_BUSINESS_HOURS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Besuchszeiten der Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_BUSINESS_HOURS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Visiting Hours for Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten der GP-Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_RELATION_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressdaten der GP-Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten der GP-Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_REL_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_BP_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns BP Data to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Geschäftsadresse der Kontaktperson dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Address for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_BUSINESS_HOURS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Besuchszeiten der Kontaktperson der Beziehung zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_BUSINESS_HOURS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Visiting Hours for Contact Person to Relationship</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_COMMUNICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Communication Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_CONTACT_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Adressdaten der Kontaktperson dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_CONTACT_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Address Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_GENERAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die allgemeinen Daten der Kontaktperson dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_GENERAL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns General Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_PRIVATE_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die private Adresse der Kontaktperson dem GP zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CC_PRIVATE_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Private Address for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CUST_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten der Kontaktperson dem GP  zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_CUST_CONT_TO_BP_AND_REL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Contact Person to BP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet Dienstadresse der GP-Beziehung der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_BUSINESS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Business Addr. for BP Relationship to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ordnet die Daten der Person der Kontaktperson zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CVI_FM_BP_CUSTOMER_CONTACT</CLSNAME>
+     <CMPNAME>MAP_PERSON_TO_CUSTOMER_CONTACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assigns Data for Person to Contact Person</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

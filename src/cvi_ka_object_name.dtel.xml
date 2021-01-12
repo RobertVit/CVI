@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CVI_KA_OBJECT_NAME</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>TABNAME</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Name einer Key Assignment -Instanz</DDTEXT>
+    <REPTEXT>Key Assignment</REPTEXT>
+    <SCRTEXT_S>Key Assign</SCRTEXT_S>
+    <SCRTEXT_M>Key Assignment</SCRTEXT_M>
+    <SCRTEXT_L>Key Assignment</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Name of a Key Assignment - Instance</DDTEXT>
+     <REPTEXT>Key Assignment</REPTEXT>
+     <SCRTEXT_S>Key Assign</SCRTEXT_S>
+     <SCRTEXT_M>Key Assignment</SCRTEXT_M>
+     <SCRTEXT_L>Key Assignment</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nom d&apos;une instance d&apos;affectation de touches</DDTEXT>
+     <REPTEXT>Affectation de touches</REPTEXT>
+     <SCRTEXT_S>AffctTouch</SCRTEXT_S>
+     <SCRTEXT_M>Affectation touche</SCRTEXT_M>
+     <SCRTEXT_L>Affectation de touches</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

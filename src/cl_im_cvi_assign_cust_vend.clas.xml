@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_IM_CVI_ASSIGN_CUST_VEND</CLSNAME>
+    <LANGU>D</LANGU>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_ASSIGN_CUST_VEND</CLSNAME>
+     <CMPNAME>TRUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenelement zur Domäne BOOLE: TRUE (=&apos;X&apos;) und FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_IM_CVI_ASSIGN_CUST_VEND</CLSNAME>
+     <CMPNAME>TRUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Element for BOOLE Domain: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>CVI_MAPPING_LEGAL_FORM</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>P</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Customizing der Rechts-und Geschäftsformen abgleichen</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_19_GF</KEY>
+     <ENTRY>Partner -&gt; Kunde/Lieferant</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_GF_19</KEY>
+     <ENTRY>Kunde/Lieferant -&gt; Partner</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Synchronize Customizing for Legal Form and Legal Status</ENTRY>
+       <LENGTH>55</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_19_GF</KEY>
+       <ENTRY>Partner -&gt; Customer/Vendor</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_GF_19</KEY>
+       <ENTRY>Customer/Vendor -&gt; Partner</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Comparer le Customizing statut juridique société et statut juridique</ENTRY>
+       <LENGTH>68</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_19_GF</KEY>
+       <ENTRY>Partenaire -&gt; Client/Fourn.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_GF_19</KEY>
+       <ENTRY>Client/Fourn. -&gt; Partenaire</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_LEGAL_FORM</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0018</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00071</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_LEGAL_FORM</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00018</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Report können Sie unter bestimmten Voraussetzungen die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnung zwischen den &lt;DS:DE.BU_LEGENTY&gt;Rechtsformen&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners und den &lt;DS:DE.GFORM&gt;Geschäftsformen&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt;Debitorenstammsatzes&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>herstellen. Mit dieser Zuordnung unterstützen Sie die bidirektionale</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Synchronisation des Geschäftspartners und Debitorenstammsatzes innerhalb</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Debitorenintegration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Report kann beim Einrichten des Systems einmalig ausgeführt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Report übernimmt die Customizing-Einträge eines Quellobjekts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(entweder Rechtsformen des Geschäftspartners oder Geschäftsformen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes) in das Customizing des geeigneten Zielobjekts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(entweder Geschäftsformen des Debitorenstammsatzes oder Rechtsformen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners) und stellt die Zuordnung zwischen den beiden Objekten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>her.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Beachten Sie, dass durch fehlende oder fehlerhafte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing-Zuordnungen während der anschließenden Geschäftspartner-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bzw. Debitorenbearbeitung keine Fehler ausgelöst werden, die Attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aber dennoch nicht in das Zielobjekt fortgeschrieben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der Report kann direkt oder über das Sychnronisationscockpit aufgerufen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können die Zuordnung der entsprechenden Customizing-Einträge auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manuell in der IMG-Aktivität &lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Rechtsform</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftsform zuordnen&lt;/&gt; vornehmen.  Beachten Sie, dass sie zusätzlich</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zur Zuordnung auch den entsprechenden Eintrag im Customizing des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zielobjekts sicherstellen. Hierzu steht entweder die IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;Geschäftsformen definieren&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitorenstammsatzes oder die IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG._CABP_TB019&gt;Rechtsformen pflegen&lt;/&gt; des Geschäftspartners zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verfügung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben entweder die Geschäftsformen des Debitorenstammsatzes oder die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Rechtsformen des Geschäftspartners  im Customizing definiert. Dieses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bereits eingestellte Objekt stellt ihr Quellobjekt dar.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Stellen Sie vor Ausführung des Reports sicher, dass im Zielobjekt und im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungs-Customizing noch keine Einträge vorhanden sind. Sollten die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Rechts- und Geschäftsformen bereits in beiden Objekten (Geschäftspartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Debitor) oder im Zuordnungs-Customizing eingestellt sein, nehmen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Zuordnung manuell in der IMG-Aktivität</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Rechtsform Geschäftsform zuordnen&lt;/&gt; vor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie das Kennzeichen &lt;LS&gt;Kunde/Lieferant-&gt; Partner &lt;/&gt;wählen, dann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können Sie die Einträge der Geschäftsformen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Debitoren-/Kreditorenstammsatzes in das Customizing der Rechtsformen des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschäftspartners übernehmen und die Zuordnung der Attribute beider</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Stammdaten herstellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie das Kennzeichen &lt;LS&gt;Partner-&gt; Kunde/Lieferant &lt;/&gt;wählen, dann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können Sie die Einträge der Rechtsformen des Geschäftspartners in das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing der Geschäftsformen des Debitorenstammsatzes übernehmen und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Zuordnung der Attribute beider Stammdaten herstellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können das entsprechende Kennzeichen nur setzen, wenn die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Voraussetzung erfüllt ist, dass ausschließlich für das ensprechende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Quellobjekt Einträge vorgenommen worden sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Prüfen Sie vor Ausführung des Reports, ob die Voraussetzungen für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ausführung gegeben sind oder ob Sie das Customizing manuell ausführen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sollten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Führen Sie den Report für die zugelassene Zuordnungsrichtung aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim Einrichten der Customer-Vendor-Integration möchten Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erforderlichen Customizing-Einstellungen für die Attributzuordnungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vornehmen. Der Report kann Ihnen die Zuordnung durch Automatisierung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erleichtern. Die Geschäftsformen des Debitorenstammsatzes sind bereits</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>im Customizing des Vertriebs definiert.  Sie haben sichergestellt, dass</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine Rechtsformen des Geschäftspartners definiert wurden und dass auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>noch keine Zuordnungen zwischen den Rechts- und Geschäftsformen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vorgenommen wurden. Wenn diese Voraussetzungen gegeben sind, können Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durch Ausführen des Reports das Zuordnungs-Customizing automatisch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vornehmen. Hierzu setzen Sie unter &lt;LS&gt;Kunde/Lieferant-&gt; Partner&lt;/&gt; das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kennzeichen und führen den Report einmalig aus. Der Report legt die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Definitionen der Rechtsformen des Geschäftspartners an und legt die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zuordnungen zwischen Rechts- und Geschäftsformen fest.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_LEGAL_FORM</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0018</VERSION>
+      <TXTLINES>00060</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_LEGAL_FORM</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00018</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can use this report to assign &lt;DS:DE.BU_LEGENTY&gt;legal forms&lt;/&gt; for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the business partner to &lt;DS:DE.GFORM&gt;legal statuses&lt;/&gt; for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526B80EAFAB52B9E10000009B38F974&gt; customer master records&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and vice versa, assuming certain prerequisites have been met. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment supports the bidirectional synchronization of the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and the customer master records within customer integration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can run the report once when you set up the system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The report transfers the Customizing entries for a source object (either</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>legal form for the business partner or legal status for the customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master records) to the Customizing for a suitable target object (either</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>legal status for the customer master records or legal form for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partner) and makes assignments between both objects.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Note that the system does not trigger errors during subsequent business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner or customer processing as a result of missing or incorrect</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing assignments, but that it does not update attributes in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>target object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You can call up the report directly or using the synchronization</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cockpit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can also assign the relevant Customizing entries manually in the IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity &lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Assign Legal Form to Legal Status&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Note that in addition to the assignment you also have to ensure that you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>make the corresponding entry in the Customizing for the target object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You can do this by using either the IMG activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;Define Legal Statuses&lt;/&gt; for the customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master record or the IMG activity &lt;DS:SIMG._CABP_TB019&gt;Maintain Legal</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Forms&lt;/&gt; for the business partner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You have defined either the legal statuses for the customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records or the legal forms for the business partner in Customizing. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object is the source object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Before you run the report, ensure that no entries are available in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>target object or in the assignment Customizing. If the legal statuses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and legal forms are already set in both objects (business partner and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer) or in the assignment Customizing, assign these attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manually in the IMG activity &lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Assign Legal Form</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to Legal Status&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you select the &lt;LS&gt;Customer/Vendor-&gt; Partner&lt;/&gt; indicator then you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can transfer the entries for the legal statuses for the customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records into the Customizing for the legal forms for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner and assign the attributes for both sets of master data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you select the &lt;LS&gt;Partner-&gt; Customer/Vendor&lt;/&gt; indicator then you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can transfer the entries for the legal forms for the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>into the Customizing for the legal statuses for the customer master</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records and assign the attributes for both sets of master data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can set the indicator only if entries have been made exclusively for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the source object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Before you run the report check whether the prerequisites have been met</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or whether you have to make the Customizing settings manually.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Run the report for the assignment direction indicated.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you set up Customer/Vendor Integration you want to make the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>required Customizing settings for assigning attributes. The report can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>help you to make the required assignments by automating some of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processes. You have already defined legal status of customer master data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in Customizing for Sales and Distribution. You have ensured that no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>legal forms have been defined for the business partner and that there</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are no assignments between legal statuses and legal forms. If these</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>prerequisites have been met you can automatically transfer the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment Customizing by running the report. You do this by setting the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Customer/ Vendor-&gt; Partner&lt;/&gt; indicator and running the report once.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>The report creates definitions of legal forms for the business partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and makes assignment between legal forms and legal statuses.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>CVI_MAPPING_LEGAL_FORM</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0018</VERSION>
+      <TXTLINES>00065</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>CVI_MAPPING_LEGAL_FORM</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00018</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme vous permet, sous certaines conditions, de générer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;affectation entre les &lt;DS:DE.BU_LEGENTY&gt;statuts juridiques&lt;/&gt; du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire et les &lt;DS:DE.GFORM&gt;formes juridiques&lt;/&gt; de la fiche client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Cette affectation permet une synchronisation bidirectionnelle du par</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>tenaire et de la fiche client à l&apos;intérieur de l&apos;intégration client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Vous pouvez exécuter ce programme une seule fois lors de l&apos;installation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du système.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ce programme reprend les entrées de Customizing d&apos;un objet source (les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>statuts juridiques du partenaire ou les formes jurdiques d&apos;une fiche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client) dans le Customizing de l&apos;objet cible approprié (les statuts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>juridiques du partenaire ou les formes jurdiques d&apos;une fiche client), et</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>génère l&apos;affectation entre les deux objets.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Notez que des affectations de Customizing erronées ou manquantes ne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>peuvent entraîner l&apos;émission d&apos;un erreur pendant le traitement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consécutif du partenaire ou du client. Cependant, les attributs ne sont</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pas mis à jour dans l&apos;objet cible.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Vous pouvez appeler ce programme directement, ou via le cockpit de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>synchronisation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez également procéder manuellement à l&apos;affectation des entrées</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du Customizing correspondantes dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Affecter le statut juridique à forme juridique</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de société&lt;/&gt;. Outre l&apos;affectation, ces activités garantissent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;existence de l&apos;entrée correspondante dans le Customizing de l&apos;objet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cible. Pour ce faire, vous disposez de l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.SIMG_CFMENUOLSDOV2&gt;Définir les formes juridiques d&apos;une société</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; de la fiche client ou de l&apos;activité IMG &lt;DS:SIMG._CABP_TB019&gt;Gérer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>statuts juridiques&lt;/&gt; du partenaire.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous avez défini les formes juridiques de la fiche client ou les statuts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>juridiques du partenaire dans le Customizing. Cet objet déjà paramétré</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>constitue votre objet source.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Avant d&apos;exécuter le programme, assurez-vous qu&apos;il n&apos;existe encore aucune</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entrée dans l&apos;objet cible et dans le Customizing d&apos;affectation. Si les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>formes et statuts juridiques sont déjà paramétrés dans les deux objets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(partenaire et client) ou dans le Customizing des affectations, procédez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manuellement à l&apos;affectation dans l&apos;activité IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.CVIV_LEGFORM_LNK&gt;Affecter le statut juridique à forme juridique</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de société&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Si vous sélectionnez le code &lt;LS&gt;Client/fournisseur-&gt; Partenaire&lt;/&gt;,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vous pouvez reprendre les entrées des formes juridiques de la fiche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>client/fournisseur dans le Customizing des statuts juridiques du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partenaire et procéder à l&apos;affectation des attributs des deux ensembles</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Si vous sélectionnez le code &lt;LS&gt;Partenaire-&gt; Client/fournisseur&lt;/&gt;,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vous pouvez reprendre les entrées des statuts juridiques du partenaire</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dans le Customizing des formes juridiques de la fiche client et procéder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>à l&apos;affectation des attributs des deux ensembles de données de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;HINT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez activer le code correspondant uniquement si les entrées ont</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>été reprises exclusivement pour l&apos;objet source correspondant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Avant d&apos;exécuter le programme, contrôlez si les conditions requises pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;exécution sont satisfaites ou si vous devez exécuter manuellement le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Exécutez le progamme pour le sens d&apos;affectation autorisé.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Lors de l&apos;installation de l&apos;intégration client/fournisseur, vous voulez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>définir les options requises pour les affectations d&apos;attributs. Via</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;automatisation, ce programme peut prendre en charge l&apos;affectation pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vous. Les formes juridiques de la fiche client sont déjà défini dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing de la distribution. Vous vous êtes assurés qu&apos;aucun statut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>juridique du partenaire n&apos;a été défini et qu&apos;aucune affectation n&apos;a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>encore été effectuée entre les formes et les statuts juridiques. Si ces</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>conditions sont satisfaites, vous pouvez effectuer automatiquement le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing des affectations en exécutant le programme. Pour cela,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activez le code sous &lt;LS&gt;Client/Fournisseur -&gt; Partenaire&lt;/&gt; et exécutez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le programme une seule fois. Le programme fixe les définitions des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>statuts juridiques du partenaire et détermine les affectations entre les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>formes et les statuts juridiques.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>CVI_PRECHK_SUP</ACTIVITY>
+     <DOCU_ID>SIMGCVI_PRECHK_SUP</DOCU_ID>
+     <ATTRIBUTES>CVI_PRECHK_SUP</ATTRIBUTES>
+     <C_ACTIVITY>CVI_PRECHK_SUP</C_ACTIVITY>
+     <TCODE>S_EBJ_98001058</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>CVI_PRECHK_SUP</ACTIVITY>
+      <TEXT>Activate Field Check Suppression</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>
